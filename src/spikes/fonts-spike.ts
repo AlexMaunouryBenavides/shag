@@ -5,7 +5,7 @@ import '@fontsource/pt-sans/cyrillic-400.css'
 import '@fontsource/pt-sans/latin-400.css'
 
 const FONTS = ['Noto Sans', 'PT Sans', 'system-ui']
-const A = '́'
+const A = String.fromCharCode(0x0301) // accent tonique combinant
 const SMALL = `Приве${A}т! Как дела${A}? Я хочу${A} ко${A}фе, пожа${A}луйста.`
 const MEDIUM = `молоко${A} · во${A}ду · Москва${A} · ёж · ты · щи${A}`
 const LARGE = `А${A}а${A} О${A}о${A} У${A}у${A} Ы${A}ы${A} И${A}и${A} Е${A}е${A} Я${A}я${A} Ю${A}ю${A}`
