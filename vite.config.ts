@@ -21,6 +21,7 @@ export default defineConfig({
       input: {
         main: resolve(import.meta.dirname, 'index.html'),
         'spike-sqlite': resolve(import.meta.dirname, 'spike-sqlite.html'),
+        'spike-fonts': resolve(import.meta.dirname, 'spike-fonts.html'),
       },
     },
   },

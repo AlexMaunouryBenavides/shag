@@ -198,9 +198,15 @@ Avant toute migration du schéma, l'app crée une copie interne de la base et la
 
 Nouveau projet, pas de migration existante. Déploiement continu : chaque push sur la branche principale déclenche une GitHub Action qui construit et publie sur GitHub Pages. Les mises à jour de contenu conservent les identifiants ; le schéma SQLite porte un numéro de version et des migrations séquentielles. Retour arrière : redéployer une version précédente (les données locales restent compatibles si les migrations sont additives).
 
+## Résultats des spikes
+
+- **Piper (1.4)** : les accents explicites (U+0301) sont respectés par la phonémisation espeak-ng (за́мок → `zˈɑmʌk`, замо́к → `zamˈok` ; му́ка / мука́ ; пи́сать / писа́ть). Le texte envoyé à Piper porte donc toujours les accents issus du dictionnaire. Clips Opus 24 kHz : 3 à 12 Ko (volume total estimé < 40 Mo). Opus encodé via `soundfile` (libsndfile), sans ffmpeg, après rééchantillonnage 22 050 → 24 000 Hz. Voix provisoires : `irina` (personnage féminin, voix par défaut) et `denis` (personnage masculin), à confirmer à l'écoute.
+- **SQLite-wasm (1.5)** : `opfs-sahpool` dans un Worker fonctionne sur Chrome desktop sans en-têtes COOP/COEP (chargement ~80 ms, persistance après rechargement, export OK). Page de test `spike-sqlite.html` à valider sur le téléphone.
+- **Typographie (1.6)** : Inter place mal l'accent combinant (décalé à droite des minuscules), Golos Text échoue sur « ы́ ». **Noto Sans** et PT Sans sont corrects ; choix : **Noto Sans** (`@fontsource/noto-sans`, sous-ensembles cyrillic + latin), PT Sans en repli. Page de test `spike-fonts.html` à valider sur le téléphone.
+
 ## Open Questions
 
-- Quelles voix Piper russes sonnent le mieux, et respectent-elles les accents fournis ? → spike en début d'implémentation.
-- Police finale pour le cyrillique accentué → test sur l'appareil réel.
+- Confirmation à l'écoute des voix Piper (échantillons dans `tools/.cache/spike_audio/`).
+- Confirmation sur le téléphone : rendu de Noto Sans et persistance SQLite.
 - L'amie de HelloTalk accepterait-elle de relire un échantillon (jours 1–20) ?
 - Liste de fréquence de référence pour les ~1000 mots (corpus national russe vs listes OpenRussian) → décider pendant la conception du programme.
