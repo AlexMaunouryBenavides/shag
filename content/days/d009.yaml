@@ -1,0 +1,49 @@
+day: 9
+items:
+  - id: privet
+    ru: "Привет!"
+    fr: "Salut !"
+    answers: ["Привет"]
+  - id: zdravstvuite
+    ru: "Здравствуйте!"
+    fr: "Bonjour ! (poli)"
+    note: "le premier « в » ne se prononce pas"
+    answers: ["Здравствуйте"]
+  - id: kak-dela
+    ru: "Как дела́?"
+    fr: "Comment ça va ?"
+    answers: ["Как дела"]
+  - id: normalno
+    ru: "Нормально."
+    fr: "Ça va."
+    answers: ["Нормально"]
+  - id: spasibo
+    ru: "Спасибо!"
+    fr: "Merci !"
+    answers: ["Спасибо"]
+  - id: pozhaluista
+    ru: "Пожалуйста."
+    fr: "S'il te plaît. / Je t'en prie."
+    answers: ["Пожалуйста"]
+  - id: poka
+    ru: "Пока!"
+    fr: "Salut ! (au revoir)"
+    answers: ["Пока"]
+write:
+  - type: reply
+    thread: [{ from: masha, ru: "Привет! Как дела́?" }]
+    options: ["Хорошо, спасибо!", "Пока!", "Кафе."]
+    answer: 0
+  - type: reply
+    thread: [{ from: anton, ru: "Спасибо!" }]
+    options: ["Нет.", "Пожалуйста.", "Вот метро."]
+    answer: 1
+  - type: translate
+    fr: "Salut ! Ça va ?"
+    answers: ["Привет! Как дела́?"]
+  - type: translate
+    fr: "Bien, merci !"
+    answers: ["Хорошо, спасибо!", "Спасибо, хорошо!"]
+  - type: order
+    ru: "Привет! Как дела́?"
+    fr: "Salut ! Comment ça va ?"

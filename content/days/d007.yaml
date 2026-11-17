@@ -1,0 +1,55 @@
+day: 7
+letters:
+  - id: l-ya
+    upper: Я
+    lower: я
+    sound: "[ia]"
+    hint: « ya », comme dans « yaourt »
+    warning: ce n'est pas un « R » à l'envers — Я se prononce [ia]
+    example: я
+    example_fr: je
+  - id: l-yu
+    upper: Ю
+    lower: ю
+    sound: "[iou]"
+    hint: « you », comme dans « youpi »
+    example: юмор
+    example_fr: humour
+  - id: l-yo
+    upper: Ё
+    lower: ё
+    sound: "[io]"
+    hint: « yo », toujours accentué
+    warning: les deux points sont parfois omis dans les textes russes ; ici on les écrit toujours
+    example: ёж
+    example_fr: hérisson
+  - id: l-yy
+    upper: Ы
+    lower: ы
+    sound: "[y]"
+    hint: un « i » prononcé avec la langue tirée en arrière, sans équivalent en français
+    example: сыр
+    example_fr: fromage
+  - id: l-soft
+    upper: Ь
+    lower: ь
+    sound: "(signe mou)"
+    hint: ne se prononce pas ; il rend la consonne d'avant plus douce
+    example: соль
+    example_fr: sel
+  - id: l-hard
+    upper: Ъ
+    lower: ъ
+    sound: "(signe dur)"
+    hint: ne se prononce pas ; rare, il sépare une consonne de la voyelle qui suit
+    example: объект
+    example_fr: objet
+items:
+  - { id: ya, ru: я, fr: je }
+  - { id: ty, ru: ты, fr: tu }
+  - { id: my, ru: мы, fr: nous }
+  - { id: vy, ru: вы, fr: vous }
+  - { id: syr, ru: сыр, fr: fromage }
+  - { id: eshche, ru: ещё, fr: encore }
+  - { id: yozh, ru: ёж, fr: hérisson }
+  - { id: sol, ru: соль, fr: sel }

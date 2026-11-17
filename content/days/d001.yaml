@@ -41,5 +41,5 @@ items:
   - { id: mama, ru: мама, fr: maman }
   - { id: kot, ru: кот, fr: chat }
   - { id: tam, ru: там, fr: là-bas }
-  - { id: tak, ru: так, fr: ainsi, comme ça }
+  - { id: tak, ru: так, fr: "ainsi, comme ça" }
   - { id: kto, ru: кто, fr: qui }

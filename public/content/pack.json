@@ -1,5 +1,5 @@
 {
- "version": "51acb9f30a57",
+ "version": "d26b69f958cd",
  "phases": [
   {
    "id": 0,
@@ -745,7 +745,7 @@
    "name": "Антон"
   }
  },
- "lastDay": 1,
+ "lastDay": 10,
  "items": {
   "l-a": {
    "id": "l-a",
@@ -848,7 +848,7 @@
    "day": 1,
    "kind": "word",
    "ru": "так",
-   "fr": "ainsi",
+   "fr": "ainsi, comme ça",
    "translit": "[tak]"
   },
   "kto": {
@@ -858,6 +858,884 @@
    "ru": "кто",
    "fr": "qui",
    "translit": "[kto]"
+  },
+  "l-r": {
+   "id": "l-r",
+   "day": 2,
+   "kind": "letter",
+   "ru": "Р р",
+   "fr": "[r]",
+   "sound": "[r]",
+   "hint": "un « r » roulé, comme en espagnol ou en italien",
+   "warning": "ce n'est pas un « p » — Р se prononce [r]",
+   "example": {
+    "ru": "рот",
+    "fr": "bouche",
+    "translit": "[rot]"
+   }
+  },
+  "l-n": {
+   "id": "l-n",
+   "day": 2,
+   "kind": "letter",
+   "ru": "Н н",
+   "fr": "[n]",
+   "sound": "[n]",
+   "hint": "comme le « n » de « non »",
+   "warning": "ce n'est pas un « h » — Н se prononce [n]",
+   "example": {
+    "ru": "нос",
+    "fr": "nez",
+    "translit": "[nos]"
+   }
+  },
+  "l-v": {
+   "id": "l-v",
+   "day": 2,
+   "kind": "letter",
+   "ru": "В в",
+   "fr": "[v]",
+   "sound": "[v]",
+   "hint": "comme le « v » de « vélo »",
+   "warning": "ce n'est pas un « b » — В se prononce [v]",
+   "example": {
+    "ru": "вот",
+    "fr": "voici",
+    "translit": "[vot]"
+   }
+  },
+  "l-s": {
+   "id": "l-s",
+   "day": 2,
+   "kind": "letter",
+   "ru": "С с",
+   "fr": "[s]",
+   "sound": "[s]",
+   "hint": "toujours [s], comme dans « sac »",
+   "warning": "ce n'est pas un « c » dur — С se prononce toujours [s]",
+   "example": {
+    "ru": "сок",
+    "fr": "jus",
+    "translit": "[sok]"
+   }
+  },
+  "moskva": {
+   "id": "moskva",
+   "day": 2,
+   "kind": "word",
+   "ru": "Москва́",
+   "fr": "Moscou",
+   "translit": "[maskvá]"
+  },
+  "on": {
+   "id": "on",
+   "day": 2,
+   "kind": "word",
+   "ru": "он",
+   "fr": "il",
+   "translit": "[on]"
+  },
+  "ona": {
+   "id": "ona",
+   "day": 2,
+   "kind": "word",
+   "ru": "она́",
+   "fr": "elle",
+   "translit": "[aná]"
+  },
+  "vot": {
+   "id": "vot",
+   "day": 2,
+   "kind": "word",
+   "ru": "вот",
+   "fr": "voici, voilà",
+   "translit": "[vot]"
+  },
+  "nos": {
+   "id": "nos",
+   "day": 2,
+   "kind": "word",
+   "ru": "нос",
+   "fr": "nez",
+   "translit": "[nos]"
+  },
+  "sok": {
+   "id": "sok",
+   "day": 2,
+   "kind": "word",
+   "ru": "сок",
+   "fr": "jus",
+   "translit": "[sok]"
+  },
+  "rot": {
+   "id": "rot",
+   "day": 2,
+   "kind": "word",
+   "ru": "рот",
+   "fr": "bouche",
+   "translit": "[rot]"
+  },
+  "son": {
+   "id": "son",
+   "day": 2,
+   "kind": "word",
+   "ru": "сон",
+   "fr": "sommeil, rêve",
+   "translit": "[son]"
+  },
+  "l-e": {
+   "id": "l-e",
+   "day": 3,
+   "kind": "letter",
+   "ru": "Е е",
+   "fr": "[ié] / [é]",
+   "sound": "[ié] / [é]",
+   "hint": "« yé » en début de mot ou après une voyelle, « é » après une consonne (qu'il adoucit)",
+   "warning": "ce n'est pas le « e » muet français",
+   "example": {
+    "ru": "метро́",
+    "fr": "métro",
+    "translit": "[mitró]"
+   }
+  },
+  "l-u": {
+   "id": "l-u",
+   "day": 3,
+   "kind": "letter",
+   "ru": "У у",
+   "fr": "[ou]",
+   "sound": "[ou]",
+   "hint": "comme le « ou » de « loup »",
+   "warning": "ce n'est pas un « y » — У se prononce [ou]",
+   "example": {
+    "ru": "у́тро",
+    "fr": "matin",
+    "translit": "[oútra]"
+   }
+  },
+  "l-kh": {
+   "id": "l-kh",
+   "day": 3,
+   "kind": "letter",
+   "ru": "Х х",
+   "fr": "[kh]",
+   "sound": "[kh]",
+   "hint": "un son raclé doux au fond de la gorge, comme la « jota » espagnole",
+   "warning": "ce n'est pas un « x » — Х se prononce [kh]",
+   "example": {
+    "ru": "у́хо",
+    "fr": "oreille",
+    "translit": "[oúkha]"
+   }
+  },
+  "metro": {
+   "id": "metro",
+   "day": 3,
+   "kind": "word",
+   "ru": "метро́",
+   "fr": "métro",
+   "translit": "[mitró]"
+  },
+  "utro": {
+   "id": "utro",
+   "day": 3,
+   "kind": "word",
+   "ru": "у́тро",
+   "fr": "matin",
+   "translit": "[oútra]"
+  },
+  "restoran": {
+   "id": "restoran",
+   "day": 3,
+   "kind": "word",
+   "ru": "рестора́н",
+   "fr": "restaurant",
+   "translit": "[ristarán]"
+  },
+  "tut": {
+   "id": "tut",
+   "day": 3,
+   "kind": "word",
+   "ru": "тут",
+   "fr": "ici",
+   "translit": "[tout]"
+  },
+  "net": {
+   "id": "net",
+   "day": 3,
+   "kind": "word",
+   "ru": "нет",
+   "fr": "non",
+   "translit": "[nét]"
+  },
+  "ukho": {
+   "id": "ukho",
+   "day": 3,
+   "kind": "word",
+   "ru": "у́хо",
+   "fr": "oreille",
+   "translit": "[oúkha]"
+  },
+  "l-i": {
+   "id": "l-i",
+   "day": 4,
+   "kind": "letter",
+   "ru": "И и",
+   "fr": "[i]",
+   "sound": "[i]",
+   "hint": "comme le « i » de « midi »",
+   "warning": "ce n'est pas un « N » à l'envers — И se prononce [i]",
+   "example": {
+    "ru": "кино́",
+    "fr": "cinéma",
+    "translit": "[kinó]"
+   }
+  },
+  "l-l": {
+   "id": "l-l",
+   "day": 4,
+   "kind": "letter",
+   "ru": "Л л",
+   "fr": "[l]",
+   "sound": "[l]",
+   "hint": "un « l » plus sombre qu'en français, la langue un peu en arrière",
+   "example": {
+    "ru": "лимо́н",
+    "fr": "citron",
+    "translit": "[limón]"
+   }
+  },
+  "l-p": {
+   "id": "l-p",
+   "day": 4,
+   "kind": "letter",
+   "ru": "П п",
+   "fr": "[p]",
+   "sound": "[p]",
+   "hint": "comme le « p » de « papa »",
+   "example": {
+    "ru": "парк",
+    "fr": "parc",
+    "translit": "[park]"
+   }
+  },
+  "l-d": {
+   "id": "l-d",
+   "day": 4,
+   "kind": "letter",
+   "ru": "Д д",
+   "fr": "[d]",
+   "sound": "[d]",
+   "hint": "comme le « d » de « dos »",
+   "example": {
+    "ru": "дом",
+    "fr": "maison",
+    "translit": "[dom]"
+   }
+  },
+  "l-z": {
+   "id": "l-z",
+   "day": 4,
+   "kind": "letter",
+   "ru": "З з",
+   "fr": "[z]",
+   "sound": "[z]",
+   "hint": "comme le « z » de « zéro »",
+   "warning": "ressemble au chiffre 3, mais se prononce [z]",
+   "example": {
+    "ru": "зонт",
+    "fr": "parapluie",
+    "translit": "[zont]"
+   }
+  },
+  "taksi": {
+   "id": "taksi",
+   "day": 4,
+   "kind": "word",
+   "ru": "такси́",
+   "fr": "taxi",
+   "translit": "[taksí]"
+  },
+  "kino": {
+   "id": "kino",
+   "day": 4,
+   "kind": "word",
+   "ru": "кино́",
+   "fr": "cinéma",
+   "translit": "[kinó]"
+  },
+  "park": {
+   "id": "park",
+   "day": 4,
+   "kind": "word",
+   "ru": "парк",
+   "fr": "parc",
+   "translit": "[park]"
+  },
+  "dom": {
+   "id": "dom",
+   "day": 4,
+   "kind": "word",
+   "ru": "дом",
+   "fr": "maison",
+   "translit": "[dom]"
+  },
+  "sup": {
+   "id": "sup",
+   "day": 4,
+   "kind": "word",
+   "ru": "суп",
+   "fr": "soupe",
+   "translit": "[soup]"
+  },
+  "limon": {
+   "id": "limon",
+   "day": 4,
+   "kind": "word",
+   "ru": "лимо́н",
+   "fr": "citron",
+   "translit": "[limón]"
+  },
+  "i": {
+   "id": "i",
+   "day": 4,
+   "kind": "word",
+   "ru": "и",
+   "fr": "et",
+   "translit": "[i]"
+  },
+  "da": {
+   "id": "da",
+   "day": 4,
+   "kind": "word",
+   "ru": "да",
+   "fr": "oui",
+   "translit": "[da]"
+  },
+  "l-b": {
+   "id": "l-b",
+   "day": 5,
+   "kind": "letter",
+   "ru": "Б б",
+   "fr": "[b]",
+   "sound": "[b]",
+   "hint": "comme le « b » de « banque »",
+   "warning": "à ne pas confondre avec В, qui se prononce [v]",
+   "example": {
+    "ru": "банк",
+    "fr": "banque",
+    "translit": "[bank]"
+   }
+  },
+  "l-g": {
+   "id": "l-g",
+   "day": 5,
+   "kind": "letter",
+   "ru": "Г г",
+   "fr": "[g]",
+   "sound": "[g]",
+   "hint": "toujours dur, comme le « g » de « gare »",
+   "example": {
+    "ru": "где",
+    "fr": "où",
+    "translit": "[gdé]"
+   }
+  },
+  "l-f": {
+   "id": "l-f",
+   "day": 5,
+   "kind": "letter",
+   "ru": "Ф ф",
+   "fr": "[f]",
+   "sound": "[f]",
+   "hint": "comme le « f » de « photo »",
+   "example": {
+    "ru": "фо́то",
+    "fr": "photo",
+    "translit": "[fóta]"
+   }
+  },
+  "l-y": {
+   "id": "l-y",
+   "day": 5,
+   "kind": "letter",
+   "ru": "Й й",
+   "fr": "[ï]",
+   "sound": "[ï]",
+   "hint": "un « y » très bref, comme dans « paille »",
+   "warning": "И avec un petit arc dessus ; on l'appelle « i bref »",
+   "example": {
+    "ru": "музе́й",
+    "fr": "musée",
+    "translit": "[mouzéï]"
+   }
+  },
+  "l-eh": {
+   "id": "l-eh",
+   "day": 5,
+   "kind": "letter",
+   "ru": "Э э",
+   "fr": "[è]",
+   "sound": "[è]",
+   "hint": "comme le « è » de « mère »",
+   "example": {
+    "ru": "э́то",
+    "fr": "c'est, ceci",
+    "translit": "[èta]"
+   }
+  },
+  "bank": {
+   "id": "bank",
+   "day": 5,
+   "kind": "word",
+   "ru": "банк",
+   "fr": "banque",
+   "translit": "[bank]"
+  },
+  "kafe": {
+   "id": "kafe",
+   "day": 5,
+   "kind": "word",
+   "ru": "кафе́",
+   "fr": "café (le lieu)",
+   "translit": "[kafé]"
+  },
+  "foto": {
+   "id": "foto",
+   "day": 5,
+   "kind": "word",
+   "ru": "фо́то",
+   "fr": "photo",
+   "translit": "[fóta]"
+  },
+  "futbol": {
+   "id": "futbol",
+   "day": 5,
+   "kind": "word",
+   "ru": "футбо́л",
+   "fr": "football",
+   "translit": "[foutból]"
+  },
+  "muzei": {
+   "id": "muzei",
+   "day": 5,
+   "kind": "word",
+   "ru": "музе́й",
+   "fr": "musée",
+   "translit": "[mouzéï]"
+  },
+  "gde": {
+   "id": "gde",
+   "day": 5,
+   "kind": "word",
+   "ru": "где",
+   "fr": "où",
+   "translit": "[gdé]"
+  },
+  "eto": {
+   "id": "eto",
+   "day": 5,
+   "kind": "word",
+   "ru": "э́то",
+   "fr": "c'est, ceci",
+   "translit": "[èta]"
+  },
+  "moi": {
+   "id": "moi",
+   "day": 5,
+   "kind": "word",
+   "ru": "мой",
+   "fr": "mon",
+   "translit": "[moï]"
+  },
+  "l-zh": {
+   "id": "l-zh",
+   "day": 6,
+   "kind": "letter",
+   "ru": "Ж ж",
+   "fr": "[j]",
+   "sound": "[j]",
+   "hint": "comme le « j » de « jour »",
+   "example": {
+    "ru": "журна́л",
+    "fr": "magazine",
+    "translit": "[journál]"
+   }
+  },
+  "l-sh": {
+   "id": "l-sh",
+   "day": 6,
+   "kind": "letter",
+   "ru": "Ш ш",
+   "fr": "[ch]",
+   "sound": "[ch]",
+   "hint": "comme le « ch » de « chat »",
+   "example": {
+    "ru": "шокола́д",
+    "fr": "chocolat",
+    "translit": "[chakalád]"
+   }
+  },
+  "l-ch": {
+   "id": "l-ch",
+   "day": 6,
+   "kind": "letter",
+   "ru": "Ч ч",
+   "fr": "[tch]",
+   "sound": "[tch]",
+   "hint": "comme le « tch » de « tchèque »",
+   "warning": "ressemble à un 4 ; se prononce [tch]",
+   "example": {
+    "ru": "чай",
+    "fr": "thé",
+    "translit": "[tchaï]"
+   }
+  },
+  "l-shch": {
+   "id": "l-shch",
+   "day": 6,
+   "kind": "letter",
+   "ru": "Щ щ",
+   "fr": "[chtch]",
+   "sound": "[chtch]",
+   "hint": "un « ch » long et doux, la langue plus en avant que pour Ш",
+   "warning": "Щ a une petite queue en bas, Ш n'en a pas",
+   "example": {
+    "ru": "борщ",
+    "fr": "bortsch",
+    "translit": "[borchtch]"
+   }
+  },
+  "l-ts": {
+   "id": "l-ts",
+   "day": 6,
+   "kind": "letter",
+   "ru": "Ц ц",
+   "fr": "[ts]",
+   "sound": "[ts]",
+   "hint": "comme le « ts » de « tsar »",
+   "example": {
+    "ru": "пи́цца",
+    "fr": "pizza",
+    "translit": "[pítstsa]"
+   }
+  },
+  "chai": {
+   "id": "chai",
+   "day": 6,
+   "kind": "word",
+   "ru": "чай",
+   "fr": "thé",
+   "translit": "[tchaï]"
+  },
+  "zhurnal": {
+   "id": "zhurnal",
+   "day": 6,
+   "kind": "word",
+   "ru": "журна́л",
+   "fr": "magazine",
+   "translit": "[journál]"
+  },
+  "shokolad": {
+   "id": "shokolad",
+   "day": 6,
+   "kind": "word",
+   "ru": "шокола́д",
+   "fr": "chocolat",
+   "translit": "[chakalád]"
+  },
+  "pitstsa": {
+   "id": "pitstsa",
+   "day": 6,
+   "kind": "word",
+   "ru": "пи́цца",
+   "fr": "pizza",
+   "translit": "[pítstsa]"
+  },
+  "borshch": {
+   "id": "borshch",
+   "day": 6,
+   "kind": "word",
+   "ru": "борщ",
+   "fr": "bortsch",
+   "translit": "[borchtch]"
+  },
+  "chto": {
+   "id": "chto",
+   "day": 6,
+   "kind": "word",
+   "ru": "что",
+   "fr": "quoi, que",
+   "note": "se prononce [chto]",
+   "translit": "[tchto]"
+  },
+  "khorosho": {
+   "id": "khorosho",
+   "day": 6,
+   "kind": "word",
+   "ru": "хорошо́",
+   "fr": "bien",
+   "translit": "[kharachó]"
+  },
+  "l-ya": {
+   "id": "l-ya",
+   "day": 7,
+   "kind": "letter",
+   "ru": "Я я",
+   "fr": "[ia]",
+   "sound": "[ia]",
+   "hint": "« ya », comme dans « yaourt »",
+   "warning": "ce n'est pas un « R » à l'envers — Я se prononce [ia]",
+   "example": {
+    "ru": "я",
+    "fr": "je",
+    "translit": "[ya]"
+   }
+  },
+  "l-yu": {
+   "id": "l-yu",
+   "day": 7,
+   "kind": "letter",
+   "ru": "Ю ю",
+   "fr": "[iou]",
+   "sound": "[iou]",
+   "hint": "« you », comme dans « youpi »",
+   "example": {
+    "ru": "ю́мор",
+    "fr": "humour",
+    "translit": "[yoúmar]"
+   }
+  },
+  "l-yo": {
+   "id": "l-yo",
+   "day": 7,
+   "kind": "letter",
+   "ru": "Ё ё",
+   "fr": "[io]",
+   "sound": "[io]",
+   "hint": "« yo », toujours accentué",
+   "warning": "les deux points sont parfois omis dans les textes russes ; ici on les écrit toujours",
+   "example": {
+    "ru": "ёж",
+    "fr": "hérisson",
+    "translit": "[yoj]"
+   }
+  },
+  "l-yy": {
+   "id": "l-yy",
+   "day": 7,
+   "kind": "letter",
+   "ru": "Ы ы",
+   "fr": "[y]",
+   "sound": "[y]",
+   "hint": "un « i » prononcé avec la langue tirée en arrière, sans équivalent en français",
+   "example": {
+    "ru": "сыр",
+    "fr": "fromage",
+    "translit": "[syr]"
+   }
+  },
+  "l-soft": {
+   "id": "l-soft",
+   "day": 7,
+   "kind": "letter",
+   "ru": "Ь ь",
+   "fr": "(signe mou)",
+   "sound": "(signe mou)",
+   "hint": "ne se prononce pas ; il rend la consonne d'avant plus douce",
+   "example": {
+    "ru": "соль",
+    "fr": "sel",
+    "translit": "[sol]"
+   }
+  },
+  "l-hard": {
+   "id": "l-hard",
+   "day": 7,
+   "kind": "letter",
+   "ru": "Ъ ъ",
+   "fr": "(signe dur)",
+   "sound": "(signe dur)",
+   "hint": "ne se prononce pas ; rare, il sépare une consonne de la voyelle qui suit",
+   "example": {
+    "ru": "объе́кт",
+    "fr": "objet",
+    "translit": "[abékt]"
+   }
+  },
+  "ya": {
+   "id": "ya",
+   "day": 7,
+   "kind": "word",
+   "ru": "я",
+   "fr": "je",
+   "translit": "[ya]"
+  },
+  "ty": {
+   "id": "ty",
+   "day": 7,
+   "kind": "word",
+   "ru": "ты",
+   "fr": "tu",
+   "translit": "[ty]"
+  },
+  "my": {
+   "id": "my",
+   "day": 7,
+   "kind": "word",
+   "ru": "мы",
+   "fr": "nous",
+   "translit": "[my]"
+  },
+  "vy": {
+   "id": "vy",
+   "day": 7,
+   "kind": "word",
+   "ru": "вы",
+   "fr": "vous",
+   "translit": "[vy]"
+  },
+  "syr": {
+   "id": "syr",
+   "day": 7,
+   "kind": "word",
+   "ru": "сыр",
+   "fr": "fromage",
+   "translit": "[syr]"
+  },
+  "eshche": {
+   "id": "eshche",
+   "day": 7,
+   "kind": "word",
+   "ru": "ещё",
+   "fr": "encore",
+   "translit": "[yichtchió]"
+  },
+  "yozh": {
+   "id": "yozh",
+   "day": 7,
+   "kind": "word",
+   "ru": "ёж",
+   "fr": "hérisson",
+   "translit": "[yoj]"
+  },
+  "sol": {
+   "id": "sol",
+   "day": 7,
+   "kind": "word",
+   "ru": "соль",
+   "fr": "sel",
+   "translit": "[sol]"
+  },
+  "moloko": {
+   "id": "moloko",
+   "day": 8,
+   "kind": "word",
+   "ru": "молоко́",
+   "fr": "lait",
+   "translit": "[malakó]"
+  },
+  "voda": {
+   "id": "voda",
+   "day": 8,
+   "kind": "word",
+   "ru": "вода́",
+   "fr": "eau",
+   "translit": "[vadá]"
+  },
+  "okno": {
+   "id": "okno",
+   "day": 8,
+   "kind": "word",
+   "ru": "окно́",
+   "fr": "fenêtre",
+   "translit": "[aknó]"
+  },
+  "gorod": {
+   "id": "gorod",
+   "day": 8,
+   "kind": "word",
+   "ru": "го́род",
+   "fr": "ville",
+   "translit": "[górad]"
+  },
+  "privet": {
+   "id": "privet",
+   "day": 9,
+   "kind": "word",
+   "ru": "Приве́т!",
+   "fr": "Salut !",
+   "answers": [
+    "Приве́т"
+   ],
+   "translit": "[privét]"
+  },
+  "zdravstvuite": {
+   "id": "zdravstvuite",
+   "day": 9,
+   "kind": "word",
+   "ru": "Здра́вствуйте!",
+   "fr": "Bonjour ! (poli)",
+   "note": "le premier « в » ne se prononce pas",
+   "answers": [
+    "Здра́вствуйте"
+   ],
+   "translit": "[zdrávstvouïti]"
+  },
+  "kak-dela": {
+   "id": "kak-dela",
+   "day": 9,
+   "kind": "phrase",
+   "ru": "Как дела́?",
+   "fr": "Comment ça va ?",
+   "answers": [
+    "Как дела́"
+   ],
+   "translit": "[kak dilá]"
+  },
+  "normalno": {
+   "id": "normalno",
+   "day": 9,
+   "kind": "word",
+   "ru": "Норма́льно.",
+   "fr": "Ça va.",
+   "answers": [
+    "Норма́льно"
+   ],
+   "translit": "[narmálna]"
+  },
+  "spasibo": {
+   "id": "spasibo",
+   "day": 9,
+   "kind": "word",
+   "ru": "Спаси́бо!",
+   "fr": "Merci !",
+   "answers": [
+    "Спаси́бо"
+   ],
+   "translit": "[spasíba]"
+  },
+  "pozhaluista": {
+   "id": "pozhaluista",
+   "day": 9,
+   "kind": "word",
+   "ru": "Пожа́луйста.",
+   "fr": "S'il te plaît. / Je t'en prie.",
+   "answers": [
+    "Пожа́луйста"
+   ],
+   "translit": "[pajálouïsta]"
+  },
+  "poka": {
+   "id": "poka",
+   "day": 9,
+   "kind": "word",
+   "ru": "Пока́!",
+   "fr": "Salut ! (au revoir)",
+   "answers": [
+    "Пока́"
+   ],
+   "translit": "[paká]"
   }
  },
  "days": [
@@ -901,7 +1779,7 @@
        "ru": "ма́ма",
        "options": [
         "qui",
-        "ainsi",
+        "ainsi, comme ça",
         "maman",
         "là-bas"
        ],
@@ -914,7 +1792,7 @@
         "qui",
         "maman",
         "chat",
-        "ainsi"
+        "ainsi, comme ça"
        ],
        "answer": 2
       },
@@ -933,7 +1811,7 @@
        "t": "read",
        "ru": "так",
        "options": [
-        "ainsi",
+        "ainsi, comme ça",
         "chat",
         "qui",
         "là-bas"
@@ -946,7 +1824,7 @@
        "options": [
         "qui",
         "maman",
-        "ainsi",
+        "ainsi, comme ça",
         "là-bas"
        ],
        "answer": 0
@@ -1041,7 +1919,7 @@
       {
        "t": "copy",
        "ru": "так",
-       "fr": "ainsi"
+       "fr": "ainsi, comme ça"
       },
       {
        "t": "copy",
@@ -1072,7 +1950,7 @@
       {
        "t": "speak",
        "ru": "так",
-       "fr": "ainsi"
+       "fr": "ainsi, comme ça"
       },
       {
        "t": "speak",
@@ -1082,6 +1960,2470 @@
      ]
     }
    ]
+  },
+  {
+   "day": 2,
+   "phase": 0,
+   "theme": "Р Н В С, les faux amis",
+   "kind": "alphabet",
+   "items": [
+    "moskva",
+    "on",
+    "ona",
+    "vot",
+    "nos",
+    "sok",
+    "rot",
+    "son"
+   ],
+   "letters": [
+    "l-r",
+    "l-n",
+    "l-v",
+    "l-s"
+   ],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "letters",
+     "audio": false,
+     "letters": [
+      "l-r",
+      "l-n",
+      "l-v",
+      "l-s"
+     ]
+    },
+    {
+     "type": "read",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "read",
+       "ru": "Москва́",
+       "options": [
+        "là-bas",
+        "sommeil, rêve",
+        "qui",
+        "Moscou"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "он",
+       "options": [
+        "nez",
+        "Moscou",
+        "il",
+        "chat"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "она́",
+       "options": [
+        "chat",
+        "jus",
+        "Moscou",
+        "elle"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "вот",
+       "options": [
+        "maman",
+        "ainsi, comme ça",
+        "Moscou",
+        "voici, voilà"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "нос",
+       "options": [
+        "bouche",
+        "nez",
+        "jus",
+        "elle"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "сок",
+       "options": [
+        "Moscou",
+        "jus",
+        "nez",
+        "maman"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "рот",
+       "options": [
+        "sommeil, rêve",
+        "bouche",
+        "là-bas",
+        "maman"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "сон",
+       "options": [
+        "nez",
+        "sommeil, rêve",
+        "chat",
+        "il"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "Москва́",
+       "options": [
+        "вот",
+        "Москва́",
+        "кто",
+        "рот"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "он",
+       "options": [
+        "кот",
+        "она́",
+        "он",
+        "так"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "она́",
+       "options": [
+        "сон",
+        "ма́ма",
+        "она́",
+        "кот"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "вот",
+       "options": [
+        "кот",
+        "вот",
+        "сон",
+        "сок"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "нос",
+       "options": [
+        "Москва́",
+        "кот",
+        "вот",
+        "нос"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "сок",
+       "options": [
+        "сон",
+        "там",
+        "нос",
+        "сок"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "рот",
+       "options": [
+        "сон",
+        "она́",
+        "рот",
+        "Москва́"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "сон",
+       "options": [
+        "сон",
+        "он",
+        "она́",
+        "вот"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "type": "keyboard",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "copy",
+       "ru": "Москва́",
+       "fr": "Moscou"
+      },
+      {
+       "t": "copy",
+       "ru": "он",
+       "fr": "il"
+      },
+      {
+       "t": "copy",
+       "ru": "она́",
+       "fr": "elle"
+      },
+      {
+       "t": "copy",
+       "ru": "вот",
+       "fr": "voici, voilà"
+      },
+      {
+       "t": "copy",
+       "ru": "нос",
+       "fr": "nez"
+      },
+      {
+       "t": "copy",
+       "ru": "сок",
+       "fr": "jus"
+      },
+      {
+       "t": "copy",
+       "ru": "рот",
+       "fr": "bouche"
+      },
+      {
+       "t": "copy",
+       "ru": "сон",
+       "fr": "sommeil, rêve"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak-words",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Москва́",
+       "fr": "Moscou"
+      },
+      {
+       "t": "speak",
+       "ru": "он",
+       "fr": "il"
+      },
+      {
+       "t": "speak",
+       "ru": "она́",
+       "fr": "elle"
+      },
+      {
+       "t": "speak",
+       "ru": "вот",
+       "fr": "voici, voilà"
+      },
+      {
+       "t": "speak",
+       "ru": "нос",
+       "fr": "nez"
+      },
+      {
+       "t": "speak",
+       "ru": "сок",
+       "fr": "jus"
+      },
+      {
+       "t": "speak",
+       "ru": "рот",
+       "fr": "bouche"
+      },
+      {
+       "t": "speak",
+       "ru": "сон",
+       "fr": "sommeil, rêve"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "phase": 0,
+   "theme": "Е У Х",
+   "kind": "alphabet",
+   "items": [
+    "metro",
+    "utro",
+    "restoran",
+    "tut",
+    "net",
+    "ukho"
+   ],
+   "letters": [
+    "l-e",
+    "l-u",
+    "l-kh"
+   ],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "letters",
+     "audio": false,
+     "letters": [
+      "l-e",
+      "l-u",
+      "l-kh"
+     ]
+    },
+    {
+     "type": "read",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "read",
+       "ru": "метро́",
+       "options": [
+        "voici, voilà",
+        "maman",
+        "métro",
+        "jus"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "у́тро",
+       "options": [
+        "matin",
+        "elle",
+        "oreille",
+        "là-bas"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "рестора́н",
+       "options": [
+        "restaurant",
+        "ainsi, comme ça",
+        "matin",
+        "sommeil, rêve"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "тут",
+       "options": [
+        "métro",
+        "ici",
+        "chat",
+        "oreille"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "нет",
+       "options": [
+        "métro",
+        "matin",
+        "non",
+        "jus"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "у́хо",
+       "options": [
+        "voici, voilà",
+        "il",
+        "matin",
+        "oreille"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "метро́",
+       "options": [
+        "метро́",
+        "она́",
+        "кто",
+        "рот"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "у́тро",
+       "options": [
+        "у́тро",
+        "сок",
+        "Москва́",
+        "у́хо"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "рестора́н",
+       "options": [
+        "нос",
+        "рестора́н",
+        "она́",
+        "нет"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "тут",
+       "options": [
+        "тут",
+        "метро́",
+        "у́хо",
+        "он"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "нет",
+       "options": [
+        "рот",
+        "нос",
+        "нет",
+        "у́тро"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "у́хо",
+       "options": [
+        "вот",
+        "он",
+        "у́хо",
+        "рот"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "type": "keyboard",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "copy",
+       "ru": "метро́",
+       "fr": "métro"
+      },
+      {
+       "t": "copy",
+       "ru": "у́тро",
+       "fr": "matin"
+      },
+      {
+       "t": "copy",
+       "ru": "рестора́н",
+       "fr": "restaurant"
+      },
+      {
+       "t": "copy",
+       "ru": "тут",
+       "fr": "ici"
+      },
+      {
+       "t": "copy",
+       "ru": "нет",
+       "fr": "non"
+      },
+      {
+       "t": "copy",
+       "ru": "у́хо",
+       "fr": "oreille"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak-words",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "метро́",
+       "fr": "métro"
+      },
+      {
+       "t": "speak",
+       "ru": "у́тро",
+       "fr": "matin"
+      },
+      {
+       "t": "speak",
+       "ru": "рестора́н",
+       "fr": "restaurant"
+      },
+      {
+       "t": "speak",
+       "ru": "тут",
+       "fr": "ici"
+      },
+      {
+       "t": "speak",
+       "ru": "нет",
+       "fr": "non"
+      },
+      {
+       "t": "speak",
+       "ru": "у́хо",
+       "fr": "oreille"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "phase": 0,
+   "theme": "И Л П Д З",
+   "kind": "alphabet",
+   "items": [
+    "taksi",
+    "kino",
+    "park",
+    "dom",
+    "sup",
+    "limon",
+    "i",
+    "da"
+   ],
+   "letters": [
+    "l-i",
+    "l-l",
+    "l-p",
+    "l-d",
+    "l-z"
+   ],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "letters",
+     "audio": false,
+     "letters": [
+      "l-i",
+      "l-l",
+      "l-p",
+      "l-d",
+      "l-z"
+     ]
+    },
+    {
+     "type": "read",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "read",
+       "ru": "такси́",
+       "options": [
+        "chat",
+        "non",
+        "taxi",
+        "cinéma"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "кино́",
+       "options": [
+        "taxi",
+        "oui",
+        "cinéma",
+        "citron"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "парк",
+       "options": [
+        "parc",
+        "non",
+        "qui",
+        "elle"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "дом",
+       "options": [
+        "maison",
+        "cinéma",
+        "nez",
+        "il"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "суп",
+       "options": [
+        "soupe",
+        "parc",
+        "non",
+        "ainsi, comme ça"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "лимо́н",
+       "options": [
+        "citron",
+        "qui",
+        "matin",
+        "ainsi, comme ça"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "и",
+       "options": [
+        "matin",
+        "maman",
+        "et",
+        "nez"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "да",
+       "options": [
+        "nez",
+        "oui",
+        "il",
+        "ici"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "такси́",
+       "options": [
+        "такси́",
+        "у́тро",
+        "сок",
+        "так"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "кино́",
+       "options": [
+        "кино́",
+        "лимо́н",
+        "суп",
+        "у́тро"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "парк",
+       "options": [
+        "парк",
+        "кто",
+        "ма́ма",
+        "такси́"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "дом",
+       "options": [
+        "рот",
+        "дом",
+        "кино́",
+        "там"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "суп",
+       "options": [
+        "такси́",
+        "дом",
+        "суп",
+        "кино́"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "лимо́н",
+       "options": [
+        "лимо́н",
+        "так",
+        "такси́",
+        "метро́"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "и",
+       "options": [
+        "так",
+        "суп",
+        "и",
+        "кино́"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "да",
+       "options": [
+        "нет",
+        "да",
+        "кто",
+        "у́тро"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "type": "keyboard",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "copy",
+       "ru": "такси́",
+       "fr": "taxi"
+      },
+      {
+       "t": "copy",
+       "ru": "кино́",
+       "fr": "cinéma"
+      },
+      {
+       "t": "copy",
+       "ru": "парк",
+       "fr": "parc"
+      },
+      {
+       "t": "copy",
+       "ru": "дом",
+       "fr": "maison"
+      },
+      {
+       "t": "copy",
+       "ru": "суп",
+       "fr": "soupe"
+      },
+      {
+       "t": "copy",
+       "ru": "лимо́н",
+       "fr": "citron"
+      },
+      {
+       "t": "copy",
+       "ru": "и",
+       "fr": "et"
+      },
+      {
+       "t": "copy",
+       "ru": "да",
+       "fr": "oui"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak-words",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "такси́",
+       "fr": "taxi"
+      },
+      {
+       "t": "speak",
+       "ru": "кино́",
+       "fr": "cinéma"
+      },
+      {
+       "t": "speak",
+       "ru": "парк",
+       "fr": "parc"
+      },
+      {
+       "t": "speak",
+       "ru": "дом",
+       "fr": "maison"
+      },
+      {
+       "t": "speak",
+       "ru": "суп",
+       "fr": "soupe"
+      },
+      {
+       "t": "speak",
+       "ru": "лимо́н",
+       "fr": "citron"
+      },
+      {
+       "t": "speak",
+       "ru": "и",
+       "fr": "et"
+      },
+      {
+       "t": "speak",
+       "ru": "да",
+       "fr": "oui"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "phase": 0,
+   "theme": "Б Г Ф Й Э",
+   "kind": "alphabet",
+   "items": [
+    "bank",
+    "kafe",
+    "foto",
+    "futbol",
+    "muzei",
+    "gde",
+    "eto",
+    "moi"
+   ],
+   "letters": [
+    "l-b",
+    "l-g",
+    "l-f",
+    "l-y",
+    "l-eh"
+   ],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "letters",
+     "audio": false,
+     "letters": [
+      "l-b",
+      "l-g",
+      "l-f",
+      "l-y",
+      "l-eh"
+     ]
+    },
+    {
+     "type": "read",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "read",
+       "ru": "банк",
+       "options": [
+        "banque",
+        "bouche",
+        "là-bas",
+        "matin"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "кафе́",
+       "options": [
+        "matin",
+        "café (le lieu)",
+        "Moscou",
+        "et"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "фо́то",
+       "options": [
+        "photo",
+        "maison",
+        "bouche",
+        "qui"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "футбо́л",
+       "options": [
+        "sommeil, rêve",
+        "voici, voilà",
+        "football",
+        "citron"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "музе́й",
+       "options": [
+        "matin",
+        "musée",
+        "où",
+        "soupe"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "где",
+       "options": [
+        "il",
+        "sommeil, rêve",
+        "maison",
+        "où"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "э́то",
+       "options": [
+        "c'est, ceci",
+        "non",
+        "jus",
+        "oui"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "мой",
+       "options": [
+        "bouche",
+        "voici, voilà",
+        "nez",
+        "mon"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "банк",
+       "options": [
+        "сон",
+        "банк",
+        "сок",
+        "Москва́"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "кафе́",
+       "options": [
+        "э́то",
+        "нос",
+        "кафе́",
+        "рот"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "фо́то",
+       "options": [
+        "у́хо",
+        "кот",
+        "фо́то",
+        "дом"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "футбо́л",
+       "options": [
+        "рестора́н",
+        "футбо́л",
+        "кто",
+        "да"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "музе́й",
+       "options": [
+        "мой",
+        "кафе́",
+        "рот",
+        "музе́й"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "где",
+       "options": [
+        "рот",
+        "кот",
+        "где",
+        "лимо́н"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "э́то",
+       "options": [
+        "рестора́н",
+        "кино́",
+        "э́то",
+        "и"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "мой",
+       "options": [
+        "нет",
+        "мой",
+        "футбо́л",
+        "кино́"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "type": "keyboard",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "copy",
+       "ru": "банк",
+       "fr": "banque"
+      },
+      {
+       "t": "copy",
+       "ru": "кафе́",
+       "fr": "café (le lieu)"
+      },
+      {
+       "t": "copy",
+       "ru": "фо́то",
+       "fr": "photo"
+      },
+      {
+       "t": "copy",
+       "ru": "футбо́л",
+       "fr": "football"
+      },
+      {
+       "t": "copy",
+       "ru": "музе́й",
+       "fr": "musée"
+      },
+      {
+       "t": "copy",
+       "ru": "где",
+       "fr": "où"
+      },
+      {
+       "t": "copy",
+       "ru": "э́то",
+       "fr": "c'est, ceci"
+      },
+      {
+       "t": "copy",
+       "ru": "мой",
+       "fr": "mon"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak-words",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "банк",
+       "fr": "banque"
+      },
+      {
+       "t": "speak",
+       "ru": "кафе́",
+       "fr": "café (le lieu)"
+      },
+      {
+       "t": "speak",
+       "ru": "фо́то",
+       "fr": "photo"
+      },
+      {
+       "t": "speak",
+       "ru": "футбо́л",
+       "fr": "football"
+      },
+      {
+       "t": "speak",
+       "ru": "музе́й",
+       "fr": "musée"
+      },
+      {
+       "t": "speak",
+       "ru": "где",
+       "fr": "où"
+      },
+      {
+       "t": "speak",
+       "ru": "э́то",
+       "fr": "c'est, ceci"
+      },
+      {
+       "t": "speak",
+       "ru": "мой",
+       "fr": "mon"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "phase": 0,
+   "theme": "Ж Ш Ч Щ Ц",
+   "kind": "alphabet",
+   "items": [
+    "chai",
+    "zhurnal",
+    "shokolad",
+    "pitstsa",
+    "borshch",
+    "chto",
+    "khorosho"
+   ],
+   "letters": [
+    "l-zh",
+    "l-sh",
+    "l-ch",
+    "l-shch",
+    "l-ts"
+   ],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "letters",
+     "audio": false,
+     "letters": [
+      "l-zh",
+      "l-sh",
+      "l-ch",
+      "l-shch",
+      "l-ts"
+     ]
+    },
+    {
+     "type": "read",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "read",
+       "ru": "чай",
+       "options": [
+        "thé",
+        "bouche",
+        "sommeil, rêve",
+        "où"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "журна́л",
+       "options": [
+        "bien",
+        "ici",
+        "magazine",
+        "sommeil, rêve"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "шокола́д",
+       "options": [
+        "chocolat",
+        "bien",
+        "football",
+        "jus"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "пи́цца",
+       "options": [
+        "et",
+        "chocolat",
+        "quoi, que",
+        "pizza"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "борщ",
+       "options": [
+        "chat",
+        "métro",
+        "bortsch",
+        "non"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "что",
+       "options": [
+        "quoi, que",
+        "maison",
+        "là-bas",
+        "mon"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "хорошо́",
+       "options": [
+        "chat",
+        "bien",
+        "citron",
+        "magazine"
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "чай",
+       "options": [
+        "рестора́н",
+        "вот",
+        "музе́й",
+        "чай"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "журна́л",
+       "options": [
+        "банк",
+        "журна́л",
+        "фо́то",
+        "где"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "шокола́д",
+       "options": [
+        "кафе́",
+        "мой",
+        "шокола́д",
+        "он"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "пи́цца",
+       "options": [
+        "мой",
+        "такси́",
+        "парк",
+        "пи́цца"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "борщ",
+       "options": [
+        "Москва́",
+        "кто",
+        "пи́цца",
+        "борщ"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "что",
+       "options": [
+        "он",
+        "что",
+        "рестора́н",
+        "там"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "хорошо́",
+       "options": [
+        "и",
+        "она́",
+        "где",
+        "хорошо́"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "type": "keyboard",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "copy",
+       "ru": "чай",
+       "fr": "thé"
+      },
+      {
+       "t": "copy",
+       "ru": "журна́л",
+       "fr": "magazine"
+      },
+      {
+       "t": "copy",
+       "ru": "шокола́д",
+       "fr": "chocolat"
+      },
+      {
+       "t": "copy",
+       "ru": "пи́цца",
+       "fr": "pizza"
+      },
+      {
+       "t": "copy",
+       "ru": "борщ",
+       "fr": "bortsch"
+      },
+      {
+       "t": "copy",
+       "ru": "что",
+       "fr": "quoi, que"
+      },
+      {
+       "t": "copy",
+       "ru": "хорошо́",
+       "fr": "bien"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak-words",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "чай",
+       "fr": "thé"
+      },
+      {
+       "t": "speak",
+       "ru": "журна́л",
+       "fr": "magazine"
+      },
+      {
+       "t": "speak",
+       "ru": "шокола́д",
+       "fr": "chocolat"
+      },
+      {
+       "t": "speak",
+       "ru": "пи́цца",
+       "fr": "pizza"
+      },
+      {
+       "t": "speak",
+       "ru": "борщ",
+       "fr": "bortsch"
+      },
+      {
+       "t": "speak",
+       "ru": "что",
+       "fr": "quoi, que"
+      },
+      {
+       "t": "speak",
+       "ru": "хорошо́",
+       "fr": "bien"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "phase": 0,
+   "theme": "Я Ю Ё Ы Ь Ъ",
+   "kind": "alphabet",
+   "items": [
+    "ya",
+    "ty",
+    "my",
+    "vy",
+    "syr",
+    "eshche",
+    "yozh",
+    "sol"
+   ],
+   "letters": [
+    "l-ya",
+    "l-yu",
+    "l-yo",
+    "l-yy",
+    "l-soft",
+    "l-hard"
+   ],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "letters",
+     "audio": false,
+     "letters": [
+      "l-ya",
+      "l-yu",
+      "l-yo",
+      "l-yy",
+      "l-soft",
+      "l-hard"
+     ]
+    },
+    {
+     "type": "read",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "read",
+       "ru": "я",
+       "options": [
+        "hérisson",
+        "où",
+        "soupe",
+        "je"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "ты",
+       "options": [
+        "musée",
+        "cinéma",
+        "maman",
+        "tu"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "мы",
+       "options": [
+        "chat",
+        "nous",
+        "où",
+        "Moscou"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "вы",
+       "options": [
+        "mon",
+        "vous",
+        "matin",
+        "voici, voilà"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "сыр",
+       "options": [
+        "fromage",
+        "hérisson",
+        "non",
+        "mon"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "ещё",
+       "options": [
+        "sel",
+        "où",
+        "encore",
+        "citron"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "ёж",
+       "options": [
+        "encore",
+        "ici",
+        "soupe",
+        "hérisson"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "соль",
+       "options": [
+        "matin",
+        "bien",
+        "musée",
+        "sel"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "я",
+       "options": [
+        "и",
+        "рот",
+        "я",
+        "борщ"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "ты",
+       "options": [
+        "ты",
+        "у́тро",
+        "журна́л",
+        "она́"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "мы",
+       "options": [
+        "футбо́л",
+        "мы",
+        "у́тро",
+        "кто"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "вы",
+       "options": [
+        "рот",
+        "вы",
+        "парк",
+        "метро́"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "сыр",
+       "options": [
+        "Москва́",
+        "ёж",
+        "сыр",
+        "пи́цца"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "ещё",
+       "options": [
+        "сон",
+        "ещё",
+        "музе́й",
+        "кино́"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "ёж",
+       "options": [
+        "борщ",
+        "ёж",
+        "фо́то",
+        "нос"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "соль",
+       "options": [
+        "мы",
+        "я",
+        "соль",
+        "сок"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "type": "keyboard",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "copy",
+       "ru": "я",
+       "fr": "je"
+      },
+      {
+       "t": "copy",
+       "ru": "ты",
+       "fr": "tu"
+      },
+      {
+       "t": "copy",
+       "ru": "мы",
+       "fr": "nous"
+      },
+      {
+       "t": "copy",
+       "ru": "вы",
+       "fr": "vous"
+      },
+      {
+       "t": "copy",
+       "ru": "сыр",
+       "fr": "fromage"
+      },
+      {
+       "t": "copy",
+       "ru": "ещё",
+       "fr": "encore"
+      },
+      {
+       "t": "copy",
+       "ru": "ёж",
+       "fr": "hérisson"
+      },
+      {
+       "t": "copy",
+       "ru": "соль",
+       "fr": "sel"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak-words",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "я",
+       "fr": "je"
+      },
+      {
+       "t": "speak",
+       "ru": "ты",
+       "fr": "tu"
+      },
+      {
+       "t": "speak",
+       "ru": "мы",
+       "fr": "nous"
+      },
+      {
+       "t": "speak",
+       "ru": "вы",
+       "fr": "vous"
+      },
+      {
+       "t": "speak",
+       "ru": "сыр",
+       "fr": "fromage"
+      },
+      {
+       "t": "speak",
+       "ru": "ещё",
+       "fr": "encore"
+      },
+      {
+       "t": "speak",
+       "ru": "ёж",
+       "fr": "hérisson"
+      },
+      {
+       "t": "speak",
+       "ru": "соль",
+       "fr": "sel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 8,
+   "phase": 0,
+   "theme": "L'accent tonique",
+   "kind": "alphabet",
+   "items": [
+    "moloko",
+    "voda",
+    "okno",
+    "gorod"
+   ],
+   "letters": [],
+   "grammar": {
+    "title": "L'accent tonique",
+    "explanation": "Dans chaque mot russe de plus d'une syllabe, une voyelle est prononcée plus fort et plus longtemps : c'est l'accent tonique. Il n'est pas écrit dans les textes russes, mais dans Шаг il est toujours marqué d'un petit trait : молоко́.\n\nL'accent peut tomber sur n'importe quelle syllabe, et il faut l'apprendre avec le mot. C'est pour cela que l'audio est toujours disponible.\n\nUne règle importante : un « о » non accentué se prononce presque comme un « a ». On écrit молоко́, mais on dit [malakó]. On écrit го́род, mais on dit [górat].",
+    "examples": [
+     {
+      "ru": "молоко́",
+      "fr": "lait : [malakó]"
+     },
+     {
+      "ru": "вода́",
+      "fr": "eau : [vadá]"
+     },
+     {
+      "ru": "окно́",
+      "fr": "fenêtre : [aknó]"
+     },
+     {
+      "ru": "го́род",
+      "fr": "ville : [górat]"
+     },
+     {
+      "ru": "хорошо́",
+      "fr": "bien : [kharachó]"
+     }
+    ],
+    "exercises": []
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "read",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "read",
+       "ru": "молоко́",
+       "options": [
+        "hérisson",
+        "tu",
+        "bortsch",
+        "lait"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "вода́",
+       "options": [
+        "maman",
+        "eau",
+        "restaurant",
+        "tu"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "окно́",
+       "options": [
+        "thé",
+        "tu",
+        "pizza",
+        "fenêtre"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "read",
+       "ru": "го́род",
+       "options": [
+        "bortsch",
+        "chocolat",
+        "jus",
+        "ville"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "молоко́",
+       "options": [
+        "молоко́",
+        "пи́цца",
+        "го́род",
+        "такси́"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "вода́",
+       "options": [
+        "вода́",
+        "э́то",
+        "соль",
+        "сок"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "окно́",
+       "options": [
+        "он",
+        "ты",
+        "окно́",
+        "пи́цца"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "го́род",
+       "options": [
+        "го́род",
+        "что",
+        "так",
+        "чай"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "choice",
+       "ru": "молоко́",
+       "options": [
+        "молоко́",
+        "мо́локо",
+        "моло́ко"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "choice",
+       "ru": "вода́",
+       "options": [
+        "во́да",
+        "вода́"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "choice",
+       "ru": "го́род",
+       "options": [
+        "го́род",
+        "горо́д"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "type": "keyboard",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "copy",
+       "ru": "молоко́",
+       "fr": "lait"
+      },
+      {
+       "t": "copy",
+       "ru": "вода́",
+       "fr": "eau"
+      },
+      {
+       "t": "copy",
+       "ru": "окно́",
+       "fr": "fenêtre"
+      },
+      {
+       "t": "copy",
+       "ru": "го́род",
+       "fr": "ville"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak-words",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "молоко́",
+       "fr": "lait"
+      },
+      {
+       "t": "speak",
+       "ru": "вода́",
+       "fr": "eau"
+      },
+      {
+       "t": "speak",
+       "ru": "окно́",
+       "fr": "fenêtre"
+      },
+      {
+       "t": "speak",
+       "ru": "го́род",
+       "fr": "ville"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 9,
+   "phase": 0,
+   "theme": "Premiers mots",
+   "kind": "survival",
+   "items": [
+    "privet",
+    "zdravstvuite",
+    "kak-dela",
+    "normalno",
+    "spasibo",
+    "pozhaluista",
+    "poka"
+   ],
+   "letters": [],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "privet",
+      "zdravstvuite",
+      "kak-dela",
+      "normalno",
+      "spasibo",
+      "pozhaluista",
+      "poka"
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "Приве́т!",
+       "options": [
+        "музе́й",
+        "суп",
+        "Приве́т!",
+        "она́"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "Здра́вствуйте!",
+       "options": [
+        "чай",
+        "Здра́вствуйте!",
+        "Норма́льно.",
+        "она́"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "Как дела́?",
+       "options": [
+        "нет",
+        "у́тро",
+        "Как дела́?",
+        "я"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "Норма́льно.",
+       "options": [
+        "Норма́льно.",
+        "дом",
+        "где",
+        "такси́"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "Спаси́бо!",
+       "options": [
+        "Спаси́бо!",
+        "Москва́",
+        "кино́",
+        "у́хо"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "Пожа́луйста.",
+       "options": [
+        "я",
+        "футбо́л",
+        "Пожа́луйста.",
+        "она́"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "Пока́!",
+       "options": [
+        "шокола́д",
+        "сок",
+        "Пока́!",
+        "что"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "reply",
+       "thread": [
+        {
+         "from": "masha",
+         "ru": "Приве́т! Как дела́?"
+        }
+       ],
+       "options": [
+        "Хорошо́, спаси́бо!",
+        "Пока́!",
+        "Кафе́."
+       ],
+       "answer": 0
+      },
+      {
+       "t": "reply",
+       "thread": [
+        {
+         "from": "anton",
+         "ru": "Спаси́бо!"
+        }
+       ],
+       "options": [
+        "Нет.",
+        "Пожа́луйста.",
+        "Вот метро́."
+       ],
+       "answer": 1
+      },
+      {
+       "t": "translate",
+       "fr": "Salut ! Ça va ?",
+       "answers": [
+        "Приве́т! Как дела́?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Bien, merci !",
+       "answers": [
+        "Хорошо́, спаси́бо!",
+        "Спаси́бо, хорошо́!"
+       ]
+      },
+      {
+       "t": "order",
+       "ru": "Приве́т! Как дела́?",
+       "fr": "Salut ! Comment ça va ?"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Приве́т!",
+       "fr": "Salut !"
+      },
+      {
+       "t": "speak",
+       "ru": "Здра́вствуйте!",
+       "fr": "Bonjour ! (poli)"
+      },
+      {
+       "t": "speak",
+       "ru": "Как дела́?",
+       "fr": "Comment ça va ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Норма́льно.",
+       "fr": "Ça va."
+      },
+      {
+       "t": "speak",
+       "ru": "Спаси́бо!",
+       "fr": "Merci !"
+      },
+      {
+       "t": "speak",
+       "ru": "Пожа́луйста.",
+       "fr": "S'il te plaît. / Je t'en prie."
+      },
+      {
+       "t": "speak",
+       "ru": "Пока́!",
+       "fr": "Salut ! (au revoir)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 10,
+   "phase": 0,
+   "theme": "Bilan de l'alphabet",
+   "kind": "bilan",
+   "items": [],
+   "letters": [],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "bilan",
+     "audio": false,
+     "items": [
+      "mama",
+      "kot",
+      "tam",
+      "tak",
+      "kto",
+      "moskva",
+      "on",
+      "ona",
+      "vot",
+      "nos",
+      "sok",
+      "rot",
+      "son",
+      "metro",
+      "utro",
+      "restoran",
+      "tut",
+      "net",
+      "ukho",
+      "taksi"
+     ],
+     "letters": [
+      "l-a",
+      "l-o",
+      "l-k",
+      "l-m",
+      "l-t",
+      "l-r",
+      "l-n",
+      "l-v",
+      "l-s",
+      "l-e",
+      "l-u",
+      "l-kh",
+      "l-i",
+      "l-l",
+      "l-p",
+      "l-d",
+      "l-z",
+      "l-b",
+      "l-g",
+      "l-f",
+      "l-y",
+      "l-eh",
+      "l-zh",
+      "l-sh",
+      "l-ch",
+      "l-shch",
+      "l-ts",
+      "l-ya",
+      "l-yu",
+      "l-yo",
+      "l-yy",
+      "l-soft",
+      "l-hard"
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    }
+   ]
   }
  ],
  "audio": {
@@ -1089,14 +4431,136 @@
   "кот": "b8401d84aaf62bbc.opus",
   "там": "343d8a69a37ebbb6.opus",
   "так": "b59d40adedb8b2ed.opus",
-  "кто": "fbe6eebf7a9a1951.opus"
+  "кто": "fbe6eebf7a9a1951.opus",
+  "рот": "13b09a6c5b3e91d5.opus",
+  "нос": "8810bd61f458bb9d.opus",
+  "вот": "cef2c7ca2075a841.opus",
+  "сок": "a1ba7b5e1b274d3f.opus",
+  "Москва́": "dbc249af70948e33.opus",
+  "он": "120b5ae46018460a.opus",
+  "она́": "1a640b2090738357.opus",
+  "сон": "9b315f839c1d0633.opus",
+  "метро́": "3544d4a373e701bf.opus",
+  "у́тро": "e3beade9f2c2ac90.opus",
+  "у́хо": "a9cd4ae70b0b3c51.opus",
+  "рестора́н": "53be505c4dc5fd17.opus",
+  "тут": "dd6ae67dec66b0a8.opus",
+  "нет": "2421fe3b0cf291ea.opus",
+  "кино́": "d86c9c8701e015a3.opus",
+  "лимо́н": "51c4bb41f9ad52d1.opus",
+  "парк": "982eaed9a96da137.opus",
+  "дом": "6e33378e50e6a8a2.opus",
+  "зонт": "1320553770b9e149.opus",
+  "такси́": "522bb727e5eec6e7.opus",
+  "суп": "4e9c23ce901ec844.opus",
+  "и": "50a73560533f871b.opus",
+  "да": "b5f8e67799cfe83a.opus",
+  "банк": "50c8159df0c7634c.opus",
+  "где": "554ecd11438a51af.opus",
+  "фо́то": "e104d6aa0a9a5d82.opus",
+  "музе́й": "e93b5dbf7cac7211.opus",
+  "э́то": "82d3cd45286ec4ba.opus",
+  "кафе́": "3bc7e17eb1f81276.opus",
+  "футбо́л": "ce1d942ce3299193.opus",
+  "мой": "2e919221b81499bc.opus",
+  "журна́л": "eec310c9d0549309.opus",
+  "шокола́д": "a5ee26916b6df564.opus",
+  "чай": "8cabd96b8c2a1e5e.opus",
+  "борщ": "a277c392bfaf7bff.opus",
+  "пи́цца": "52df32d6b35cfd0a.opus",
+  "что": "2cd2105a108d0efd.opus",
+  "хорошо́": "de0fbf63a7af445f.opus",
+  "я": "c80678ace4e385d8.opus",
+  "ю́мор": "df8e5455244a5850.opus",
+  "ёж": "6b11067c87962b15.opus",
+  "сыр": "870a02522327ee5d.opus",
+  "соль": "e7214fd396221414.opus",
+  "объе́кт": "1b13d4c7bf41efef.opus",
+  "ты": "233f0e9475f4f3bd.opus",
+  "мы": "ec9e768bb1e49e6d.opus",
+  "вы": "cc29810769d07624.opus",
+  "ещё": "e39df961dac2d9e4.opus",
+  "молоко́": "153b64c76b9adac4.opus",
+  "вода́": "80211765a57598fa.opus",
+  "окно́": "507bc2ac46012cda.opus",
+  "го́род": "39b458c430fce523.opus",
+  "Приве́т!": "bb24e7a898d90514.opus",
+  "Здра́вствуйте!": "582f23498b6f8d05.opus",
+  "Как дела́?": "23221218f6044a38.opus",
+  "Норма́льно.": "ec62ce154437d7a0.opus",
+  "Спаси́бо!": "76a83524b074e9e7.opus",
+  "Пожа́луйста.": "3935d505e03388cd.opus",
+  "Пока́!": "b2e22c6379c33b3c.opus",
+  "Приве́т! Как дела́?": "e0f936705d5ab7aa.opus",
+  "Хорошо́, спаси́бо!": "b1ee3659b3941087.opus"
  },
  "audioByPhase": {
   "0": [
    "07b1c31f03c7f515.opus",
+   "120b5ae46018460a.opus",
+   "1320553770b9e149.opus",
+   "13b09a6c5b3e91d5.opus",
+   "153b64c76b9adac4.opus",
+   "1a640b2090738357.opus",
+   "1b13d4c7bf41efef.opus",
+   "23221218f6044a38.opus",
+   "233f0e9475f4f3bd.opus",
+   "2421fe3b0cf291ea.opus",
+   "2cd2105a108d0efd.opus",
+   "2e919221b81499bc.opus",
    "343d8a69a37ebbb6.opus",
+   "3544d4a373e701bf.opus",
+   "3935d505e03388cd.opus",
+   "39b458c430fce523.opus",
+   "3bc7e17eb1f81276.opus",
+   "4e9c23ce901ec844.opus",
+   "507bc2ac46012cda.opus",
+   "50a73560533f871b.opus",
+   "50c8159df0c7634c.opus",
+   "51c4bb41f9ad52d1.opus",
+   "522bb727e5eec6e7.opus",
+   "52df32d6b35cfd0a.opus",
+   "53be505c4dc5fd17.opus",
+   "554ecd11438a51af.opus",
+   "582f23498b6f8d05.opus",
+   "6b11067c87962b15.opus",
+   "6e33378e50e6a8a2.opus",
+   "76a83524b074e9e7.opus",
+   "80211765a57598fa.opus",
+   "82d3cd45286ec4ba.opus",
+   "870a02522327ee5d.opus",
+   "8810bd61f458bb9d.opus",
+   "8cabd96b8c2a1e5e.opus",
+   "982eaed9a96da137.opus",
+   "9b315f839c1d0633.opus",
+   "a1ba7b5e1b274d3f.opus",
+   "a277c392bfaf7bff.opus",
+   "a5ee26916b6df564.opus",
+   "a9cd4ae70b0b3c51.opus",
+   "b1ee3659b3941087.opus",
+   "b2e22c6379c33b3c.opus",
    "b59d40adedb8b2ed.opus",
+   "b5f8e67799cfe83a.opus",
    "b8401d84aaf62bbc.opus",
+   "bb24e7a898d90514.opus",
+   "c80678ace4e385d8.opus",
+   "cc29810769d07624.opus",
+   "ce1d942ce3299193.opus",
+   "cef2c7ca2075a841.opus",
+   "d86c9c8701e015a3.opus",
+   "dbc249af70948e33.opus",
+   "dd6ae67dec66b0a8.opus",
+   "de0fbf63a7af445f.opus",
+   "df8e5455244a5850.opus",
+   "e0f936705d5ab7aa.opus",
+   "e104d6aa0a9a5d82.opus",
+   "e39df961dac2d9e4.opus",
+   "e3beade9f2c2ac90.opus",
+   "e7214fd396221414.opus",
+   "e93b5dbf7cac7211.opus",
+   "ec62ce154437d7a0.opus",
+   "ec9e768bb1e49e6d.opus",
+   "eec310c9d0549309.opus",
    "fbe6eebf7a9a1951.opus"
   ]
  },

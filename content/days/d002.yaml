@@ -1,0 +1,43 @@
+day: 2
+letters:
+  - id: l-r
+    upper: Р
+    lower: р
+    sound: "[r]"
+    hint: un « r » roulé, comme en espagnol ou en italien
+    warning: ce n'est pas un « p » — Р se prononce [r]
+    example: рот
+    example_fr: bouche
+  - id: l-n
+    upper: Н
+    lower: н
+    sound: "[n]"
+    hint: comme le « n » de « non »
+    warning: ce n'est pas un « h » — Н se prononce [n]
+    example: нос
+    example_fr: nez
+  - id: l-v
+    upper: В
+    lower: в
+    sound: "[v]"
+    hint: comme le « v » de « vélo »
+    warning: ce n'est pas un « b » — В se prononce [v]
+    example: вот
+    example_fr: voici
+  - id: l-s
+    upper: С
+    lower: с
+    sound: "[s]"
+    hint: toujours [s], comme dans « sac »
+    warning: ce n'est pas un « c » dur — С se prononce toujours [s]
+    example: сок
+    example_fr: jus
+items:
+  - { id: moskva, ru: Москва, fr: Moscou }
+  - { id: "on", ru: он, fr: il }
+  - { id: ona, ru: она, fr: elle }
+  - { id: vot, ru: вот, fr: "voici, voilà" }
+  - { id: nos, ru: нос, fr: nez }
+  - { id: sok, ru: сок, fr: jus }
+  - { id: rot, ru: рот, fr: bouche }
+  - { id: son, ru: сон, fr: "sommeil, rêve" }

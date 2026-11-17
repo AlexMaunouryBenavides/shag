@@ -1,0 +1,24 @@
+day: 8
+items:
+  - { id: moloko, ru: молоко, fr: lait }
+  - { id: voda, ru: вода, fr: eau }
+  - { id: okno, ru: окно, fr: fenêtre }
+  - { id: gorod, ru: город, fr: ville }
+grammar:
+  title: L'accent tonique
+  explanation: |
+    Dans chaque mot russe de plus d'une syllabe, une voyelle est prononcée plus fort et plus longtemps : c'est l'accent tonique. Il n'est pas écrit dans les textes russes, mais dans Шаг il est toujours marqué d'un petit trait : молоко́.
+
+    L'accent peut tomber sur n'importe quelle syllabe, et il faut l'apprendre avec le mot. C'est pour cela que l'audio est toujours disponible.
+
+    Une règle importante : un « о » non accentué se prononce presque comme un « a ». On écrit молоко́, mais on dit [malakó]. On écrit го́род, mais on dit [górat].
+  examples:
+    - { ru: молоко, fr: "lait : [malakó]" }
+    - { ru: вода, fr: "eau : [vadá]" }
+    - { ru: окно, fr: "fenêtre : [aknó]" }
+    - { ru: город, fr: "ville : [górat]" }
+    - { ru: хорошо, fr: "bien : [kharachó]" }
+exercises:
+  - { type: listen, ru: молоко́, options: [молоко́, мо́локо, моло́ко], answer: 0 }
+  - { type: listen, ru: вода́, options: [во́да, вода́], answer: 1 }
+  - { type: listen, ru: го́род, options: [го́род, горо́д], answer: 0 }

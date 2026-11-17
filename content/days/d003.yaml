@@ -1,0 +1,33 @@
+day: 3
+letters:
+  - id: l-e
+    upper: Е
+    lower: е
+    sound: "[ié] / [é]"
+    hint: « yé » en début de mot ou après une voyelle, « é » après une consonne (qu'il adoucit)
+    warning: ce n'est pas le « e » muet français
+    example: метро
+    example_fr: métro
+  - id: l-u
+    upper: У
+    lower: у
+    sound: "[ou]"
+    hint: comme le « ou » de « loup »
+    warning: ce n'est pas un « y » — У se prononce [ou]
+    example: утро
+    example_fr: matin
+  - id: l-kh
+    upper: Х
+    lower: х
+    sound: "[kh]"
+    hint: un son raclé doux au fond de la gorge, comme la « jota » espagnole
+    warning: ce n'est pas un « x » — Х se prononce [kh]
+    example: ухо
+    example_fr: oreille
+items:
+  - { id: metro, ru: метро, fr: métro }
+  - { id: utro, ru: утро, fr: matin }
+  - { id: restoran, ru: ресторан, fr: restaurant }
+  - { id: tut, ru: тут, fr: ici }
+  - { id: net, ru: нет, fr: non }
+  - { id: ukho, ru: ухо, fr: oreille }

@@ -1,0 +1,48 @@
+day: 5
+letters:
+  - id: l-b
+    upper: Б
+    lower: б
+    sound: "[b]"
+    hint: comme le « b » de « banque »
+    warning: à ne pas confondre avec В, qui se prononce [v]
+    example: банк
+    example_fr: banque
+  - id: l-g
+    upper: Г
+    lower: г
+    sound: "[g]"
+    hint: toujours dur, comme le « g » de « gare »
+    example: где
+    example_fr: où
+  - id: l-f
+    upper: Ф
+    lower: ф
+    sound: "[f]"
+    hint: comme le « f » de « photo »
+    example: фото
+    example_fr: photo
+  - id: l-y
+    upper: Й
+    lower: й
+    sound: "[ï]"
+    hint: un « y » très bref, comme dans « paille »
+    warning: И avec un petit arc dessus ; on l'appelle « i bref »
+    example: музей
+    example_fr: musée
+  - id: l-eh
+    upper: Э
+    lower: э
+    sound: "[è]"
+    hint: comme le « è » de « mère »
+    example: это
+    example_fr: c'est, ceci
+items:
+  - { id: bank, ru: банк, fr: banque }
+  - { id: kafe, ru: кафе, fr: café (le lieu) }
+  - { id: foto, ru: фото, fr: photo }
+  - { id: futbol, ru: футбол, fr: football }
+  - { id: muzei, ru: музей, fr: musée }
+  - { id: gde, ru: где, fr: où }
+  - { id: eto, ru: это, fr: "c'est, ceci" }
+  - { id: moi, ru: мой, fr: mon }

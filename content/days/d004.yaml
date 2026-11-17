@@ -1,0 +1,48 @@
+day: 4
+letters:
+  - id: l-i
+    upper: И
+    lower: и
+    sound: "[i]"
+    hint: comme le « i » de « midi »
+    warning: ce n'est pas un « N » à l'envers — И se prononce [i]
+    example: кино
+    example_fr: cinéma
+  - id: l-l
+    upper: Л
+    lower: л
+    sound: "[l]"
+    hint: un « l » plus sombre qu'en français, la langue un peu en arrière
+    example: лимон
+    example_fr: citron
+  - id: l-p
+    upper: П
+    lower: п
+    sound: "[p]"
+    hint: comme le « p » de « papa »
+    example: парк
+    example_fr: parc
+  - id: l-d
+    upper: Д
+    lower: д
+    sound: "[d]"
+    hint: comme le « d » de « dos »
+    example: дом
+    example_fr: maison
+  - id: l-z
+    upper: З
+    lower: з
+    sound: "[z]"
+    hint: comme le « z » de « zéro »
+    warning: ressemble au chiffre 3, mais se prononce [z]
+    example: зонт
+    example_fr: parapluie
+items:
+  - { id: taksi, ru: такси, fr: taxi }
+  - { id: kino, ru: кино, fr: cinéma }
+  - { id: park, ru: парк, fr: parc }
+  - { id: dom, ru: дом, fr: maison }
+  - { id: sup, ru: суп, fr: soupe }
+  - { id: limon, ru: лимон, fr: citron }
+  - { id: i, ru: и, fr: et }
+  - { id: da, ru: да, fr: oui }

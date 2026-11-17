@@ -1,0 +1,47 @@
+day: 6
+letters:
+  - id: l-zh
+    upper: Ж
+    lower: ж
+    sound: "[j]"
+    hint: comme le « j » de « jour »
+    example: журнал
+    example_fr: magazine
+  - id: l-sh
+    upper: Ш
+    lower: ш
+    sound: "[ch]"
+    hint: comme le « ch » de « chat »
+    example: шоколад
+    example_fr: chocolat
+  - id: l-ch
+    upper: Ч
+    lower: ч
+    sound: "[tch]"
+    hint: comme le « tch » de « tchèque »
+    warning: ressemble à un 4 ; se prononce [tch]
+    example: чай
+    example_fr: thé
+  - id: l-shch
+    upper: Щ
+    lower: щ
+    sound: "[chtch]"
+    hint: un « ch » long et doux, la langue plus en avant que pour Ш
+    warning: Щ a une petite queue en bas, Ш n'en a pas
+    example: борщ
+    example_fr: bortsch
+  - id: l-ts
+    upper: Ц
+    lower: ц
+    sound: "[ts]"
+    hint: comme le « ts » de « tsar »
+    example: пицца
+    example_fr: pizza
+items:
+  - { id: chai, ru: чай, fr: thé }
+  - { id: zhurnal, ru: журнал, fr: magazine }
+  - { id: shokolad, ru: шоколад, fr: chocolat }
+  - { id: pitstsa, ru: пицца, fr: pizza }
+  - { id: borshch, ru: борщ, fr: bortsch }
+  - { id: chto, ru: что, fr: "quoi, que", note: "se prononce [chto]" }
+  - { id: khorosho, ru: хорошо, fr: bien }

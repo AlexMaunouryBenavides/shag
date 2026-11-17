@@ -153,7 +153,16 @@ def load_program(root: Path = CONTENT) -> Program:
     return program
 
 
+ITEM_KEYS = {"id", "ru", "fr", "note", "answers", "example", "example_fr", "translit", "kind",
+             "upper", "lower", "sound", "hint", "warning"}
+
+
 def _item(raw: dict, day: int, where: str, kind: str | None = None) -> Item:
+    unknown = set(raw) - ITEM_KEYS
+    if unknown:
+        raise ContentError(
+            f"{where} {raw.get('id')} : clé(s) inattendue(s) {sorted(map(str, unknown))} — "
+            "une virgule dans une valeur doit être entre guillemets")
     iid = _require(raw, "id", where)
     _check_id(iid, where)
     ru = _require(raw, "ru", f"{where} {iid}")
