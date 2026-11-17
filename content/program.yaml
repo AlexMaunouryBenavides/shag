@@ -1,0 +1,180 @@
+# Programme de Шаг : 140 jours de programme, de zéro à A1 solide + une bonne partie de l'A2.
+#
+# kind :  alphabet | survival | bilan | normal | consolidation (sans nouveaux éléments)
+# slot5 : grammar | fluency  — 5ᵉ unité d'un jour normal (grammaire si le jour introduit une règle)
+# slot8 : write | speak      — 8ᵉ unité d'un jour normal (en alternance)
+# Rythme visé : ~9–10 nouveaux éléments par jour d'enseignement (plafond 12),
+#               ~385 éléments en phase 1, ~650 en phase 2.
+
+phases:
+  - id: 0
+    title: L'alphabet
+    days: [1, 10]
+    goals:
+      - lire et taper le cyrillique
+      - comprendre l'accent tonique
+      - dire bonjour, merci, ça va ?
+  - id: 1
+    title: Les fondations
+    days: [11, 55]
+    goals:
+      - se présenter et discuter simplement par messages
+      - le présent, le passé, « où ? » (prépositionnel)
+      - ~385 mots et expressions
+  - id: 2
+    title: Les cas et le mouvement
+    days: [56, 140]
+    goals:
+      - les 6 cas au singulier, l'aspect, le futur
+      - les verbes de mouvement, l'impératif
+      - ~650 mots et expressions de plus
+
+# Noms propres admis sans être introduits comme éléments (les personnages sont ajoutés automatiquement).
+proper_nouns: []
+
+days:
+  # --- Phase 0 : l'alphabet --------------------------------------------------------------
+  - { day: 1, kind: alphabet, theme: "А О К М Т" }
+  - { day: 2, kind: alphabet, theme: "Р Н В С — les faux amis" }
+  - { day: 3, kind: alphabet, theme: "Е У Х" }
+  - { day: 4, kind: alphabet, theme: "И Л П Д З" }
+  - { day: 5, kind: alphabet, theme: "Б Г Ф Й Э" }
+  - { day: 6, kind: alphabet, theme: "Ж Ш Ч Щ Ц" }
+  - { day: 7, kind: alphabet, theme: "Я Ю Ё Ы Ь Ъ" }
+  - { day: 8, kind: alphabet, theme: "L'accent tonique" }
+  - { day: 9, kind: survival, theme: "Premiers mots" }
+  - { day: 10, kind: bilan, theme: "Bilan de l'alphabet" }
+
+  # --- Phase 1 : les fondations ----------------------------------------------------------
+  - { day: 11, theme: "Saluer et se présenter", slot5: grammar, slot8: speak }
+  - { day: 12, theme: "Comment ça va ?", slot5: fluency, slot8: write }
+  - { day: 13, theme: "La politesse", slot5: fluency, slot8: speak }
+  - { day: 14, kind: consolidation, theme: "Consolidation" }
+  - { day: 15, theme: "Au café", slot5: grammar, slot8: write }
+  - { day: 16, theme: "Qu'est-ce que c'est ?", slot5: grammar, slot8: speak }
+  - { day: 17, theme: "Le genre des mots", slot5: grammar, slot8: write }
+  - { day: 18, theme: "Mes affaires", slot5: grammar, slot8: speak }
+  - { day: 19, theme: "La famille", slot5: fluency, slot8: write }
+  - { day: 20, theme: "Où est… ?", slot5: grammar, slot8: speak }
+  - { day: 21, kind: consolidation, theme: "Consolidation" }
+  - { day: 22, theme: "Les chiffres et l'âge", slot5: grammar, slot8: write }
+  - { day: 23, theme: "Plusieurs choses", slot5: grammar, slot8: speak }
+  - { day: 24, theme: "Au marché", slot5: fluency, slot8: write }
+  - { day: 25, theme: "Les langues", slot5: fluency, slot8: speak }
+  - { day: 26, theme: "Ce que je fais", slot5: grammar, slot8: write }
+  - { day: 27, theme: "Le travail et les études", slot5: fluency, slot8: speak }
+  - { day: 28, kind: consolidation, theme: "Consolidation" }
+  - { day: 29, theme: "J'aime…", slot5: fluency, slot8: write }
+  - { day: 30, theme: "Parler et dire", slot5: grammar, slot8: speak }
+  - { day: 31, theme: "Les loisirs", slot5: fluency, slot8: write }
+  - { day: 32, theme: "Ma journée", slot5: fluency, slot8: speak }
+  - { day: 33, theme: "Lire et écrire des messages", slot5: fluency, slot8: write }
+  - { day: 34, theme: "Tu ou vous ?", slot5: grammar, slot8: speak }
+  - { day: 35, kind: consolidation, theme: "Consolidation" }
+  - { day: 36, theme: "Grand, petit, bon", slot5: grammar, slot8: write }
+  - { day: 37, theme: "Ma ville", slot5: fluency, slot8: speak }
+  - { day: 38, theme: "Vouloir et pouvoir", slot5: grammar, slot8: write }
+  - { day: 39, theme: "Qui ? Quoi ? Pourquoi ?", slot5: grammar, slot8: speak }
+  - { day: 40, theme: "La nourriture", slot5: fluency, slot8: write }
+  - { day: 41, theme: "J'habite à…", slot5: grammar, slot8: speak }
+  - { day: 42, kind: consolidation, theme: "Consolidation" }
+  - { day: 43, theme: "Au travail, à la maison", slot5: grammar, slot8: write }
+  - { day: 44, theme: "Les pays et les villes", slot5: fluency, slot8: speak }
+  - { day: 45, theme: "Parler de quelque chose", slot5: grammar, slot8: write }
+  - { day: 46, theme: "Les transports", slot5: fluency, slot8: speak }
+  - { day: 47, theme: "Le temps qu'il fait", slot5: fluency, slot8: write }
+  - { day: 48, theme: "Hier : le passé", slot5: grammar, slot8: speak }
+  - { day: 49, kind: consolidation, theme: "Consolidation" }
+  - { day: 50, theme: "Qu'as-tu fait hier ?", slot5: grammar, slot8: write }
+  - { day: 51, theme: "Les chiffres jusqu'à 100", slot5: grammar, slot8: speak }
+  - { day: 52, theme: "Quelle heure est-il ?", slot5: grammar, slot8: write }
+  - { day: 53, theme: "Le week-end dernier", slot5: fluency, slot8: speak }
+  - { day: 54, theme: "Raconter sa journée", slot5: fluency, slot8: write }
+  - { day: 55, theme: "Discuter sur HelloTalk", slot5: grammar, slot8: speak }
+
+  # --- Phase 2 : les cas et le mouvement -------------------------------------------------
+  - { day: 56, kind: consolidation, theme: "Retour sur la phase 1" }
+  - { day: 57, theme: "Je vois, je lis : l'accusatif", slot5: grammar, slot8: write }
+  - { day: 58, theme: "Faire les courses", slot5: fluency, slot8: speak }
+  - { day: 59, theme: "Lire et regarder", slot5: fluency, slot8: write }
+  - { day: 60, theme: "L'accusatif en -у / -ю", slot5: grammar, slot8: speak }
+  - { day: 61, theme: "Au restaurant", slot5: fluency, slot8: write }
+  - { day: 62, theme: "Voir quelqu'un : l'accusatif animé", slot5: grammar, slot8: speak }
+  - { day: 63, kind: consolidation, theme: "Consolidation" }
+  - { day: 64, theme: "Inviter quelqu'un", slot5: fluency, slot8: write }
+  - { day: 65, theme: "Les vêtements", slot5: fluency, slot8: speak }
+  - { day: 66, theme: "Demain : le futur", slot5: grammar, slot8: write }
+  - { day: 67, theme: "Les jours de la semaine", slot5: grammar, slot8: speak }
+  - { day: 68, theme: "Les projets", slot5: fluency, slot8: write }
+  - { day: 69, theme: "Les vacances", slot5: fluency, slot8: speak }
+  - { day: 70, kind: consolidation, theme: "Consolidation" }
+  - { day: 71, theme: "Le corps et la santé", slot5: fluency, slot8: write }
+  - { day: 72, theme: "Chez le médecin", slot5: fluency, slot8: speak }
+  - { day: 73, theme: "Les saisons et les mois", slot5: fluency, slot8: write }
+  - { day: 74, theme: "Les fêtes", slot5: fluency, slot8: speak }
+  - { day: 75, theme: "Le téléphone et internet", slot5: fluency, slot8: write }
+  - { day: 76, theme: "Il n'y a pas : le génitif", slot5: grammar, slot8: speak }
+  - { day: 77, kind: consolidation, theme: "Consolidation" }
+  - { day: 78, theme: "J'ai, je n'ai pas", slot5: grammar, slot8: write }
+  - { day: 79, theme: "La maison et les meubles", slot5: fluency, slot8: speak }
+  - { day: 80, theme: "Beaucoup, peu", slot5: grammar, slot8: write }
+  - { day: 81, theme: "Combien ?", slot5: grammar, slot8: speak }
+  - { day: 82, theme: "D'où viens-tu ?", slot5: grammar, slot8: write }
+  - { day: 83, theme: "Les dates et les anniversaires", slot5: fluency, slot8: speak }
+  - { day: 84, kind: consolidation, theme: "Consolidation" }
+  - { day: 85, theme: "Les études", slot5: fluency, slot8: write }
+  - { day: 86, theme: "Le métier", slot5: fluency, slot8: speak }
+  - { day: 87, theme: "Les animaux", slot5: fluency, slot8: write }
+  - { day: 88, theme: "Faire et avoir fait : l'aspect", slot5: grammar, slot8: speak }
+  - { day: 89, theme: "Finir quelque chose", slot5: grammar, slot8: write }
+  - { day: 90, theme: "Les tâches de la maison", slot5: fluency, slot8: speak }
+  - { day: 91, kind: consolidation, theme: "Consolidation" }
+  - { day: 92, theme: "Je le ferai : le futur perfectif", slot5: grammar, slot8: write }
+  - { day: 93, theme: "Promesses et plans", slot5: fluency, slot8: speak }
+  - { day: 94, theme: "Une histoire au passé", slot5: fluency, slot8: write }
+  - { day: 95, theme: "Le sport", slot5: fluency, slot8: speak }
+  - { day: 96, theme: "La musique", slot5: fluency, slot8: write }
+  - { day: 97, theme: "Sortir le soir", slot5: fluency, slot8: speak }
+  - { day: 98, kind: consolidation, theme: "Consolidation" }
+  - { day: 99, theme: "Aller à pied : идти / ходить", slot5: grammar, slot8: write }
+  - { day: 100, theme: "Aller en transport : ехать / ездить", slot5: grammar, slot8: speak }
+  - { day: 101, theme: "Où vas-tu ?", slot5: grammar, slot8: write }
+  - { day: 102, theme: "S'orienter en ville", slot5: fluency, slot8: speak }
+  - { day: 103, theme: "Voyager", slot5: fluency, slot8: write }
+  - { day: 104, theme: "À la gare et à l'aéroport", slot5: fluency, slot8: speak }
+  - { day: 105, kind: consolidation, theme: "Consolidation" }
+  - { day: 106, theme: "À l'hôtel", slot5: fluency, slot8: write }
+  - { day: 107, theme: "Raconter un voyage", slot5: fluency, slot8: speak }
+  - { day: 108, theme: "À qui ? Le datif", slot5: grammar, slot8: write }
+  - { day: 109, theme: "Ça me plaît", slot5: grammar, slot8: speak }
+  - { day: 110, theme: "Offrir un cadeau", slot5: fluency, slot8: write }
+  - { day: 111, theme: "Aller chez quelqu'un", slot5: grammar, slot8: speak }
+  - { day: 112, kind: consolidation, theme: "Consolidation" }
+  - { day: 113, theme: "Il faut, on peut", slot5: grammar, slot8: write }
+  - { day: 114, theme: "Les émotions", slot5: fluency, slot8: speak }
+  - { day: 115, theme: "Les amis", slot5: fluency, slot8: write }
+  - { day: 116, theme: "Les âges de la vie", slot5: fluency, slot8: speak }
+  - { day: 117, theme: "Donner des conseils", slot5: fluency, slot8: write }
+  - { day: 118, theme: "Avec qui ? L'instrumental", slot5: grammar, slot8: speak }
+  - { day: 119, kind: consolidation, theme: "Consolidation" }
+  - { day: 120, theme: "Devenir, être quelqu'un", slot5: grammar, slot8: write }
+  - { day: 121, theme: "S'intéresser à…", slot5: grammar, slot8: speak }
+  - { day: 122, theme: "En cuisine", slot5: fluency, slot8: write }
+  - { day: 123, theme: "Les relations", slot5: fluency, slot8: speak }
+  - { day: 124, theme: "Le caractère", slot5: fluency, slot8: write }
+  - { day: 125, theme: "Les rêves", slot5: fluency, slot8: speak }
+  - { day: 126, kind: consolidation, theme: "Consolidation" }
+  - { day: 127, theme: "Comparer", slot5: grammar, slot8: write }
+  - { day: 128, theme: "Les verbes en -ся", slot5: grammar, slot8: speak }
+  - { day: 129, theme: "Ma routine", slot5: fluency, slot8: write }
+  - { day: 130, theme: "Donne, dis, appelle : l'impératif", slot5: grammar, slot8: speak }
+  - { day: 131, theme: "Demander un service", slot5: fluency, slot8: write }
+  - { day: 132, theme: "Rendez-vous et invitations", slot5: fluency, slot8: speak }
+  - { day: 133, kind: consolidation, theme: "Consolidation" }
+  - { day: 134, theme: "Raconter une histoire", slot5: fluency, slot8: write }
+  - { day: 135, theme: "Parler de soi", slot5: fluency, slot8: speak }
+  - { day: 136, kind: consolidation, theme: "Révision générale" }
+  - { day: 137, kind: consolidation, theme: "Révision générale" }
+  - { day: 138, kind: consolidation, theme: "Révision générale" }
+  - { day: 139, kind: consolidation, theme: "Révision générale" }
+  - { day: 140, kind: consolidation, theme: "Bilan final" }

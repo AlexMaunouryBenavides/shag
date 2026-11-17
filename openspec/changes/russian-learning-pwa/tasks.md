@@ -4,20 +4,20 @@
 - [x] 1.2 Créer le dépôt GitHub public et configurer dès le départ le déploiement GitHub Pages par GitHub Action (build Vite, `base` = sous-chemin du dépôt, scope/start_url du manifeste, chemins du service worker et de l'audio) pour tester sur le téléphone tout au long du développement
 - [x] 1.3 Initialiser l'environnement Python du pipeline (`tools/`, `requirements.txt` : pymorphy3, PyYAML, pytest) et un script de téléchargement des données (OpenRussian, Tatoeba rus–fra) vers `data/` (non versionné) ; Lingua Libre est interrogé mot par mot lors de la génération audio (pas d'index)
 - [x] 1.4 Spike Piper : générer des échantillons avec les voix russes disponibles, tester la prise en compte des accents fournis, choisir 2–3 voix
-- [ ] 1.5 Spike SQLite-wasm `opfs-sahpool` dans un Worker sur le téléphone Android réel (création, écriture, relecture après fermeture, export du fichier)
+- [x] 1.5 Spike SQLite-wasm `opfs-sahpool` dans un Worker sur le téléphone Android réel (création, écriture, relecture après fermeture, export du fichier)
 - [x] 1.6 Spike typographie : tester le rendu de l'accent U+0301 avec 3 polices candidates sur le téléphone, choisir et auto-héberger la police
 
 ## 2. Pipeline de contenu (socle)
 
-- [ ] 2.1 Définir les schémas YAML (programme, vocabulaire, dialogues, grammaire, alphabet, exercices) avec identifiants stables
-- [ ] 2.2 Implémenter le chargement et la validation structurelle des sources (`build_content.py`), y compris le plafond de 12 nouveaux éléments par jour et les jours de consolidation sans nouveaux éléments
-- [ ] 2.3 Implémenter la lemmatisation et la vérification de gradation (≥95 %, nouveaux mots déclarés, rapport d'erreur fichier/phrase/mot) + tests pytest
-- [ ] 2.4 Implémenter l'accentuation depuis OpenRussian avec signalement des ambiguïtés et annotations manuelles (`stress.py`) + tests pytest
-- [ ] 2.5 Implémenter la génération audio Piper → Opus avec cache par hash (`tts.py`)
-- [ ] 2.6 Implémenter la substitution audio par un enregistrement humain Lingua Libre pour les mots isolés marqués comme mal prononcés par Piper (liste d'exceptions), avec attribution
-- [ ] 2.7 Produire le paquet `public/content/pack.json` versionné (avec le dernier jour publié) + audio découpé par phase
-- [ ] 2.8 Implémenter l'export pour relecture native (`export_review.py`)
-- [ ] 2.9 Implémenter la lecture des signalements ⚑ depuis un fichier de sauvegarde exporté (`read_flags.py`) pour lister les éléments à corriger
+- [x] 2.1 Définir les schémas YAML (programme, vocabulaire, dialogues, grammaire, alphabet, exercices) avec identifiants stables
+- [x] 2.2 Implémenter le chargement et la validation structurelle des sources (`build_content.py`), y compris le plafond de 12 nouveaux éléments par jour et les jours de consolidation sans nouveaux éléments
+- [x] 2.3 Implémenter la lemmatisation et la vérification de gradation (≥95 %, nouveaux mots déclarés, rapport d'erreur fichier/phrase/mot) + tests pytest
+- [x] 2.4 Implémenter l'accentuation depuis OpenRussian avec signalement des ambiguïtés et annotations manuelles (`stress.py`) + tests pytest
+- [x] 2.5 Implémenter la génération audio Piper → Opus avec cache par hash (`tts.py`)
+- [x] 2.6 Implémenter la substitution audio par un enregistrement humain Lingua Libre pour les mots isolés marqués comme mal prononcés par Piper (liste d'exceptions), avec attribution
+- [x] 2.7 Produire le paquet `public/content/pack.json` versionné (avec le dernier jour publié) + audio découpé par phase
+- [x] 2.8 Implémenter l'export pour relecture native (`export_review.py`)
+- [x] 2.9 Implémenter la lecture des signalements ⚑ depuis un fichier de sauvegarde exporté (`read_flags.py`) pour lister les éléments à corriger
 
 ## 3. Couche de données locale
 
@@ -71,7 +71,7 @@
 
 ## 8. Jalon 1 — Contenu « je peux commencer »
 
-- [ ] 8.1 Concevoir la structure complète du programme (`program.yaml`) : 140 jours, thèmes, répartition des unités, progression grammaticale « bloc d'abord, règle ensuite », jours de consolidation, liste de fréquence de référence
+- [x] 8.1 Concevoir la structure complète du programme (`program.yaml`) : 140 jours, thèmes, répartition des unités, progression grammaticale « bloc d'abord, règle ensuite », jours de consolidation, liste de fréquence de référence
 - [ ] 8.2 Rédiger la phase 0 (jours 1–10 : lettres, mots utiles, accent tonique, clavier, mots de survie, bilan) et la faire passer la validation
 - [ ] 8.3 Rédiger les personnages récurrents et les jours 11–24 de la phase 1, validés par le pipeline
 - [ ] 8.4 Générer l'audio du jalon 1, écouter un échantillon et corriger les accents (exceptions Lingua Libre si nécessaire)

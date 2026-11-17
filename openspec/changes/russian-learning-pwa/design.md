@@ -118,18 +118,20 @@ Python car les meilleurs outils de morphologie russe y sont (`pymorphy3`). Sourc
 
 ```
 content/
-  program.yaml          # phases, jours, unités
-  vocab/*.yaml          # lemmes : id, mot, traduction, accent, notes, jour d'introduction
-  dialogues/*.yaml      # personnages, messages, mots nouveaux déclarés
-  grammar/*.yaml        # points de grammaire + exercices
-  alphabet.yaml
+  program.yaml          # phases + squelette des 140 jours (thème, type, slot5/slot8)
+  characters.yaml       # personnages récurrents
+  stress.yaml           # formes accentuées faisant autorité (noms propres, ambiguïtés)
+  audio_exceptions.yaml # mots à remplacer par un enregistrement Lingua Libre
+  days/dNNN.yaml        # un fichier par jour : lettres, éléments, dialogue, grammaire, exercices
 tools/
-  build_content.py      # valide + compile → public/content/pack.json
-  stress.py             # accentuation via dictionnaire OpenRussian
-  tts.py                # Piper → .opus, cache par hash du texte
-  export_review.py      # export pour relecture native
+  build_content.py      # valide + compile → public/content/pack.json (+ audio)
+  shag/                 # model, grading (pymorphy3), stress (OpenRussian), translit, units, tts, lingualibre
+  export_review.py      # export Markdown pour relecture native
+  read_flags.py         # lecture des signalements ⚑ d'une sauvegarde
 data/                   # dumps OpenRussian, Tatoeba (non versionnés, téléchargés par script)
 ```
+
+Un fichier par jour (plutôt qu'un fichier par type de contenu) : le jour est l'unité de rédaction, de relecture et de publication. Le pipeline compose aussi les unités de chaque jour (gabarits par type de jour) et génère les exercices automatiques (écoute, oral, remise en ordre, phrases à trou du SRS) ; le paquet contient donc des unités entièrement résolues, et l'app ne compose dynamiquement que les révisions SRS.
 
 Étapes de validation (le build échoue au moindre écart) : lemmatisation → vérification que chaque lemme est introduit à un jour ≤ jour courant (≥95 %, nouveaux mots déclarés) → accentuation depuis OpenRussian, ambiguïtés exigeant une annotation manuelle → unicité et stabilité des identifiants.
 

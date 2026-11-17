@@ -1,0 +1,45 @@
+day: 1
+letters:
+  - id: l-a
+    upper: А
+    lower: а
+    sound: "[a]"
+    hint: comme le « a » de « papa »
+    example: мама
+    example_fr: maman
+  - id: l-o
+    upper: О
+    lower: о
+    sound: "[o]"
+    hint: comme le « o » de « pomme » quand il est accentué ; sinon il se rapproche de [a] (on verra ça au jour 8)
+    example: кот
+    example_fr: chat
+  - id: l-k
+    upper: К
+    lower: к
+    sound: "[k]"
+    hint: comme le « k » de « kilo »
+    example: кот
+    example_fr: chat
+  - id: l-m
+    upper: М
+    lower: м
+    sound: "[m]"
+    hint: comme le « m » de « maman »
+    warning: la minuscule м reste une petite majuscule, sans jambage arrondi
+    example: мама
+    example_fr: maman
+  - id: l-t
+    upper: Т
+    lower: т
+    sound: "[t]"
+    hint: comme le « t » de « tasse »
+    warning: la minuscule т ressemble à une petite majuscule — ce n'est pas un « m »
+    example: там
+    example_fr: là-bas
+items:
+  - { id: mama, ru: мама, fr: maman }
+  - { id: kot, ru: кот, fr: chat }
+  - { id: tam, ru: там, fr: là-bas }
+  - { id: tak, ru: так, fr: ainsi, comme ça }
+  - { id: kto, ru: кто, fr: qui }

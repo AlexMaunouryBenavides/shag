@@ -1,0 +1,7 @@
+# Personnages récurrents des dialogues (une seule voix, irina, pour tout l'audio).
+masha:
+  name: Маша
+  bio: "Étudiante à Moscou, 24 ans, adore le café et les séries."
+anton:
+  name: Антон
+  bio: "Développeur à Saint-Pétersbourg, 28 ans, ami de Masha, apprend le français."

@@ -1,0 +1,1129 @@
+{
+ "version": "253f6fb7703e",
+ "phases": [
+  {
+   "id": 0,
+   "title": "L'alphabet",
+   "goals": [
+    "lire et taper le cyrillique",
+    "comprendre l'accent tonique",
+    "dire bonjour, merci, ça va ?"
+   ],
+   "firstDay": 1,
+   "lastDay": 10
+  },
+  {
+   "id": 1,
+   "title": "Les fondations",
+   "goals": [
+    "se présenter et discuter simplement par messages",
+    "le présent, le passé, « où ? » (prépositionnel)",
+    "~385 mots et expressions"
+   ],
+   "firstDay": 11,
+   "lastDay": 55
+  },
+  {
+   "id": 2,
+   "title": "Les cas et le mouvement",
+   "goals": [
+    "les 6 cas au singulier, l'aspect, le futur",
+    "les verbes de mouvement, l'impératif",
+    "~650 mots et expressions de plus"
+   ],
+   "firstDay": 56,
+   "lastDay": 140
+  }
+ ],
+ "plan": [
+  {
+   "day": 1,
+   "theme": "А О К М Т",
+   "kind": "alphabet"
+  },
+  {
+   "day": 2,
+   "theme": "Р Н В С — les faux amis",
+   "kind": "alphabet"
+  },
+  {
+   "day": 3,
+   "theme": "Е У Х",
+   "kind": "alphabet"
+  },
+  {
+   "day": 4,
+   "theme": "И Л П Д З",
+   "kind": "alphabet"
+  },
+  {
+   "day": 5,
+   "theme": "Б Г Ф Й Э",
+   "kind": "alphabet"
+  },
+  {
+   "day": 6,
+   "theme": "Ж Ш Ч Щ Ц",
+   "kind": "alphabet"
+  },
+  {
+   "day": 7,
+   "theme": "Я Ю Ё Ы Ь Ъ",
+   "kind": "alphabet"
+  },
+  {
+   "day": 8,
+   "theme": "L'accent tonique",
+   "kind": "alphabet"
+  },
+  {
+   "day": 9,
+   "theme": "Premiers mots",
+   "kind": "survival"
+  },
+  {
+   "day": 10,
+   "theme": "Bilan de l'alphabet",
+   "kind": "bilan"
+  },
+  {
+   "day": 11,
+   "theme": "Saluer et se présenter",
+   "kind": "normal"
+  },
+  {
+   "day": 12,
+   "theme": "Comment ça va ?",
+   "kind": "normal"
+  },
+  {
+   "day": 13,
+   "theme": "La politesse",
+   "kind": "normal"
+  },
+  {
+   "day": 14,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 15,
+   "theme": "Au café",
+   "kind": "normal"
+  },
+  {
+   "day": 16,
+   "theme": "Qu'est-ce que c'est ?",
+   "kind": "normal"
+  },
+  {
+   "day": 17,
+   "theme": "Le genre des mots",
+   "kind": "normal"
+  },
+  {
+   "day": 18,
+   "theme": "Mes affaires",
+   "kind": "normal"
+  },
+  {
+   "day": 19,
+   "theme": "La famille",
+   "kind": "normal"
+  },
+  {
+   "day": 20,
+   "theme": "Où est… ?",
+   "kind": "normal"
+  },
+  {
+   "day": 21,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 22,
+   "theme": "Les chiffres et l'âge",
+   "kind": "normal"
+  },
+  {
+   "day": 23,
+   "theme": "Plusieurs choses",
+   "kind": "normal"
+  },
+  {
+   "day": 24,
+   "theme": "Au marché",
+   "kind": "normal"
+  },
+  {
+   "day": 25,
+   "theme": "Les langues",
+   "kind": "normal"
+  },
+  {
+   "day": 26,
+   "theme": "Ce que je fais",
+   "kind": "normal"
+  },
+  {
+   "day": 27,
+   "theme": "Le travail et les études",
+   "kind": "normal"
+  },
+  {
+   "day": 28,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 29,
+   "theme": "J'aime…",
+   "kind": "normal"
+  },
+  {
+   "day": 30,
+   "theme": "Parler et dire",
+   "kind": "normal"
+  },
+  {
+   "day": 31,
+   "theme": "Les loisirs",
+   "kind": "normal"
+  },
+  {
+   "day": 32,
+   "theme": "Ma journée",
+   "kind": "normal"
+  },
+  {
+   "day": 33,
+   "theme": "Lire et écrire des messages",
+   "kind": "normal"
+  },
+  {
+   "day": 34,
+   "theme": "Tu ou vous ?",
+   "kind": "normal"
+  },
+  {
+   "day": 35,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 36,
+   "theme": "Grand, petit, bon",
+   "kind": "normal"
+  },
+  {
+   "day": 37,
+   "theme": "Ma ville",
+   "kind": "normal"
+  },
+  {
+   "day": 38,
+   "theme": "Vouloir et pouvoir",
+   "kind": "normal"
+  },
+  {
+   "day": 39,
+   "theme": "Qui ? Quoi ? Pourquoi ?",
+   "kind": "normal"
+  },
+  {
+   "day": 40,
+   "theme": "La nourriture",
+   "kind": "normal"
+  },
+  {
+   "day": 41,
+   "theme": "J'habite à…",
+   "kind": "normal"
+  },
+  {
+   "day": 42,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 43,
+   "theme": "Au travail, à la maison",
+   "kind": "normal"
+  },
+  {
+   "day": 44,
+   "theme": "Les pays et les villes",
+   "kind": "normal"
+  },
+  {
+   "day": 45,
+   "theme": "Parler de quelque chose",
+   "kind": "normal"
+  },
+  {
+   "day": 46,
+   "theme": "Les transports",
+   "kind": "normal"
+  },
+  {
+   "day": 47,
+   "theme": "Le temps qu'il fait",
+   "kind": "normal"
+  },
+  {
+   "day": 48,
+   "theme": "Hier : le passé",
+   "kind": "normal"
+  },
+  {
+   "day": 49,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 50,
+   "theme": "Qu'as-tu fait hier ?",
+   "kind": "normal"
+  },
+  {
+   "day": 51,
+   "theme": "Les chiffres jusqu'à 100",
+   "kind": "normal"
+  },
+  {
+   "day": 52,
+   "theme": "Quelle heure est-il ?",
+   "kind": "normal"
+  },
+  {
+   "day": 53,
+   "theme": "Le week-end dernier",
+   "kind": "normal"
+  },
+  {
+   "day": 54,
+   "theme": "Raconter sa journée",
+   "kind": "normal"
+  },
+  {
+   "day": 55,
+   "theme": "Discuter sur HelloTalk",
+   "kind": "normal"
+  },
+  {
+   "day": 56,
+   "theme": "Retour sur la phase 1",
+   "kind": "consolidation"
+  },
+  {
+   "day": 57,
+   "theme": "Je vois, je lis : l'accusatif",
+   "kind": "normal"
+  },
+  {
+   "day": 58,
+   "theme": "Faire les courses",
+   "kind": "normal"
+  },
+  {
+   "day": 59,
+   "theme": "Lire et regarder",
+   "kind": "normal"
+  },
+  {
+   "day": 60,
+   "theme": "L'accusatif en -у / -ю",
+   "kind": "normal"
+  },
+  {
+   "day": 61,
+   "theme": "Au restaurant",
+   "kind": "normal"
+  },
+  {
+   "day": 62,
+   "theme": "Voir quelqu'un : l'accusatif animé",
+   "kind": "normal"
+  },
+  {
+   "day": 63,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 64,
+   "theme": "Inviter quelqu'un",
+   "kind": "normal"
+  },
+  {
+   "day": 65,
+   "theme": "Les vêtements",
+   "kind": "normal"
+  },
+  {
+   "day": 66,
+   "theme": "Demain : le futur",
+   "kind": "normal"
+  },
+  {
+   "day": 67,
+   "theme": "Les jours de la semaine",
+   "kind": "normal"
+  },
+  {
+   "day": 68,
+   "theme": "Les projets",
+   "kind": "normal"
+  },
+  {
+   "day": 69,
+   "theme": "Les vacances",
+   "kind": "normal"
+  },
+  {
+   "day": 70,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 71,
+   "theme": "Le corps et la santé",
+   "kind": "normal"
+  },
+  {
+   "day": 72,
+   "theme": "Chez le médecin",
+   "kind": "normal"
+  },
+  {
+   "day": 73,
+   "theme": "Les saisons et les mois",
+   "kind": "normal"
+  },
+  {
+   "day": 74,
+   "theme": "Les fêtes",
+   "kind": "normal"
+  },
+  {
+   "day": 75,
+   "theme": "Le téléphone et internet",
+   "kind": "normal"
+  },
+  {
+   "day": 76,
+   "theme": "Il n'y a pas : le génitif",
+   "kind": "normal"
+  },
+  {
+   "day": 77,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 78,
+   "theme": "J'ai, je n'ai pas",
+   "kind": "normal"
+  },
+  {
+   "day": 79,
+   "theme": "La maison et les meubles",
+   "kind": "normal"
+  },
+  {
+   "day": 80,
+   "theme": "Beaucoup, peu",
+   "kind": "normal"
+  },
+  {
+   "day": 81,
+   "theme": "Combien ?",
+   "kind": "normal"
+  },
+  {
+   "day": 82,
+   "theme": "D'où viens-tu ?",
+   "kind": "normal"
+  },
+  {
+   "day": 83,
+   "theme": "Les dates et les anniversaires",
+   "kind": "normal"
+  },
+  {
+   "day": 84,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 85,
+   "theme": "Les études",
+   "kind": "normal"
+  },
+  {
+   "day": 86,
+   "theme": "Le métier",
+   "kind": "normal"
+  },
+  {
+   "day": 87,
+   "theme": "Les animaux",
+   "kind": "normal"
+  },
+  {
+   "day": 88,
+   "theme": "Faire et avoir fait : l'aspect",
+   "kind": "normal"
+  },
+  {
+   "day": 89,
+   "theme": "Finir quelque chose",
+   "kind": "normal"
+  },
+  {
+   "day": 90,
+   "theme": "Les tâches de la maison",
+   "kind": "normal"
+  },
+  {
+   "day": 91,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 92,
+   "theme": "Je le ferai : le futur perfectif",
+   "kind": "normal"
+  },
+  {
+   "day": 93,
+   "theme": "Promesses et plans",
+   "kind": "normal"
+  },
+  {
+   "day": 94,
+   "theme": "Une histoire au passé",
+   "kind": "normal"
+  },
+  {
+   "day": 95,
+   "theme": "Le sport",
+   "kind": "normal"
+  },
+  {
+   "day": 96,
+   "theme": "La musique",
+   "kind": "normal"
+  },
+  {
+   "day": 97,
+   "theme": "Sortir le soir",
+   "kind": "normal"
+  },
+  {
+   "day": 98,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 99,
+   "theme": "Aller à pied : идти́ / ходи́ть",
+   "kind": "normal"
+  },
+  {
+   "day": 100,
+   "theme": "Aller en transport : е́хать / е́здить",
+   "kind": "normal"
+  },
+  {
+   "day": 101,
+   "theme": "Où vas-tu ?",
+   "kind": "normal"
+  },
+  {
+   "day": 102,
+   "theme": "S'orienter en ville",
+   "kind": "normal"
+  },
+  {
+   "day": 103,
+   "theme": "Voyager",
+   "kind": "normal"
+  },
+  {
+   "day": 104,
+   "theme": "À la gare et à l'aéroport",
+   "kind": "normal"
+  },
+  {
+   "day": 105,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 106,
+   "theme": "À l'hôtel",
+   "kind": "normal"
+  },
+  {
+   "day": 107,
+   "theme": "Raconter un voyage",
+   "kind": "normal"
+  },
+  {
+   "day": 108,
+   "theme": "À qui ? Le datif",
+   "kind": "normal"
+  },
+  {
+   "day": 109,
+   "theme": "Ça me plaît",
+   "kind": "normal"
+  },
+  {
+   "day": 110,
+   "theme": "Offrir un cadeau",
+   "kind": "normal"
+  },
+  {
+   "day": 111,
+   "theme": "Aller chez quelqu'un",
+   "kind": "normal"
+  },
+  {
+   "day": 112,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 113,
+   "theme": "Il faut, on peut",
+   "kind": "normal"
+  },
+  {
+   "day": 114,
+   "theme": "Les émotions",
+   "kind": "normal"
+  },
+  {
+   "day": 115,
+   "theme": "Les amis",
+   "kind": "normal"
+  },
+  {
+   "day": 116,
+   "theme": "Les âges de la vie",
+   "kind": "normal"
+  },
+  {
+   "day": 117,
+   "theme": "Donner des conseils",
+   "kind": "normal"
+  },
+  {
+   "day": 118,
+   "theme": "Avec qui ? L'instrumental",
+   "kind": "normal"
+  },
+  {
+   "day": 119,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 120,
+   "theme": "Devenir, être quelqu'un",
+   "kind": "normal"
+  },
+  {
+   "day": 121,
+   "theme": "S'intéresser à…",
+   "kind": "normal"
+  },
+  {
+   "day": 122,
+   "theme": "En cuisine",
+   "kind": "normal"
+  },
+  {
+   "day": 123,
+   "theme": "Les relations",
+   "kind": "normal"
+  },
+  {
+   "day": 124,
+   "theme": "Le caractère",
+   "kind": "normal"
+  },
+  {
+   "day": 125,
+   "theme": "Les rêves",
+   "kind": "normal"
+  },
+  {
+   "day": 126,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 127,
+   "theme": "Comparer",
+   "kind": "normal"
+  },
+  {
+   "day": 128,
+   "theme": "Les verbes en -ся",
+   "kind": "normal"
+  },
+  {
+   "day": 129,
+   "theme": "Ma routine",
+   "kind": "normal"
+  },
+  {
+   "day": 130,
+   "theme": "Donne, dis, appelle : l'impératif",
+   "kind": "normal"
+  },
+  {
+   "day": 131,
+   "theme": "Demander un service",
+   "kind": "normal"
+  },
+  {
+   "day": 132,
+   "theme": "Rendez-vous et invitations",
+   "kind": "normal"
+  },
+  {
+   "day": 133,
+   "theme": "Consolidation",
+   "kind": "consolidation"
+  },
+  {
+   "day": 134,
+   "theme": "Raconter une histoire",
+   "kind": "normal"
+  },
+  {
+   "day": 135,
+   "theme": "Parler de soi",
+   "kind": "normal"
+  },
+  {
+   "day": 136,
+   "theme": "Révision générale",
+   "kind": "consolidation"
+  },
+  {
+   "day": 137,
+   "theme": "Révision générale",
+   "kind": "consolidation"
+  },
+  {
+   "day": 138,
+   "theme": "Révision générale",
+   "kind": "consolidation"
+  },
+  {
+   "day": 139,
+   "theme": "Révision générale",
+   "kind": "consolidation"
+  },
+  {
+   "day": 140,
+   "theme": "Bilan final",
+   "kind": "consolidation"
+  }
+ ],
+ "characters": {
+  "masha": {
+   "name": "Маша"
+  },
+  "anton": {
+   "name": "Антон"
+  }
+ },
+ "lastDay": 1,
+ "items": {
+  "l-a": {
+   "id": "l-a",
+   "day": 1,
+   "kind": "letter",
+   "ru": "А а",
+   "fr": "[a]",
+   "sound": "[a]",
+   "hint": "comme le « a » de « papa »",
+   "example": {
+    "ru": "ма́ма",
+    "fr": "maman",
+    "translit": "[máma]"
+   }
+  },
+  "l-o": {
+   "id": "l-o",
+   "day": 1,
+   "kind": "letter",
+   "ru": "О о",
+   "fr": "[o]",
+   "sound": "[o]",
+   "hint": "comme le « o » de « pomme » quand il est accentué ; sinon il se rapproche de [a] (on verra ça au jour 8)",
+   "example": {
+    "ru": "кот",
+    "fr": "chat",
+    "translit": "[kot]"
+   }
+  },
+  "l-k": {
+   "id": "l-k",
+   "day": 1,
+   "kind": "letter",
+   "ru": "К к",
+   "fr": "[k]",
+   "sound": "[k]",
+   "hint": "comme le « k » de « kilo »",
+   "example": {
+    "ru": "кот",
+    "fr": "chat",
+    "translit": "[kot]"
+   }
+  },
+  "l-m": {
+   "id": "l-m",
+   "day": 1,
+   "kind": "letter",
+   "ru": "М м",
+   "fr": "[m]",
+   "sound": "[m]",
+   "hint": "comme le « m » de « maman »",
+   "warning": "la minuscule м reste une petite majuscule, sans jambage arrondi",
+   "example": {
+    "ru": "ма́ма",
+    "fr": "maman",
+    "translit": "[máma]"
+   }
+  },
+  "l-t": {
+   "id": "l-t",
+   "day": 1,
+   "kind": "letter",
+   "ru": "Т т",
+   "fr": "[t]",
+   "sound": "[t]",
+   "hint": "comme le « t » de « tasse »",
+   "warning": "la minuscule т ressemble à une petite majuscule — ce n'est pas un « m »",
+   "example": {
+    "ru": "там",
+    "fr": "là-bas",
+    "translit": "[tam]"
+   }
+  },
+  "mama": {
+   "id": "mama",
+   "day": 1,
+   "kind": "word",
+   "ru": "ма́ма",
+   "fr": "maman",
+   "translit": "[máma]"
+  },
+  "kot": {
+   "id": "kot",
+   "day": 1,
+   "kind": "word",
+   "ru": "кот",
+   "fr": "chat",
+   "translit": "[kot]"
+  },
+  "tam": {
+   "id": "tam",
+   "day": 1,
+   "kind": "word",
+   "ru": "там",
+   "fr": "là-bas",
+   "translit": "[tam]"
+  },
+  "tak": {
+   "id": "tak",
+   "day": 1,
+   "kind": "word",
+   "ru": "так",
+   "fr": "ainsi",
+   "translit": "[tak]"
+  },
+  "kto": {
+   "id": "kto",
+   "day": 1,
+   "kind": "word",
+   "ru": "кто",
+   "fr": "qui",
+   "translit": "[kto]"
+  }
+ },
+ "days": [
+  {
+   "day": 1,
+   "phase": 0,
+   "theme": "А О К М Т",
+   "kind": "alphabet",
+   "items": [
+    "mama",
+    "kot",
+    "tam",
+    "tak",
+    "kto"
+   ],
+   "letters": [
+    "l-a",
+    "l-o",
+    "l-k",
+    "l-m",
+    "l-t"
+   ],
+   "units": [
+    {
+     "type": "letters",
+     "audio": false,
+     "letters": [
+      "l-a",
+      "l-o",
+      "l-k",
+      "l-m",
+      "l-t"
+     ]
+    },
+    {
+     "type": "read",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "read",
+       "ru": "ма́ма",
+       "options": [
+        "qui",
+        "ainsi",
+        "maman",
+        "là-bas"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "кот",
+       "options": [
+        "qui",
+        "maman",
+        "chat",
+        "ainsi"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "read",
+       "ru": "там",
+       "options": [
+        "maman",
+        "là-bas",
+        "chat",
+        "qui"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "read",
+       "ru": "так",
+       "options": [
+        "ainsi",
+        "chat",
+        "qui",
+        "là-bas"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "read",
+       "ru": "кто",
+       "options": [
+        "qui",
+        "maman",
+        "ainsi",
+        "là-bas"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "ма́ма",
+       "options": [
+        "там",
+        "кот",
+        "кто",
+        "ма́ма"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "кот",
+       "options": [
+        "кот",
+        "там",
+        "так",
+        "кто"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "там",
+       "options": [
+        "кто",
+        "там",
+        "так",
+        "кот"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "так",
+       "options": [
+        "ма́ма",
+        "так",
+        "кто",
+        "там"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "pick",
+       "ru": "кто",
+       "options": [
+        "кот",
+        "ма́ма",
+        "там",
+        "кто"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "type": "keyboard",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "copy",
+       "ru": "ма́ма",
+       "fr": "maman"
+      },
+      {
+       "t": "copy",
+       "ru": "кот",
+       "fr": "chat"
+      },
+      {
+       "t": "copy",
+       "ru": "там",
+       "fr": "là-bas"
+      },
+      {
+       "t": "copy",
+       "ru": "так",
+       "fr": "ainsi"
+      },
+      {
+       "t": "copy",
+       "ru": "кто",
+       "fr": "qui"
+      }
+     ]
+    },
+    {
+     "type": "speak-words",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "ма́ма",
+       "fr": "maman"
+      },
+      {
+       "t": "speak",
+       "ru": "кот",
+       "fr": "chat"
+      },
+      {
+       "t": "speak",
+       "ru": "там",
+       "fr": "là-bas"
+      },
+      {
+       "t": "speak",
+       "ru": "так",
+       "fr": "ainsi"
+      },
+      {
+       "t": "speak",
+       "ru": "кто",
+       "fr": "qui"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "audio": {
+  "ма́ма": "07b1c31f03c7f515.opus",
+  "кот": "b8401d84aaf62bbc.opus",
+  "там": "343d8a69a37ebbb6.opus",
+  "так": "b59d40adedb8b2ed.opus",
+  "кто": "fbe6eebf7a9a1951.opus"
+ },
+ "audioByPhase": {
+  "0": [
+   "07b1c31f03c7f515.opus",
+   "343d8a69a37ebbb6.opus",
+   "b59d40adedb8b2ed.opus",
+   "b8401d84aaf62bbc.opus",
+   "fbe6eebf7a9a1951.opus"
+  ]
+ },
+ "credits": [
+  {
+   "name": "OpenRussian",
+   "url": "https://en.openrussian.org",
+   "license": "CC BY-SA 4.0",
+   "use": "dictionnaire et accents toniques"
+  },
+  {
+   "name": "Tatoeba",
+   "url": "https://tatoeba.org",
+   "license": "CC BY 2.0 FR",
+   "use": "phrases d'exemple"
+  },
+  {
+   "name": "Piper (voix ru_RU-irina)",
+   "url": "https://github.com/rhasspy/piper",
+   "license": "MIT / voix libre",
+   "use": "synthèse vocale"
+  },
+  {
+   "name": "Noto Sans",
+   "url": "https://fonts.google.com/noto",
+   "license": "SIL Open Font License",
+   "use": "police"
+  }
+ ]
+}
