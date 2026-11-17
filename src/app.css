@@ -1,0 +1,9 @@
+/* Styles provisoires : la direction visuelle est définie à la tâche 5.1. */
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
