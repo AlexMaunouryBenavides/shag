@@ -1,9 +1,175 @@
-/* Styles provisoires : la direction visuelle est définie à la tâche 5.1. */
+/* Шаг — direction visuelle : le cahier d'écolier russe.
+   Papier froid, encre bleu-violet, marge rouge verticale, corrections au stylo rouge.
+   Toute l'audace est dans la marge ; le reste est sobre. */
+
+@import '@fontsource/noto-sans/cyrillic-400.css';
+@import '@fontsource/noto-sans/latin-400.css';
+@import '@fontsource/noto-sans/cyrillic-600.css';
+@import '@fontsource/noto-sans/latin-600.css';
+@import '@fontsource/noto-sans/cyrillic-700.css';
+@import '@fontsource/noto-sans/latin-700.css';
+
 :root {
   color-scheme: light dark;
-  font-family: system-ui, sans-serif;
+
+  --paper: #eef1f3;
+  --paper-raised: #f7f8f9;
+  --ink: #24307a;
+  --ink-soft: #3c4795;
+  --text: #1c2130;
+  --graphite: #5b6270;
+  --rule: #d5dae0;
+  --margin: #c8323a;
+  --ok: #24307a;
+  --almost: #b86a00;
+  --on-ink: #ffffff;
+
+  --font: 'Noto Sans', system-ui, sans-serif;
+  --s-14: 0.875rem;
+  --s-17: 1.0625rem;
+  --s-21: 1.3125rem;
+  --s-28: 1.75rem;
+  --s-44: 2.75rem;
+  --s-64: 4rem;
+
+  --margin-x: 64px; /* position de la marge rouge */
+  --gutter: 16px;
+  --line: 56px; /* hauteur d'une ligne de cahier */
+  --radius: 10px;
+
+  font-family: var(--font);
+  font-size: 100%;
+  line-height: 1.45;
+  color: var(--text);
+  background: var(--paper);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #141a26;
+    --paper-raised: #1b2231;
+    --ink: #9fb0ff;
+    --ink-soft: #b9c5ff;
+    --text: #e6e9ef;
+    --graphite: #98a0b0;
+    --rule: #2a3243;
+    --margin: #e05a62;
+    --ok: #9fb0ff;
+    --almost: #f0a640;
+    --on-ink: #141a26;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--paper);
 }
 
 body {
-  margin: 0;
+  overscroll-behavior: none;
+}
+
+/* Le russe n'est jamais en italique (les formes italiques т, и, д désorientent). */
+:lang(ru),
+.ru {
+  font-style: normal !important;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Page de cahier : la marge rouge court sur toute la hauteur. */
+.page {
+  position: relative;
+  min-height: 100dvh;
+  padding: env(safe-area-inset-top) var(--gutter) 0 calc(var(--margin-x) + var(--gutter));
+  display: flex;
+  flex-direction: column;
+}
+
+.page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--margin-x);
+  width: 2px;
+  background: var(--margin);
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+/* Bouton principal : pleine largeur, dans la zone du pouce. */
+.primary {
+  display: block;
+  width: 100%;
+  min-height: 56px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--ink);
+  color: var(--on-ink);
+  font-size: var(--s-17);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.quiet {
+  border: 0;
+  background: none;
+  padding: 12px 0;
+  min-height: 44px;
+  color: var(--ink);
+  font-size: var(--s-17);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+}
+
+.icon-btn {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--graphite);
+  cursor: pointer;
+}
+
+.dock {
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+  padding: 12px 0 calc(16px + env(safe-area-inset-bottom));
+  background: linear-gradient(to bottom, transparent, var(--paper) 18px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

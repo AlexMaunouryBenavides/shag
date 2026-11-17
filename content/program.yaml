@@ -35,7 +35,7 @@ proper_nouns: []
 days:
   # --- Phase 0 : l'alphabet --------------------------------------------------------------
   - { day: 1, kind: alphabet, theme: "А О К М Т" }
-  - { day: 2, kind: alphabet, theme: "Р Н В С — les faux amis" }
+  - { day: 2, kind: alphabet, theme: "Р Н В С, les faux amis" }
   - { day: 3, kind: alphabet, theme: "Е У Х" }
   - { day: 4, kind: alphabet, theme: "И Л П Д З" }
   - { day: 5, kind: alphabet, theme: "Б Г Ф Й Э" }

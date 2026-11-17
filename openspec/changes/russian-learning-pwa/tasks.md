@@ -40,13 +40,13 @@
 
 ## 5. Coque PWA et design
 
-- [ ] 5.1 Charger le skill frontend-design et définir la direction visuelle minimaliste à partir des maquettes validées (tokens couleurs clair/sombre, typographie sans italique pour le russe, espacements, zone du pouce)
-- [ ] 5.2 Configurer `vite-plugin-pwa` : manifeste, icônes, précache de l'app et du paquet de contenu, mise à jour en arrière-plan
-- [ ] 5.3 Implémenter le cache audio par phase (phase courante + suivante, cache-first, préchargement en ligne)
-- [ ] 5.4 Implémenter la navigation : Aujourd'hui central, icônes Plan et Réglages en haut, flèche retour, routage par hash
-- [ ] 5.5 Implémenter l'écran Aujourd'hui : jour et thème, barre N/8, liste des unités, « Continuer », interrupteur 🔊/🔇, « Journée terminée » avec thème du lendemain et lien secondaire, rappel de sauvegarde, écran « La suite arrive bientôt »
-- [ ] 5.6 Implémenter l'écran Plan : phase, « Jour N / 140 », pourcentage, objectifs de phase, liste des jours et thèmes, historique d'activité
-- [ ] 5.7 Implémenter l'écran Réglages : export/import, statut du stockage, date du dernier export, aide clavier russe, crédits et licences
+- [x] 5.1 Charger le skill frontend-design et définir la direction visuelle minimaliste à partir des maquettes validées (tokens couleurs clair/sombre, typographie sans italique pour le russe, espacements, zone du pouce)
+- [x] 5.2 Configurer `vite-plugin-pwa` : manifeste, icônes, précache de l'app et du paquet de contenu, mise à jour en arrière-plan
+- [x] 5.3 Implémenter le cache audio par phase (phase courante + suivante, cache-first, préchargement en ligne)
+- [x] 5.4 Implémenter la navigation : Aujourd'hui central, icônes Plan et Réglages en haut, flèche retour, routage par hash
+- [x] 5.5 Implémenter l'écran Aujourd'hui : jour et thème, barre N/8, liste des unités, « Continuer », interrupteur 🔊/🔇, « Journée terminée » avec thème du lendemain et lien secondaire, rappel de sauvegarde, écran « La suite arrive bientôt »
+- [x] 5.6 Implémenter l'écran Plan : phase, « Jour N / 140 », pourcentage, objectifs de phase, liste des jours et thèmes, historique d'activité
+- [x] 5.7 Implémenter l'écran Réglages : export/import, statut du stockage, date du dernier export, aide clavier russe, crédits et licences
 
 ## 6. Exercices et audio
 
