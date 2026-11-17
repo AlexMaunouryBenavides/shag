@@ -30,13 +30,13 @@
 
 ## 4. Moteurs : SRS, correction, plan
 
-- [ ] 4.1 Intégrer `ts-fsrs` : une carte par élément, notation déduite de la réponse, journal de révisions + tests
-- [ ] 4.2 Implémenter le choix du format selon la stabilité (reconnaissance → production tapée → production en contexte) avec seuils configurables + tests
-- [ ] 4.3 Implémenter la sélection des cartes dues avec plafond quotidien, priorisation des retards (et des lettres fragiles du bilan) et entrelacement + tests
-- [ ] 4.4 Implémenter la normalisation et la correction des réponses (casse, ponctuation, U+0301, ё/е, réponses multiples, Levenshtein ≤ 1 « presque », détection du latin) + tests
-- [ ] 4.5 Implémenter le moteur de plan : jours de programme, unités statiques et dynamiques, jours de consolidation, états à faire / en cours / faite, curseur de reprise + tests
-- [ ] 4.6 Implémenter la sélection « Continuer » selon le mode 🔊/🔇, le cas « plus que des unités audio », la fin de journée avec garde-fou (révisions supplémentaires d'abord, puis jour suivant) et la fin du contenu publié + tests
-- [ ] 4.7 Implémenter l'historique d'activité par jour calendaire
+- [x] 4.1 Intégrer `ts-fsrs` : une carte par élément, notation déduite de la réponse, journal de révisions + tests
+- [x] 4.2 Implémenter le choix du format selon la stabilité (reconnaissance → production tapée → production en contexte) avec seuils configurables + tests
+- [x] 4.3 Implémenter la sélection des cartes dues avec plafond quotidien, priorisation des retards (et des lettres fragiles du bilan) et entrelacement + tests
+- [x] 4.4 Implémenter la normalisation et la correction des réponses (casse, ponctuation, U+0301, ё/е, réponses multiples, Levenshtein ≤ 1 « presque », détection du latin) + tests
+- [x] 4.5 Implémenter le moteur de plan : jours de programme, unités statiques et dynamiques, jours de consolidation, états à faire / en cours / faite, curseur de reprise + tests
+- [x] 4.6 Implémenter la sélection « Continuer » selon le mode 🔊/🔇, le cas « plus que des unités audio », la fin de journée avec garde-fou (révisions supplémentaires d'abord, puis jour suivant) et la fin du contenu publié + tests
+- [x] 4.7 Implémenter l'historique d'activité par jour calendaire
 
 ## 5. Coque PWA et design
 
