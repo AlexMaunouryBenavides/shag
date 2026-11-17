@@ -2,7 +2,7 @@
 
 - [x] 1.1 Initialiser le dépôt git, le projet Vite + Svelte 5 + TypeScript, Vitest, ESLint/Prettier
 - [ ] 1.2 Créer le dépôt GitHub public et configurer dès le départ le déploiement GitHub Pages par GitHub Action (build Vite, `base` = sous-chemin du dépôt, scope/start_url du manifeste, chemins du service worker et de l'audio) pour tester sur le téléphone tout au long du développement
-- [ ] 1.3 Initialiser l'environnement Python du pipeline (`tools/`, `requirements.txt` : pymorphy3, PyYAML, pytest) et un script de téléchargement des données (OpenRussian, Tatoeba rus–fra, index Lingua Libre russe) vers `data/` (non versionné)
+- [x] 1.3 Initialiser l'environnement Python du pipeline (`tools/`, `requirements.txt` : pymorphy3, PyYAML, pytest) et un script de téléchargement des données (OpenRussian, Tatoeba rus–fra) vers `data/` (non versionné) ; Lingua Libre est interrogé mot par mot lors de la génération audio (pas d'index)
 - [ ] 1.4 Spike Piper : générer des échantillons avec les voix russes disponibles, tester la prise en compte des accents fournis, choisir 2–3 voix
 - [ ] 1.5 Spike SQLite-wasm `opfs-sahpool` dans un Worker sur le téléphone Android réel (création, écriture, relecture après fermeture, export du fichier)
 - [ ] 1.6 Spike typographie : tester le rendu de l'accent U+0301 avec 3 polices candidates sur le téléphone, choisir et auto-héberger la police
