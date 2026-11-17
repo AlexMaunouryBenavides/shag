@@ -281,7 +281,8 @@ def main() -> int:
     body = json.dumps(pack, ensure_ascii=False, sort_keys=True)
     pack = {"version": hashlib.sha1(body.encode("utf-8")).hexdigest()[:12], **pack}
     PUBLIC_CONTENT.mkdir(parents=True, exist_ok=True)
-    (PUBLIC_CONTENT / "pack.json").write_text(json.dumps(pack, ensure_ascii=False, indent=1), encoding="utf-8")
+    # write_bytes : pas de conversion des fins de ligne sous Windows
+    (PUBLIC_CONTENT / "pack.json").write_bytes(json.dumps(pack, ensure_ascii=False, indent=1).encode("utf-8"))
 
     if not args.no_audio:
         used = set(audio.values())

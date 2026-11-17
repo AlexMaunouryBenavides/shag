@@ -81,7 +81,7 @@ def main() -> int:
     pack = json.loads(PACK.read_text(encoding="utf-8"))
     out = args.out or ROOT / "exports" / f"relecture_j{args.first}-{args.last}.md"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(render(pack, args.first, args.last), encoding="utf-8")
+    out.write_bytes(render(pack, args.first, args.last).encode("utf-8"))
     print(f"écrit : {out}")
     return 0
 

@@ -21,12 +21,12 @@
 
 ## 3. Couche de données locale
 
-- [ ] 3.1 Implémenter le Worker SQLite-wasm et l'interface typée `db.ts` (isolée pour permettre un plan B Dexie)
-- [ ] 3.2 Créer le schéma initial (dont la table des signalements) et le système de migrations versionnées + tests
-- [ ] 3.3 Implémenter la copie de sauvegarde interne automatique avant chaque migration, et la restauration en cas d'échec + tests
-- [ ] 3.4 Demander le stockage persistant au premier lancement et exposer son statut
-- [ ] 3.5 Implémenter l'export (téléchargement du fichier) et l'import avec confirmation
-- [ ] 3.6 Implémenter le suivi de la date du dernier export pour le rappel hebdomadaire
+- [x] 3.1 Implémenter le Worker SQLite-wasm et l'interface typée `db.ts` (isolée pour permettre un plan B Dexie)
+- [x] 3.2 Créer le schéma initial (dont la table des signalements) et le système de migrations versionnées + tests
+- [x] 3.3 Implémenter la copie de sauvegarde interne automatique avant chaque migration, et la restauration en cas d'échec + tests
+- [x] 3.4 Demander le stockage persistant au premier lancement et exposer son statut
+- [x] 3.5 Implémenter l'export (téléchargement du fichier) et l'import avec confirmation
+- [x] 3.6 Implémenter le suivi de la date du dernier export pour le rappel hebdomadaire
 
 ## 4. Moteurs : SRS, correction, plan
 
