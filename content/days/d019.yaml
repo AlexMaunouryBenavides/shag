@@ -1,0 +1,39 @@
+day: 19
+items:
+  - { id: semya, ru: "семья", fr: "famille" }
+  - id: brat
+    ru: "брат"
+    fr: "frère"
+    example: { ru: "Это мой брат.", fr: "C'est mon frère." }
+  - id: sestra
+    ru: "сестра"
+    fr: "sœur"
+    example: { ru: "Моя сестра студентка.", fr: "Ma sœur est étudiante." }
+  - { id: babushka, ru: "бабушка", fr: "grand-mère" }
+  - id: dedushka
+    ru: "дедушка"
+    fr: "grand-père"
+    note: "masculin, même s'il finit par -а"
+  - { id: syn, ru: "сын", fr: "fils" }
+  - { id: doch, ru: "дочь", fr: "fille (enfant)" }
+  - { id: muzh, ru: "муж", fr: "mari" }
+  - { id: zhena, ru: "жена", fr: "femme (épouse)" }
+  - id: oni
+    ru: "они"
+    fr: "ils, elles"
+dialogue:
+  messages:
+    - { from: anton, ru: "Маша, это твоя семья?", fr: "Macha, c'est ta famille ?" }
+    - { from: masha, ru: "Да! Это мама и папа.", fr: "Oui ! C'est maman et papa." }
+    - { from: anton, ru: "А кто это?", fr: "Et qui est-ce ?" }
+    - { from: masha, ru: "Это моя сестра, а это мой брат.", fr: "C'est ma sœur, et voici mon frère." }
+    - { from: anton, ru: "А бабушка и дедушка?", fr: "Et les grands-parents ?" }
+    - { from: masha, ru: "Они тут, в Москве.", fr: "Ils sont ici, à Moscou." }
+write:
+  - { type: translate, fr: "C'est mon frère.", answers: ["Это мой брат."] }
+  - { type: translate, fr: "Ma sœur est étudiante.", answers: ["Моя сестра студентка."] }
+  - { type: translate, fr: "C'est ta famille ?", answers: ["Это твоя семья?"] }
+  - type: reply
+    thread: [{ from: anton, ru: "Кто это?" }]
+    options: ["Это моя бабушка.", "Это кафе.", "Спасибо!"]
+    answer: 0

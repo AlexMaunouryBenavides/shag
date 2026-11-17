@@ -1,0 +1,48 @@
+day: 20
+items:
+  - { id: zdes, ru: "здесь", fr: "ici", note: "synonyme de тут" }
+  - { id: sprava, ru: "справа", fr: "à droite" }
+  - { id: sleva, ru: "слева", fr: "à gauche" }
+  - id: ryadom
+    ru: "рядом"
+    fr: "à côté, tout près"
+    example: { ru: "Кафе рядом.", fr: "Le café est tout près." }
+  - id: doma
+    ru: "дома"
+    fr: "à la maison"
+    example: { ru: "Я дома.", fr: "Je suis à la maison." }
+  - id: na-rabote
+    ru: "на работе"
+    fr: "au travail"
+    example: { ru: "Папа на работе.", fr: "Papa est au travail." }
+  - { id: tualet, ru: "туалет", fr: "toilettes" }
+  - { id: kukhnya, ru: "кухня", fr: "cuisine" }
+  - { id: komnata, ru: "комната", fr: "pièce, chambre" }
+dialogue:
+  messages:
+    - { from: masha, ru: "Антон, где мой ключ?", fr: "Anton, où est ma clé ?" }
+    - { from: anton, ru: "Твой ключ? Он тут, рядом.", fr: "Ta clé ? Elle est ici, tout près." }
+    - { from: masha, ru: "Где? Слева?", fr: "Où ? À gauche ?" }
+    - { from: anton, ru: "Нет, справа. Вот он!", fr: "Non, à droite. La voilà !" }
+    - { from: masha, ru: "Спасибо! А где кухня?", fr: "Merci ! Et où est la cuisine ?" }
+    - { from: anton, ru: "Кухня там. Туалет здесь.", fr: "La cuisine est là-bas. Les toilettes sont ici." }
+grammar:
+  title: "Où ? Где ?"
+  explanation: |
+    Pour demander où se trouve quelque chose : Где + le nom. Где кухня? = Où est la cuisine ?
+
+    Pour répondre, on remplace souvent le nom par он, она ou оно selon son genre : Где ключ? Он тут. Где машина? Она там.
+
+    Quelques réponses toutes faites : здесь / тут (ici), там (là-bas), рядом (tout près), дома (à la maison), на работе (au travail).
+  examples:
+    - { ru: "Где кухня? Она там.", fr: "Où est la cuisine ? Elle est là-bas." }
+    - { ru: "Где ключ? Он здесь.", fr: "Où est la clé ? Elle est ici." }
+    - { ru: "Где мама? Она на работе.", fr: "Où est maman ? Elle est au travail." }
+  exercises:
+    - { type: translate, fr: "Où est la cuisine ?", answers: ["Где кухня?"] }
+    - { type: cloze, ru: "Где мама? ___ дома.", answers: ["Она"], fr: "Où est maman ? Elle est à la maison." }
+    - { type: cloze, ru: "Где телефон? ___ здесь.", answers: ["Он"], fr: "Où est le téléphone ? Il est ici." }
+    - type: reply
+      thread: [{ from: masha, ru: "Где ты?" }]
+      options: ["Я дома.", "Спасибо!", "Это кот."]
+      answer: 0

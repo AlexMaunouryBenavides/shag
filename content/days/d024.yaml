@@ -1,0 +1,36 @@
+day: 24
+items:
+  - id: skolko-stoit
+    ru: "Сколько стоит…?"
+    fr: "Combien coûte… ?"
+    answers: ["Сколько стоит"]
+    example: { ru: "Сколько стоит хлеб?", fr: "Combien coûte le pain ?" }
+  - { id: rubl, ru: "рубль", fr: "rouble" }
+  - id: dorogo
+    ru: "дорого"
+    fr: "cher"
+    example: { ru: "Это дорого!", fr: "C'est cher !" }
+  - { id: deshevo, ru: "дёшево", fr: "pas cher, bon marché" }
+  - { id: kilogramm, ru: "килограмм", fr: "kilogramme" }
+  - { id: kartoshka, ru: "картошка", fr: "pommes de terre" }
+  - { id: ryba, ru: "рыба", fr: "poisson" }
+  - { id: myaso, ru: "мясо", fr: "viande" }
+  - id: rynok
+    ru: "рынок"
+    fr: "marché"
+    example: { ru: "Я на рынке.", fr: "Je suis au marché." }
+dialogue:
+  messages:
+    - { from: anton, ru: "Маша, я на рынке.", fr: "Macha, je suis au marché." }
+    - { from: masha, ru: "Отлично! Сколько стоит рыба?", fr: "Super ! Combien coûte le poisson ?" }
+    - { from: anton, ru: "Рыба? Это дорого.", fr: "Le poisson ? C'est cher." }
+    - { from: masha, ru: "А картошка?", fr: "Et les pommes de terre ?" }
+    - { from: anton, ru: "Картошка — это дёшево.", fr: "Les pommes de terre, c'est pas cher." }
+    - { from: masha, ru: "Хорошо, картошка и мясо. Спасибо!", fr: "D'accord, des pommes de terre et de la viande. Merci !" }
+write:
+  - { type: translate, fr: "Combien coûte le pain ?", answers: ["Сколько стоит хлеб?"] }
+  - { type: translate, fr: "C'est cher !", answers: ["Это дорого!"] }
+  - type: reply
+    thread: [{ from: masha, ru: "Сколько стоит кофе?" }]
+    options: ["Это дёшево.", "Меня зовут Антон.", "Я дома."]
+    answer: 0

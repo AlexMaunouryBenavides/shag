@@ -53,7 +53,7 @@
         {#if translated.has(i)}<p class="fr">{m.fr}</p>{/if}
       </div>
       <div class="tools">
-        <AudioButton ru={m.ru} />
+        <AudioButton ru={m.ru} size="small" />
         {#if showHelp}
           <button class="tr-btn" onclick={() => toggle(i)} aria-pressed={translated.has(i)}>
             {translated.has(i) ? 'Masquer' : 'Traduire'}
@@ -111,6 +111,7 @@
     line-height: 1.5;
   }
   .w {
+    display: inline;
     padding: 0;
     border: 0;
     background: none;

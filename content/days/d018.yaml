@@ -1,0 +1,56 @@
+day: 18
+items:
+  - id: tvoi
+    ru: "твой / твоя / твоё"
+    fr: "ton / ta"
+    answers: ["твой"]
+    example: { ru: "Это твой телефон?", fr: "C'est ton téléphone ?" }
+  - id: vash
+    ru: "ваш / ваша"
+    fr: "votre"
+    answers: ["ваш"]
+  - id: ego
+    ru: "его"
+    fr: "son, sa (à lui)"
+    note: "se prononce [yivó]"
+  - id: eyo
+    ru: "её"
+    fr: "son, sa (à elle)"
+  - { id: ryukzak, ru: "рюкзак", fr: "sac à dos" }
+  - { id: pasport, ru: "паспорт", fr: "passeport" }
+  - id: chasy
+    ru: "часы"
+    fr: "montre, horloge"
+    note: "toujours au pluriel"
+  - id: ochki
+    ru: "очки"
+    fr: "lunettes"
+    note: "toujours au pluriel"
+  - { id: zont, ru: "зонт", fr: "parapluie" }
+dialogue:
+  messages:
+    - { from: masha, ru: "Антон, это твой паспорт?", fr: "Anton, c'est ton passeport ?" }
+    - { from: anton, ru: "Да, мой. Спасибо!", fr: "Oui, c'est le mien. Merci !" }
+    - { from: masha, ru: "А это твой зонт?", fr: "Et c'est ton parapluie ?" }
+    - { from: anton, ru: "Нет, не мой.", fr: "Non, ce n'est pas le mien." }
+    - { from: masha, ru: "А часы? Это твои часы?", fr: "Et la montre ? C'est ta montre ?" }
+    - { from: anton, ru: "Да! Большое спасибо, Маша!", fr: "Oui ! Merci beaucoup, Macha !" }
+grammar:
+  title: "Mon, ton : мой, твой"
+  explanation: |
+    Мой (mon) et твой (ton) s'accordent avec le genre de l'objet possédé, pas avec la personne qui possède.
+
+    Masculin : мой телефон. Féminin : моя сумка. Neutre : моё окно. Pluriel : мои часы. Même chose pour твой, твоя, твоё, твои.
+
+    Его (à lui) et её (à elle) ne changent jamais : его сумка, её телефон.
+  examples:
+    - { ru: "Это мой телефон.", fr: "C'est mon téléphone." }
+    - { ru: "Это моя сумка.", fr: "C'est mon sac." }
+    - { ru: "Это моё окно.", fr: "C'est ma fenêtre." }
+    - { ru: "Это мои часы.", fr: "C'est ma montre." }
+    - { ru: "Это её паспорт.", fr: "C'est son passeport (à elle)." }
+  exercises:
+    - { type: cloze, ru: "Это ___ сумка.", answers: ["моя"], fr: "C'est mon sac." }
+    - { type: cloze, ru: "Это ___ телефон?", answers: ["твой"], fr: "C'est ton téléphone ?" }
+    - { type: cloze, ru: "Это ___ окно.", answers: ["моё"], fr: "C'est ma fenêtre." }
+    - { type: cloze, ru: "Это ___ часы?", answers: ["твои"], fr: "C'est ta montre ?" }

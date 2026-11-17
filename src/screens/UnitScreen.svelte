@@ -77,6 +77,9 @@
   {#if empty}
     <p class="empty">Rien à réviser pour l'instant. Reviens plus tard dans la journée.</p>
     <div class="dock"><button class="primary" onclick={() => app.go({ name: 'today' })}>Retour</button></div>
+  {:else if ready && !unit}
+    <p class="empty">Cette unité n'existe plus dans cette version du programme.</p>
+    <div class="dock"><button class="primary" onclick={() => app.go({ name: 'today' })}>Retour</button></div>
   {:else if ready && unit}
     {#key extraStep}
       {#if unit.type === 'review'}

@@ -1,5 +1,5 @@
 {
- "version": "d26b69f958cd",
+ "version": "e1463b9a88d6",
  "phases": [
   {
    "id": 0,
@@ -739,13 +739,13 @@
  ],
  "characters": {
   "masha": {
-   "name": "Маша"
+   "name": "Ма́ша"
   },
   "anton": {
-   "name": "Антон"
+   "name": "Анто́н"
   }
  },
- "lastDay": 10,
+ "lastDay": 24,
  "items": {
   "l-a": {
    "id": "l-a",
@@ -1736,6 +1736,1187 @@
     "Пока́"
    ],
    "translit": "[paká]"
+  },
+  "menya-zovut": {
+   "id": "menya-zovut",
+   "day": 11,
+   "kind": "phrase",
+   "ru": "Меня́ зову́т…",
+   "fr": "Je m'appelle…",
+   "answers": [
+    "Меня́ зову́т"
+   ],
+   "example": {
+    "ru": "Меня́ зову́т Ма́ша.",
+    "fr": "Je m'appelle Macha."
+   },
+   "translit": "[miniá zavoút]"
+  },
+  "kak-tebya-zovut": {
+   "id": "kak-tebya-zovut",
+   "day": 11,
+   "kind": "phrase",
+   "ru": "Как тебя́ зову́т?",
+   "fr": "Comment tu t'appelles ?",
+   "answers": [
+    "Как тебя́ зову́т"
+   ],
+   "translit": "[kak tibiá zavoút]"
+  },
+  "a": {
+   "id": "a",
+   "day": 11,
+   "kind": "word",
+   "ru": "а",
+   "fr": "et (en opposition), alors",
+   "note": "« А ты ? » = Et toi ?",
+   "example": {
+    "ru": "Я студе́нтка. А ты?",
+    "fr": "Je suis étudiante. Et toi ?"
+   },
+   "cloze": {
+    "ru": "Я студе́нтка. ___ ты?",
+    "answer": "А"
+   },
+   "translit": "[a]"
+  },
+  "tozhe": {
+   "id": "tozhe",
+   "day": 11,
+   "kind": "word",
+   "ru": "то́же",
+   "fr": "aussi",
+   "example": {
+    "ru": "Я то́же студе́нтка.",
+    "fr": "Je suis étudiante aussi."
+   },
+   "cloze": {
+    "ru": "Я ___ студе́нтка.",
+    "answer": "то́же"
+   },
+   "translit": "[tóji]"
+  },
+  "ochen-priyatno": {
+   "id": "ochen-priyatno",
+   "day": 11,
+   "kind": "phrase",
+   "ru": "О́чень прия́тно!",
+   "fr": "Enchanté(e) !",
+   "answers": [
+    "О́чень прия́тно"
+   ],
+   "translit": "[ótchin priyátna]"
+  },
+  "ya-iz-frantsii": {
+   "id": "ya-iz-frantsii",
+   "day": 11,
+   "kind": "phrase",
+   "ru": "Я из Фра́нции.",
+   "fr": "Je viens de France.",
+   "answers": [
+    "Я из Фра́нции"
+   ],
+   "translit": "[ya iz frántsii]"
+  },
+  "student": {
+   "id": "student",
+   "day": 11,
+   "kind": "phrase",
+   "ru": "студе́нт / студе́нтка",
+   "fr": "étudiant / étudiante",
+   "answers": [
+    "студе́нт",
+    "студе́нтка"
+   ],
+   "translit": "[stoudént stoudéntka]"
+  },
+  "programmist": {
+   "id": "programmist",
+   "day": 11,
+   "kind": "word",
+   "ru": "программи́ст",
+   "fr": "programmeur, développeur",
+   "example": {
+    "ru": "Я программи́ст.",
+    "fr": "Je suis développeur."
+   },
+   "cloze": {
+    "ru": "Я ___.",
+    "answer": "программи́ст"
+   },
+   "translit": "[pragrammíst]"
+  },
+  "ne": {
+   "id": "ne",
+   "day": 11,
+   "kind": "word",
+   "ru": "не",
+   "fr": "ne… pas",
+   "example": {
+    "ru": "Я не студе́нт.",
+    "fr": "Je ne suis pas étudiant."
+   },
+   "cloze": {
+    "ru": "Я ___ студе́нт.",
+    "answer": "не"
+   },
+   "translit": "[né]"
+  },
+  "otlichno": {
+   "id": "otlichno",
+   "day": 12,
+   "kind": "word",
+   "ru": "отли́чно",
+   "fr": "excellent, très bien",
+   "translit": "[atlítchna]"
+  },
+  "plokho": {
+   "id": "plokho",
+   "day": 12,
+   "kind": "word",
+   "ru": "пло́хо",
+   "fr": "mal",
+   "translit": "[plókha]"
+  },
+  "tak-sebe": {
+   "id": "tak-sebe",
+   "day": 12,
+   "kind": "phrase",
+   "ru": "так себе́",
+   "fr": "comme ci, comme ça",
+   "translit": "[tak sibé]"
+  },
+  "a-u-tebya": {
+   "id": "a-u-tebya",
+   "day": 12,
+   "kind": "phrase",
+   "ru": "А у тебя́?",
+   "fr": "Et toi ? (et chez toi ?)",
+   "answers": [
+    "А у тебя́"
+   ],
+   "translit": "[a ou tibiá]"
+  },
+  "chto-novogo": {
+   "id": "chto-novogo",
+   "day": 12,
+   "kind": "phrase",
+   "ru": "Что но́вого?",
+   "fr": "Quoi de neuf ?",
+   "answers": [
+    "Что но́вого"
+   ],
+   "translit": "[tchto nóvaga]"
+  },
+  "nichego": {
+   "id": "nichego",
+   "day": 12,
+   "kind": "word",
+   "ru": "ничего́",
+   "fr": "rien ; pas mal",
+   "note": "se prononce [nitchivó]",
+   "translit": "[nitchigó]"
+  },
+  "segodnya": {
+   "id": "segodnya",
+   "day": 12,
+   "kind": "word",
+   "ru": "сего́дня",
+   "fr": "aujourd'hui",
+   "note": "se prononce [sivódnia]",
+   "example": {
+    "ru": "Сего́дня я до́ма.",
+    "fr": "Aujourd'hui je suis à la maison."
+   },
+   "cloze": {
+    "ru": "___ я до́ма.",
+    "answer": "Сего́дня"
+   },
+   "translit": "[sigódnia]"
+  },
+  "ustal": {
+   "id": "ustal",
+   "day": 12,
+   "kind": "phrase",
+   "ru": "Я уста́л / Я уста́ла.",
+   "fr": "Je suis fatigué / fatiguée.",
+   "answers": [
+    "Я уста́л",
+    "Я уста́ла"
+   ],
+   "translit": "[ya oustál ya oustála]"
+  },
+  "nemnogo": {
+   "id": "nemnogo",
+   "day": 12,
+   "kind": "word",
+   "ru": "немно́го",
+   "fr": "un peu",
+   "translit": "[nimnóga]"
+  },
+  "vsyo-khorosho": {
+   "id": "vsyo-khorosho",
+   "day": 12,
+   "kind": "phrase",
+   "ru": "Всё хорошо́.",
+   "fr": "Tout va bien.",
+   "answers": [
+    "Всё хорошо́"
+   ],
+   "translit": "[vsio kharachó]"
+  },
+  "izvinite": {
+   "id": "izvinite",
+   "day": 13,
+   "kind": "word",
+   "ru": "Извини́те!",
+   "fr": "Excusez-moi !",
+   "note": "à un ami : Извини́ !",
+   "answers": [
+    "Извини́те",
+    "Извини́"
+   ],
+   "translit": "[izviníti]"
+  },
+  "prostite": {
+   "id": "prostite",
+   "day": 13,
+   "kind": "word",
+   "ru": "Прости́те!",
+   "fr": "Pardon !",
+   "answers": [
+    "Прости́те",
+    "Прости́"
+   ],
+   "translit": "[prastíti]"
+  },
+  "konechno": {
+   "id": "konechno",
+   "day": 13,
+   "kind": "word",
+   "ru": "коне́чно",
+   "fr": "bien sûr",
+   "note": "se prononce [kaniéchna]",
+   "translit": "[kanétchna]"
+  },
+  "bolshoe-spasibo": {
+   "id": "bolshoe-spasibo",
+   "day": 13,
+   "kind": "phrase",
+   "ru": "Большо́е спаси́бо!",
+   "fr": "Merci beaucoup !",
+   "answers": [
+    "Большо́е спаси́бо"
+   ],
+   "translit": "[balchóyi spasíba]"
+  },
+  "ne-za-chto": {
+   "id": "ne-za-chto",
+   "day": 13,
+   "kind": "phrase",
+   "ru": "Не за что.",
+   "fr": "De rien.",
+   "answers": [
+    "Не за что"
+   ],
+   "translit": "[né za tchto]"
+  },
+  "do-svidaniya": {
+   "id": "do-svidaniya",
+   "day": 13,
+   "kind": "phrase",
+   "ru": "До свида́ния!",
+   "fr": "Au revoir ! (poli)",
+   "answers": [
+    "До свида́ния"
+   ],
+   "translit": "[do svidániyi]"
+  },
+  "dobroe-utro": {
+   "id": "dobroe-utro",
+   "day": 13,
+   "kind": "phrase",
+   "ru": "До́брое у́тро!",
+   "fr": "Bonjour ! (le matin)",
+   "answers": [
+    "До́брое у́тро"
+   ],
+   "translit": "[dóbrayi oútra]"
+  },
+  "dobryi-den": {
+   "id": "dobryi-den",
+   "day": 13,
+   "kind": "phrase",
+   "ru": "До́брый день!",
+   "fr": "Bonjour ! (la journée)",
+   "answers": [
+    "До́брый день"
+   ],
+   "translit": "[dóbryï dén]"
+  },
+  "dobryi-vecher": {
+   "id": "dobryi-vecher",
+   "day": 13,
+   "kind": "phrase",
+   "ru": "До́брый ве́чер!",
+   "fr": "Bonsoir !",
+   "answers": [
+    "До́брый ве́чер"
+   ],
+   "translit": "[dóbryï vétchir]"
+  },
+  "spokoinoi-nochi": {
+   "id": "spokoinoi-nochi",
+   "day": 13,
+   "kind": "phrase",
+   "ru": "Споко́йной но́чи!",
+   "fr": "Bonne nuit !",
+   "answers": [
+    "Споко́йной но́чи"
+   ],
+   "translit": "[spakóïnaï nótchi]"
+  },
+  "kofe": {
+   "id": "kofe",
+   "day": 15,
+   "kind": "word",
+   "ru": "ко́фе",
+   "fr": "café (la boisson)",
+   "note": "masculin, invariable",
+   "example": {
+    "ru": "Я хочу́ ко́фе.",
+    "fr": "Je veux un café."
+   },
+   "cloze": {
+    "ru": "Я хочу́ ___.",
+    "answer": "ко́фе"
+   },
+   "translit": "[kófi]"
+  },
+  "khochu": {
+   "id": "khochu",
+   "day": 15,
+   "kind": "phrase",
+   "ru": "хочу́ / хо́чешь",
+   "fr": "je veux / tu veux",
+   "answers": [
+    "хочу́"
+   ],
+   "example": {
+    "ru": "Что ты хо́чешь?",
+    "fr": "Qu'est-ce que tu veux ?"
+   },
+   "translit": "[khatchoú khótchich]"
+  },
+  "ili": {
+   "id": "ili",
+   "day": 15,
+   "kind": "word",
+   "ru": "и́ли",
+   "fr": "ou",
+   "example": {
+    "ru": "Чай и́ли ко́фе?",
+    "fr": "Thé ou café ?"
+   },
+   "cloze": {
+    "ru": "Чай ___ ко́фе?",
+    "answer": "и́ли"
+   },
+   "translit": "[íli]"
+  },
+  "s-molokom": {
+   "id": "s-molokom",
+   "day": 15,
+   "kind": "phrase",
+   "ru": "с молоко́м",
+   "fr": "au lait, avec du lait",
+   "translit": "[s malakóm]"
+  },
+  "bez-sakhara": {
+   "id": "bez-sakhara",
+   "day": 15,
+   "kind": "phrase",
+   "ru": "без са́хара",
+   "fr": "sans sucre",
+   "translit": "[béz sákhara]"
+  },
+  "v-kafe": {
+   "id": "v-kafe",
+   "day": 15,
+   "kind": "phrase",
+   "ru": "в кафе́",
+   "fr": "au café (dans le café)",
+   "example": {
+    "ru": "Я в кафе́.",
+    "fr": "Je suis au café."
+   },
+   "cloze": {
+    "ru": "Я ___ кафе́.",
+    "answer": "в"
+   },
+   "translit": "[v kafé]"
+  },
+  "tort": {
+   "id": "tort",
+   "day": 15,
+   "kind": "word",
+   "ru": "торт",
+   "fr": "gâteau",
+   "translit": "[tort]"
+  },
+  "mozhno": {
+   "id": "mozhno",
+   "day": 15,
+   "kind": "word",
+   "ru": "мо́жно",
+   "fr": "on peut ; est-ce que je peux… ?",
+   "example": {
+    "ru": "Мо́жно ко́фе?",
+    "fr": "Je peux avoir un café ?"
+   },
+   "cloze": {
+    "ru": "___ ко́фе?",
+    "answer": "Мо́жно"
+   },
+   "translit": "[mójna]"
+  },
+  "kapuchino": {
+   "id": "kapuchino",
+   "day": 15,
+   "kind": "word",
+   "ru": "капучи́но",
+   "fr": "cappuccino",
+   "translit": "[kapoutchína]"
+  },
+  "stol": {
+   "id": "stol",
+   "day": 16,
+   "kind": "word",
+   "ru": "стол",
+   "fr": "table",
+   "translit": "[stol]"
+  },
+  "kniga": {
+   "id": "kniga",
+   "day": 16,
+   "kind": "word",
+   "ru": "кни́га",
+   "fr": "livre",
+   "example": {
+    "ru": "Э́то кни́га.",
+    "fr": "C'est un livre."
+   },
+   "cloze": {
+    "ru": "Э́то ___.",
+    "answer": "кни́га"
+   },
+   "translit": "[kníga]"
+  },
+  "telefon": {
+   "id": "telefon",
+   "day": 16,
+   "kind": "word",
+   "ru": "телефо́н",
+   "fr": "téléphone",
+   "translit": "[tilifón]"
+  },
+  "ruchka": {
+   "id": "ruchka",
+   "day": 16,
+   "kind": "word",
+   "ru": "ру́чка",
+   "fr": "stylo",
+   "translit": "[roútchka]"
+  },
+  "kompyuter": {
+   "id": "kompyuter",
+   "day": 16,
+   "kind": "word",
+   "ru": "компью́тер",
+   "fr": "ordinateur",
+   "translit": "[kampioútir]"
+  },
+  "sumka": {
+   "id": "sumka",
+   "day": 16,
+   "kind": "word",
+   "ru": "су́мка",
+   "fr": "sac",
+   "translit": "[soúmka]"
+  },
+  "klyuch": {
+   "id": "klyuch",
+   "day": 16,
+   "kind": "word",
+   "ru": "ключ",
+   "fr": "clé",
+   "example": {
+    "ru": "Э́то мой ключ.",
+    "fr": "C'est ma clé."
+   },
+   "cloze": {
+    "ru": "Э́то мой ___.",
+    "answer": "ключ"
+   },
+   "translit": "[klioutch]"
+  },
+  "chto-eto": {
+   "id": "chto-eto",
+   "day": 16,
+   "kind": "phrase",
+   "ru": "Что э́то?",
+   "fr": "Qu'est-ce que c'est ?",
+   "answers": [
+    "Что э́то"
+   ],
+   "translit": "[tchto èta]"
+  },
+  "ono": {
+   "id": "ono",
+   "day": 17,
+   "kind": "word",
+   "ru": "оно́",
+   "fr": "il / elle (neutre)",
+   "example": {
+    "ru": "Э́то окно́. Оно́ тут.",
+    "fr": "C'est une fenêtre. Elle est ici."
+   },
+   "cloze": {
+    "ru": "Э́то окно́. ___ тут.",
+    "answer": "Оно́"
+   },
+   "translit": "[anó]"
+  },
+  "mashina": {
+   "id": "mashina",
+   "day": 17,
+   "kind": "word",
+   "ru": "маши́на",
+   "fr": "voiture",
+   "translit": "[machína]"
+  },
+  "pismo": {
+   "id": "pismo",
+   "day": 17,
+   "kind": "word",
+   "ru": "письмо́",
+   "fr": "lettre (courrier)",
+   "translit": "[pismó]"
+  },
+  "drug": {
+   "id": "drug",
+   "day": 17,
+   "kind": "word",
+   "ru": "друг",
+   "fr": "ami",
+   "translit": "[droug]"
+  },
+  "podruga": {
+   "id": "podruga",
+   "day": 17,
+   "kind": "word",
+   "ru": "подру́га",
+   "fr": "amie",
+   "translit": "[padroúga]"
+  },
+  "more": {
+   "id": "more",
+   "day": 17,
+   "kind": "word",
+   "ru": "мо́ре",
+   "fr": "mer",
+   "translit": "[móri]"
+  },
+  "papa": {
+   "id": "papa",
+   "day": 17,
+   "kind": "word",
+   "ru": "па́па",
+   "fr": "papa",
+   "note": "masculin, même s'il finit par -а",
+   "translit": "[pápa]"
+  },
+  "koshka": {
+   "id": "koshka",
+   "day": 17,
+   "kind": "word",
+   "ru": "ко́шка",
+   "fr": "chatte, chat (en général)",
+   "translit": "[kóchka]"
+  },
+  "moya": {
+   "id": "moya",
+   "day": 17,
+   "kind": "phrase",
+   "ru": "моя́ / моё",
+   "fr": "ma / mon (neutre)",
+   "answers": [
+    "моя́"
+   ],
+   "translit": "[mayá mayó]"
+  },
+  "tvoi": {
+   "id": "tvoi",
+   "day": 18,
+   "kind": "phrase",
+   "ru": "твой / твоя́ / твоё",
+   "fr": "ton / ta",
+   "answers": [
+    "твой"
+   ],
+   "example": {
+    "ru": "Э́то твой телефо́н?",
+    "fr": "C'est ton téléphone ?"
+   },
+   "translit": "[tvoï tvayá tvayó]"
+  },
+  "vash": {
+   "id": "vash",
+   "day": 18,
+   "kind": "phrase",
+   "ru": "ваш / ва́ша",
+   "fr": "votre",
+   "answers": [
+    "ваш"
+   ],
+   "translit": "[vach vácha]"
+  },
+  "ego": {
+   "id": "ego",
+   "day": 18,
+   "kind": "word",
+   "ru": "его́",
+   "fr": "son, sa (à lui)",
+   "note": "se prononce [yivó]",
+   "translit": "[yigó]"
+  },
+  "eyo": {
+   "id": "eyo",
+   "day": 18,
+   "kind": "word",
+   "ru": "её",
+   "fr": "son, sa (à elle)",
+   "translit": "[yiyó]"
+  },
+  "ryukzak": {
+   "id": "ryukzak",
+   "day": 18,
+   "kind": "word",
+   "ru": "рюкза́к",
+   "fr": "sac à dos",
+   "translit": "[rioukzák]"
+  },
+  "pasport": {
+   "id": "pasport",
+   "day": 18,
+   "kind": "word",
+   "ru": "па́спорт",
+   "fr": "passeport",
+   "translit": "[páspart]"
+  },
+  "chasy": {
+   "id": "chasy",
+   "day": 18,
+   "kind": "word",
+   "ru": "часы́",
+   "fr": "montre, horloge",
+   "note": "toujours au pluriel",
+   "translit": "[tchasý]"
+  },
+  "ochki": {
+   "id": "ochki",
+   "day": 18,
+   "kind": "word",
+   "ru": "очки́",
+   "fr": "lunettes",
+   "note": "toujours au pluriel",
+   "translit": "[atchkí]"
+  },
+  "zont": {
+   "id": "zont",
+   "day": 18,
+   "kind": "word",
+   "ru": "зонт",
+   "fr": "parapluie",
+   "translit": "[zont]"
+  },
+  "semya": {
+   "id": "semya",
+   "day": 19,
+   "kind": "word",
+   "ru": "семья́",
+   "fr": "famille",
+   "translit": "[simiá]"
+  },
+  "brat": {
+   "id": "brat",
+   "day": 19,
+   "kind": "word",
+   "ru": "брат",
+   "fr": "frère",
+   "example": {
+    "ru": "Э́то мой брат.",
+    "fr": "C'est mon frère."
+   },
+   "cloze": {
+    "ru": "Э́то мой ___.",
+    "answer": "брат"
+   },
+   "translit": "[brat]"
+  },
+  "sestra": {
+   "id": "sestra",
+   "day": 19,
+   "kind": "word",
+   "ru": "сестра́",
+   "fr": "sœur",
+   "example": {
+    "ru": "Моя́ сестра́ студе́нтка.",
+    "fr": "Ma sœur est étudiante."
+   },
+   "cloze": {
+    "ru": "Моя́ ___ студе́нтка.",
+    "answer": "сестра́"
+   },
+   "translit": "[sistrá]"
+  },
+  "babushka": {
+   "id": "babushka",
+   "day": 19,
+   "kind": "word",
+   "ru": "ба́бушка",
+   "fr": "grand-mère",
+   "translit": "[bábouchka]"
+  },
+  "dedushka": {
+   "id": "dedushka",
+   "day": 19,
+   "kind": "word",
+   "ru": "де́душка",
+   "fr": "grand-père",
+   "note": "masculin, même s'il finit par -а",
+   "translit": "[dédouchka]"
+  },
+  "syn": {
+   "id": "syn",
+   "day": 19,
+   "kind": "word",
+   "ru": "сын",
+   "fr": "fils",
+   "translit": "[syn]"
+  },
+  "doch": {
+   "id": "doch",
+   "day": 19,
+   "kind": "word",
+   "ru": "дочь",
+   "fr": "fille (enfant)",
+   "translit": "[dotch]"
+  },
+  "muzh": {
+   "id": "muzh",
+   "day": 19,
+   "kind": "word",
+   "ru": "муж",
+   "fr": "mari",
+   "translit": "[mouj]"
+  },
+  "zhena": {
+   "id": "zhena",
+   "day": 19,
+   "kind": "word",
+   "ru": "жена́",
+   "fr": "femme (épouse)",
+   "translit": "[jiná]"
+  },
+  "oni": {
+   "id": "oni",
+   "day": 19,
+   "kind": "word",
+   "ru": "они́",
+   "fr": "ils, elles",
+   "translit": "[aní]"
+  },
+  "zdes": {
+   "id": "zdes",
+   "day": 20,
+   "kind": "word",
+   "ru": "здесь",
+   "fr": "ici",
+   "note": "synonyme de тут",
+   "translit": "[zdés]"
+  },
+  "sprava": {
+   "id": "sprava",
+   "day": 20,
+   "kind": "word",
+   "ru": "спра́ва",
+   "fr": "à droite",
+   "translit": "[správa]"
+  },
+  "sleva": {
+   "id": "sleva",
+   "day": 20,
+   "kind": "word",
+   "ru": "сле́ва",
+   "fr": "à gauche",
+   "translit": "[sléva]"
+  },
+  "ryadom": {
+   "id": "ryadom",
+   "day": 20,
+   "kind": "word",
+   "ru": "ря́дом",
+   "fr": "à côté, tout près",
+   "example": {
+    "ru": "Кафе́ ря́дом.",
+    "fr": "Le café est tout près."
+   },
+   "cloze": {
+    "ru": "Кафе́ ___.",
+    "answer": "ря́дом"
+   },
+   "translit": "[riádam]"
+  },
+  "doma": {
+   "id": "doma",
+   "day": 20,
+   "kind": "word",
+   "ru": "до́ма",
+   "fr": "à la maison",
+   "example": {
+    "ru": "Я до́ма.",
+    "fr": "Je suis à la maison."
+   },
+   "cloze": {
+    "ru": "Я ___.",
+    "answer": "до́ма"
+   },
+   "translit": "[dóma]"
+  },
+  "na-rabote": {
+   "id": "na-rabote",
+   "day": 20,
+   "kind": "phrase",
+   "ru": "на рабо́те",
+   "fr": "au travail",
+   "example": {
+    "ru": "Па́па на рабо́те.",
+    "fr": "Papa est au travail."
+   },
+   "cloze": {
+    "ru": "Па́па ___ рабо́те.",
+    "answer": "на"
+   },
+   "translit": "[na rabóti]"
+  },
+  "tualet": {
+   "id": "tualet",
+   "day": 20,
+   "kind": "word",
+   "ru": "туале́т",
+   "fr": "toilettes",
+   "translit": "[toualét]"
+  },
+  "kukhnya": {
+   "id": "kukhnya",
+   "day": 20,
+   "kind": "word",
+   "ru": "ку́хня",
+   "fr": "cuisine",
+   "translit": "[koúkhnia]"
+  },
+  "komnata": {
+   "id": "komnata",
+   "day": 20,
+   "kind": "word",
+   "ru": "ко́мната",
+   "fr": "pièce, chambre",
+   "translit": "[kómnata]"
+  },
+  "odin": {
+   "id": "odin",
+   "day": 22,
+   "kind": "word",
+   "ru": "оди́н",
+   "fr": "un (1)",
+   "translit": "[adín]"
+  },
+  "dva": {
+   "id": "dva",
+   "day": 22,
+   "kind": "word",
+   "ru": "два",
+   "fr": "deux (2)",
+   "translit": "[dva]"
+  },
+  "tri": {
+   "id": "tri",
+   "day": 22,
+   "kind": "word",
+   "ru": "три",
+   "fr": "trois (3)",
+   "translit": "[tri]"
+  },
+  "chetyre": {
+   "id": "chetyre",
+   "day": 22,
+   "kind": "word",
+   "ru": "четы́ре",
+   "fr": "quatre (4)",
+   "translit": "[tchitýri]"
+  },
+  "pyat": {
+   "id": "pyat",
+   "day": 22,
+   "kind": "word",
+   "ru": "пять",
+   "fr": "cinq (5)",
+   "translit": "[piat]"
+  },
+  "shest": {
+   "id": "shest",
+   "day": 22,
+   "kind": "word",
+   "ru": "шесть",
+   "fr": "six (6)",
+   "translit": "[chést]"
+  },
+  "sem": {
+   "id": "sem",
+   "day": 22,
+   "kind": "word",
+   "ru": "семь",
+   "fr": "sept (7)",
+   "translit": "[sém]"
+  },
+  "vosem": {
+   "id": "vosem",
+   "day": 22,
+   "kind": "word",
+   "ru": "во́семь",
+   "fr": "huit (8)",
+   "translit": "[vósim]"
+  },
+  "devyat": {
+   "id": "devyat",
+   "day": 22,
+   "kind": "word",
+   "ru": "де́вять",
+   "fr": "neuf (9)",
+   "translit": "[dévit]"
+  },
+  "desyat": {
+   "id": "desyat",
+   "day": 22,
+   "kind": "word",
+   "ru": "де́сять",
+   "fr": "dix (10)",
+   "translit": "[désit]"
+  },
+  "skolko-tebe-let": {
+   "id": "skolko-tebe-let",
+   "day": 22,
+   "kind": "phrase",
+   "ru": "Ско́лько тебе́ лет?",
+   "fr": "Quel âge as-tu ?",
+   "answers": [
+    "Ско́лько тебе́ лет"
+   ],
+   "translit": "[skólka tibé lét]"
+  },
+  "mne-let": {
+   "id": "mne-let",
+   "day": 22,
+   "kind": "phrase",
+   "ru": "Мне … лет.",
+   "fr": "J'ai … ans.",
+   "answers": [
+    "Мне пять лет"
+   ],
+   "example": {
+    "ru": "Мне семь лет.",
+    "fr": "J'ai sept ans."
+   },
+   "translit": "[mné lét]"
+  },
+  "yabloko": {
+   "id": "yabloko",
+   "day": 23,
+   "kind": "word",
+   "ru": "я́блоко",
+   "fr": "pomme",
+   "note": "pluriel : я́блоки",
+   "translit": "[yáblaka]"
+  },
+  "banan": {
+   "id": "banan",
+   "day": 23,
+   "kind": "word",
+   "ru": "бана́н",
+   "fr": "banane",
+   "translit": "[banán]"
+  },
+  "pomidor": {
+   "id": "pomidor",
+   "day": 23,
+   "kind": "word",
+   "ru": "помидо́р",
+   "fr": "tomate",
+   "translit": "[pamidór]"
+  },
+  "ogurets": {
+   "id": "ogurets",
+   "day": 23,
+   "kind": "word",
+   "ru": "огуре́ц",
+   "fr": "concombre",
+   "note": "pluriel : огурцы́",
+   "translit": "[agouréts]"
+  },
+  "khleb": {
+   "id": "khleb",
+   "day": 23,
+   "kind": "word",
+   "ru": "хлеб",
+   "fr": "pain",
+   "example": {
+    "ru": "Хлеб, пожа́луйста.",
+    "fr": "Du pain, s'il te plaît."
+   },
+   "cloze": {
+    "ru": "___, пожа́луйста.",
+    "answer": "Хлеб"
+   },
+   "translit": "[khléb]"
+  },
+  "magazin": {
+   "id": "magazin",
+   "day": 23,
+   "kind": "word",
+   "ru": "магази́н",
+   "fr": "magasin",
+   "example": {
+    "ru": "Ты в магази́не?",
+    "fr": "Tu es au magasin ?"
+   },
+   "cloze": {
+    "ru": "Ты в ___?",
+    "answer": "магази́не"
+   },
+   "translit": "[magazín]"
+  },
+  "dengi": {
+   "id": "dengi",
+   "day": 23,
+   "kind": "word",
+   "ru": "де́ньги",
+   "fr": "argent",
+   "note": "toujours au pluriel",
+   "translit": "[déngi]"
+  },
+  "vsyo": {
+   "id": "vsyo",
+   "day": 23,
+   "kind": "word",
+   "ru": "всё",
+   "fr": "tout ; c'est tout",
+   "translit": "[vsio]"
+  },
+  "skolko-stoit": {
+   "id": "skolko-stoit",
+   "day": 24,
+   "kind": "phrase",
+   "ru": "Ско́лько сто́ит…?",
+   "fr": "Combien coûte… ?",
+   "answers": [
+    "Ско́лько сто́ит"
+   ],
+   "example": {
+    "ru": "Ско́лько сто́ит хлеб?",
+    "fr": "Combien coûte le pain ?"
+   },
+   "translit": "[skólka stóit]"
+  },
+  "rubl": {
+   "id": "rubl",
+   "day": 24,
+   "kind": "word",
+   "ru": "рубль",
+   "fr": "rouble",
+   "translit": "[roubl]"
+  },
+  "dorogo": {
+   "id": "dorogo",
+   "day": 24,
+   "kind": "word",
+   "ru": "до́рого",
+   "fr": "cher",
+   "example": {
+    "ru": "Э́то до́рого!",
+    "fr": "C'est cher !"
+   },
+   "cloze": {
+    "ru": "Э́то ___!",
+    "answer": "до́рого"
+   },
+   "translit": "[dóraga]"
+  },
+  "deshevo": {
+   "id": "deshevo",
+   "day": 24,
+   "kind": "word",
+   "ru": "дёшево",
+   "fr": "pas cher, bon marché",
+   "translit": "[dióchiva]"
+  },
+  "kilogramm": {
+   "id": "kilogramm",
+   "day": 24,
+   "kind": "word",
+   "ru": "килогра́мм",
+   "fr": "kilogramme",
+   "translit": "[kilagrámm]"
+  },
+  "kartoshka": {
+   "id": "kartoshka",
+   "day": 24,
+   "kind": "word",
+   "ru": "карто́шка",
+   "fr": "pommes de terre",
+   "translit": "[kartóchka]"
+  },
+  "ryba": {
+   "id": "ryba",
+   "day": 24,
+   "kind": "word",
+   "ru": "ры́ба",
+   "fr": "poisson",
+   "translit": "[rýba]"
+  },
+  "myaso": {
+   "id": "myaso",
+   "day": 24,
+   "kind": "word",
+   "ru": "мя́со",
+   "fr": "viande",
+   "translit": "[miása]"
+  },
+  "rynok": {
+   "id": "rynok",
+   "day": 24,
+   "kind": "word",
+   "ru": "ры́нок",
+   "fr": "marché",
+   "example": {
+    "ru": "Я на ры́нке.",
+    "fr": "Je suis au marché."
+   },
+   "cloze": {
+    "ru": "Я на ___.",
+    "answer": "ры́нке"
+   },
+   "translit": "[rýnak]"
   }
  },
  "days": [
@@ -4424,6 +5605,3889 @@
      "audio": false
     }
    ]
+  },
+  {
+   "day": 11,
+   "phase": 1,
+   "theme": "Saluer et se présenter",
+   "kind": "normal",
+   "items": [
+    "menya-zovut",
+    "kak-tebya-zovut",
+    "a",
+    "tozhe",
+    "ochen-priyatno",
+    "ya-iz-frantsii",
+    "student",
+    "programmist",
+    "ne"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "masha",
+      "ru": "Приве́т! Меня́ зову́т Ма́ша. А тебя́?",
+      "fr": "Salut ! Je m'appelle Macha. Et toi ?",
+      "words": {
+       "Приве́т": "privet",
+       "Меня́": "menya-zovut",
+       "зову́т": "menya-zovut",
+       "А": "a",
+       "тебя́": "kak-tebya-zovut"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Приве́т! Меня́ зову́т Анто́н.",
+      "fr": "Salut ! Je m'appelle Anton.",
+      "words": {
+       "Приве́т": "privet",
+       "Меня́": "menya-zovut",
+       "зову́т": "menya-zovut"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "О́чень прия́тно, Анто́н!",
+      "fr": "Enchantée, Anton !",
+      "words": {
+       "О́чень": "ochen-priyatno",
+       "прия́тно": "ochen-priyatno"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "О́чень прия́тно! Ты студе́нтка?",
+      "fr": "Enchanté ! Tu es étudiante ?",
+      "words": {
+       "О́чень": "ochen-priyatno",
+       "прия́тно": "ochen-priyatno",
+       "Ты": "ty",
+       "студе́нтка": "student"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Да, я студе́нтка. А ты?",
+      "fr": "Oui, je suis étudiante. Et toi ?",
+      "words": {
+       "Да": "da",
+       "я": "ya",
+       "студе́нтка": "student",
+       "А": "a",
+       "ты": "ty"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Я не студе́нт, я программи́ст.",
+      "fr": "Je ne suis pas étudiant, je suis développeur.",
+      "words": {
+       "Я": "ya",
+       "не": "ne",
+       "студе́нт": "student",
+       "я": "ya",
+       "программи́ст": "programmist"
+      }
+     }
+    ]
+   },
+   "grammar": {
+    "title": "Pas de verbe « être » au présent",
+    "explanation": "En russe, au présent, on ne dit pas « être ». On met simplement les mots côte à côte.\n\nЯ студе́нтка : « moi, étudiante » = je suis étudiante. Э́то Анто́н : « ceci, Anton » = c'est Anton.\n\nPour la négation, on place не juste avant le mot nié : Я не студе́нт = je ne suis pas étudiant.",
+    "examples": [
+     {
+      "ru": "Я студе́нтка.",
+      "fr": "Je suis étudiante."
+     },
+     {
+      "ru": "Ты программи́ст?",
+      "fr": "Tu es développeur ?"
+     },
+     {
+      "ru": "Э́то Ма́ша.",
+      "fr": "C'est Macha."
+     },
+     {
+      "ru": "Я не программи́ст.",
+      "fr": "Je ne suis pas développeur."
+     }
+    ],
+    "exercises": [
+     {
+      "t": "translate",
+      "fr": "Je suis développeur.",
+      "answers": [
+       "Я программи́ст."
+      ]
+     },
+     {
+      "t": "translate",
+      "fr": "Tu es étudiante ?",
+      "answers": [
+       "Ты студе́нтка?"
+      ]
+     },
+     {
+      "t": "translate",
+      "fr": "Je ne suis pas étudiant.",
+      "answers": [
+       "Я не студе́нт."
+      ]
+     },
+     {
+      "t": "cloze",
+      "ru": "Меня́ ___ Ма́ша.",
+      "answers": [
+       "зову́т"
+      ],
+      "fr": "Je m'appelle Macha."
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "menya-zovut",
+      "kak-tebya-zovut",
+      "a",
+      "tozhe",
+      "ochen-priyatno",
+      "ya-iz-frantsii",
+      "student",
+      "programmist",
+      "ne"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Приве́т! Меня́ зову́т Ма́ша. А тебя́?",
+       "options": [
+        "maison",
+        "Salut ! Je m'appelle Macha. Et toi ?",
+        "oui",
+        "nez"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Приве́т! Меня́ зову́т Анто́н.",
+       "options": [
+        "Je ne suis pas étudiant, je suis développeur.",
+        "eau",
+        "Salut ! Je m'appelle Anton.",
+        "c'est, ceci"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "О́чень прия́тно, Анто́н!",
+       "options": [
+        "magazine",
+        "Enchantée, Anton !",
+        "Salut !",
+        "métro"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "О́чень прия́тно! Ты студе́нтка?",
+       "options": [
+        "Enchanté ! Tu es étudiante ?",
+        "banque",
+        "mon",
+        "fenêtre"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Да, я студе́нтка. А ты?",
+       "options": [
+        "Oui, je suis étudiante. Et toi ?",
+        "parc",
+        "Salut ! (au revoir)",
+        "Comment tu t'appelles ?"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "shadow",
+       "ru": "Приве́т! Меня́ зову́т Ма́ша. А тебя́?",
+       "fr": "Salut ! Je m'appelle Macha. Et toi ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Приве́т! Меня́ зову́т Анто́н.",
+       "fr": "Salut ! Je m'appelle Anton."
+      },
+      {
+       "t": "shadow",
+       "ru": "О́чень прия́тно, Анто́н!",
+       "fr": "Enchantée, Anton !"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Приве́т! Меня́ зову́т Ма́ша. А тебя́?",
+       "fr": "Salut ! Je m'appelle Macha. Et toi ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Приве́т! Меня́ зову́т Анто́н.",
+       "fr": "Salut ! Je m'appelle Anton."
+      },
+      {
+       "t": "speak",
+       "ru": "О́чень прия́тно, Анто́н!",
+       "fr": "Enchantée, Anton !"
+      },
+      {
+       "t": "speak",
+       "ru": "О́чень прия́тно! Ты студе́нтка?",
+       "fr": "Enchanté ! Tu es étudiante ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Да, я студе́нтка. А ты?",
+       "fr": "Oui, je suis étudiante. Et toi ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 12,
+   "phase": 1,
+   "theme": "Comment ça va ?",
+   "kind": "normal",
+   "items": [
+    "otlichno",
+    "plokho",
+    "tak-sebe",
+    "a-u-tebya",
+    "chto-novogo",
+    "nichego",
+    "segodnya",
+    "ustal",
+    "nemnogo",
+    "vsyo-khorosho"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "anton",
+      "ru": "Приве́т, Ма́ша! Как дела́?",
+      "fr": "Salut Macha ! Comment ça va ?",
+      "words": {
+       "Приве́т": "privet",
+       "Как": "kak-dela",
+       "дела́": "kak-dela"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Приве́т! Норма́льно. А у тебя́?",
+      "fr": "Salut ! Ça va. Et toi ?",
+      "words": {
+       "Приве́т": "privet",
+       "Норма́льно": "normalno",
+       "А": "a",
+       "у": "a-u-tebya",
+       "тебя́": "kak-tebya-zovut"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Отли́чно! Что но́вого?",
+      "fr": "Très bien ! Quoi de neuf ?",
+      "words": {
+       "Отли́чно": "otlichno",
+       "Что": "chto",
+       "но́вого": "chto-novogo"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Ничего́. Я немно́го уста́ла сего́дня.",
+      "fr": "Rien. Je suis un peu fatiguée aujourd'hui.",
+      "words": {
+       "Ничего́": "nichego",
+       "Я": "ya",
+       "немно́го": "nemnogo",
+       "уста́ла": "ustal",
+       "сего́дня": "segodnya"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Пло́хо! Всё хорошо́?",
+      "fr": "Pas cool ! Tout va bien ?",
+      "words": {
+       "Пло́хо": "plokho",
+       "Всё": "vsyo-khorosho",
+       "хорошо́": "khorosho"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Да, всё хорошо́. Спаси́бо!",
+      "fr": "Oui, tout va bien. Merci !",
+      "words": {
+       "Да": "da",
+       "всё": "vsyo-khorosho",
+       "хорошо́": "khorosho",
+       "Спаси́бо": "spasibo"
+      }
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "otlichno",
+      "plokho",
+      "tak-sebe",
+      "a-u-tebya",
+      "chto-novogo",
+      "nichego",
+      "segodnya",
+      "ustal",
+      "nemnogo"
+     ]
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "vsyo-khorosho"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "fluency",
+     "audio": false,
+     "dialogueDay": 11
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Приве́т, Ма́ша! Как дела́?",
+       "options": [
+        "ville",
+        "Salut Macha ! Comment ça va ?",
+        "soupe",
+        "encore"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Приве́т! Норма́льно. А у тебя́?",
+       "options": [
+        "qui",
+        "encore",
+        "Je suis fatigué / fatiguée.",
+        "Salut ! Ça va. Et toi ?"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Отли́чно! Что но́вого?",
+       "options": [
+        "chat",
+        "rien ; pas mal",
+        "oreille",
+        "Très bien ! Quoi de neuf ?"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ничего́. Я немно́го уста́ла сего́дня.",
+       "options": [
+        "bien",
+        "soupe",
+        "Rien. Je suis un peu fatiguée aujourd'hui.",
+        "ville"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Пло́хо! Всё хорошо́?",
+       "options": [
+        "Bonjour ! (poli)",
+        "Pas cool ! Tout va bien ?",
+        "cinéma",
+        "là-bas"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "shadow",
+       "ru": "Приве́т, Ма́ша! Как дела́?",
+       "fr": "Salut Macha ! Comment ça va ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Приве́т! Норма́льно. А у тебя́?",
+       "fr": "Salut ! Ça va. Et toi ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Отли́чно! Что но́вого?",
+       "fr": "Très bien ! Quoi de neuf ?"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "reply",
+       "thread": [
+        {
+         "from": "anton",
+         "ru": "Приве́т! Как дела́?"
+        }
+       ],
+       "options": [
+        "Отли́чно! А у тебя́?",
+        "Меня́ зову́т Анто́н.",
+        "Я программи́ст."
+       ],
+       "answer": 0
+      },
+      {
+       "t": "reply",
+       "thread": [
+        {
+         "from": "masha",
+         "ru": "Что но́вого?"
+        }
+       ],
+       "options": [
+        "Ничего́.",
+        "О́чень прия́тно!",
+        "Пожа́луйста."
+       ],
+       "answer": 0
+      },
+      {
+       "t": "translate",
+       "fr": "Et toi ?",
+       "answers": [
+        "А у тебя́?",
+        "А ты?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Tout va bien.",
+       "answers": [
+        "Всё хорошо́."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Je suis un peu fatiguée.",
+       "answers": [
+        "Я немно́го уста́ла."
+       ]
+      },
+      {
+       "t": "order",
+       "ru": "Приве́т, Ма́ша! Как дела́?",
+       "fr": "Salut Macha ! Comment ça va ?"
+      },
+      {
+       "t": "order",
+       "ru": "Приве́т! Норма́льно. А у тебя́?",
+       "fr": "Salut ! Ça va. Et toi ?"
+      },
+      {
+       "t": "translate",
+       "fr": "Aujourd'hui je suis à la maison.",
+       "answers": [
+        "Сего́дня я до́ма."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 13,
+   "phase": 1,
+   "theme": "La politesse",
+   "kind": "normal",
+   "items": [
+    "izvinite",
+    "prostite",
+    "konechno",
+    "bolshoe-spasibo",
+    "ne-za-chto",
+    "do-svidaniya",
+    "dobroe-utro",
+    "dobryi-den",
+    "dobryi-vecher",
+    "spokoinoi-nochi"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "masha",
+      "ru": "До́брый ве́чер, Анто́н!",
+      "fr": "Bonsoir, Anton !",
+      "words": {
+       "До́брый": "dobroe-utro",
+       "ве́чер": "dobryi-vecher"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "До́брый ве́чер! Вот фо́то. Э́то мой кот.",
+      "fr": "Bonsoir ! Voici une photo. C'est mon chat.",
+      "words": {
+       "До́брый": "dobroe-utro",
+       "ве́чер": "dobryi-vecher",
+       "Вот": "vot",
+       "фо́то": "foto",
+       "Э́то": "eto",
+       "мой": "moi",
+       "кот": "kot"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Большо́е спаси́бо! Как его́ зову́т?",
+      "fr": "Merci beaucoup ! Comment il s'appelle ?",
+      "words": {
+       "Большо́е": "bolshoe-spasibo",
+       "спаси́бо": "spasibo",
+       "Как": "kak-dela",
+       "его́": "on",
+       "зову́т": "menya-zovut"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Его́ зову́т Борщ!",
+      "fr": "Il s'appelle Bortsch !",
+      "words": {
+       "Его́": "on",
+       "зову́т": "menya-zovut",
+       "Борщ": "borshch"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Борщ? О́чень хорошо́!",
+      "fr": "Bortsch ? Très bien !",
+      "words": {
+       "Борщ": "borshch",
+       "О́чень": "ochen-priyatno",
+       "хорошо́": "khorosho"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Спаси́бо! Споко́йной но́чи, Ма́ша!",
+      "fr": "Merci ! Bonne nuit, Macha !",
+      "words": {
+       "Спаси́бо": "spasibo",
+       "Споко́йной": "spokoinoi-nochi",
+       "но́чи": "spokoinoi-nochi"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Пока́! Споко́йной но́чи!",
+      "fr": "Salut ! Bonne nuit !",
+      "words": {
+       "Пока́": "poka",
+       "Споко́йной": "spokoinoi-nochi",
+       "но́чи": "spokoinoi-nochi"
+      }
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "izvinite",
+      "prostite",
+      "konechno",
+      "bolshoe-spasibo",
+      "ne-za-chto",
+      "do-svidaniya",
+      "dobroe-utro",
+      "dobryi-den",
+      "dobryi-vecher"
+     ]
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "spokoinoi-nochi"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "fluency",
+     "audio": false,
+     "dialogueDay": 11
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "До́брый ве́чер, Анто́н!",
+       "options": [
+        "excellent, très bien",
+        "Bonjour ! (la journée)",
+        "je",
+        "Bonsoir, Anton !"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "До́брый ве́чер! Вот фо́то. Э́то мой кот.",
+       "options": [
+        "Merci ! Bonne nuit, Macha !",
+        "métro",
+        "Bonsoir ! Voici une photo. C'est mon chat.",
+        "Bortsch ? Très bien !"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Большо́е спаси́бо! Как его́ зову́т?",
+       "options": [
+        "mon",
+        "café (le lieu)",
+        "métro",
+        "Merci beaucoup ! Comment il s'appelle ?"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Его́ зову́т Борщ!",
+       "options": [
+        "citron",
+        "fenêtre",
+        "Bonjour ! (le matin)",
+        "Il s'appelle Bortsch !"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Борщ? О́чень хорошо́!",
+       "options": [
+        "Bonjour ! (la journée)",
+        "nez",
+        "ainsi, comme ça",
+        "Bortsch ? Très bien !"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "shadow",
+       "ru": "До́брый ве́чер, Анто́н!",
+       "fr": "Bonsoir, Anton !"
+      },
+      {
+       "t": "shadow",
+       "ru": "До́брый ве́чер! Вот фо́то. Э́то мой кот.",
+       "fr": "Bonsoir ! Voici une photo. C'est mon chat."
+      },
+      {
+       "t": "shadow",
+       "ru": "Большо́е спаси́бо! Как его́ зову́т?",
+       "fr": "Merci beaucoup ! Comment il s'appelle ?"
+      }
+     ]
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "До́брый ве́чер, Анто́н!",
+       "fr": "Bonsoir, Anton !"
+      },
+      {
+       "t": "speak",
+       "ru": "До́брый ве́чер! Вот фо́то. Э́то мой кот.",
+       "fr": "Bonsoir ! Voici une photo. C'est mon chat."
+      },
+      {
+       "t": "speak",
+       "ru": "Большо́е спаси́бо! Как его́ зову́т?",
+       "fr": "Merci beaucoup ! Comment il s'appelle ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Его́ зову́т Борщ!",
+       "fr": "Il s'appelle Bortsch !"
+      },
+      {
+       "t": "speak",
+       "ru": "Борщ? О́чень хорошо́!",
+       "fr": "Bortsch ? Très bien !"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 14,
+   "phase": 1,
+   "theme": "Consolidation",
+   "kind": "consolidation",
+   "items": [],
+   "letters": [],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "fluency",
+     "audio": false,
+     "dialogueDay": 11
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "order",
+       "ru": "Приве́т! Меня́ зову́т Ма́ша. А тебя́?",
+       "fr": "Salut ! Je m'appelle Macha. Et toi ?"
+      },
+      {
+       "t": "order",
+       "ru": "Приве́т! Меня́ зову́т Анто́н.",
+       "fr": "Salut ! Je m'appelle Anton."
+      },
+      {
+       "t": "translate",
+       "fr": "Je m'appelle Macha.",
+       "answers": [
+        "Меня́ зову́т Ма́ша."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Je suis étudiante. Et toi ?",
+       "answers": [
+        "Я студе́нтка. А ты?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Je suis étudiante aussi.",
+       "answers": [
+        "Я то́же студе́нтка."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Je suis développeur.",
+       "answers": [
+        "Я программи́ст."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Je ne suis pas étudiant.",
+       "answers": [
+        "Я не студе́нт."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Приве́т! Меня́ зову́т Ма́ша. А тебя́?",
+       "options": [
+        "eau",
+        "Salut ! Je m'appelle Macha. Et toi ?",
+        "il",
+        "fenêtre"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Приве́т! Меня́ зову́т Анто́н.",
+       "options": [
+        "Comment ça va ?",
+        "Tout va bien.",
+        "Salut ! Je m'appelle Anton.",
+        "Pardon !"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "О́чень прия́тно, Анто́н!",
+       "options": [
+        "taxi",
+        "excellent, très bien",
+        "Enchantée, Anton !",
+        "comme ci, comme ça"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "О́чень прия́тно! Ты студе́нтка?",
+       "options": [
+        "Enchanté ! Tu es étudiante ?",
+        "et",
+        "bien",
+        "sel"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Да, я студе́нтка. А ты?",
+       "options": [
+        "photo",
+        "Oui, je suis étudiante. Et toi ?",
+        "Bonjour ! (la journée)",
+        "jus"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "shadow",
+       "ru": "Приве́т! Меня́ зову́т Ма́ша. А тебя́?",
+       "fr": "Salut ! Je m'appelle Macha. Et toi ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Приве́т! Меня́ зову́т Анто́н.",
+       "fr": "Salut ! Je m'appelle Anton."
+      },
+      {
+       "t": "shadow",
+       "ru": "О́чень прия́тно, Анто́н!",
+       "fr": "Enchantée, Anton !"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Приве́т! Меня́ зову́т Ма́ша. А тебя́?",
+       "fr": "Salut ! Je m'appelle Macha. Et toi ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Приве́т! Меня́ зову́т Анто́н.",
+       "fr": "Salut ! Je m'appelle Anton."
+      },
+      {
+       "t": "speak",
+       "ru": "О́чень прия́тно, Анто́н!",
+       "fr": "Enchantée, Anton !"
+      },
+      {
+       "t": "speak",
+       "ru": "О́чень прия́тно! Ты студе́нтка?",
+       "fr": "Enchanté ! Tu es étudiante ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Да, я студе́нтка. А ты?",
+       "fr": "Oui, je suis étudiante. Et toi ?"
+      }
+     ]
+    },
+    {
+     "type": "fluency",
+     "audio": false,
+     "dialogueDay": 11
+    }
+   ]
+  },
+  {
+   "day": 15,
+   "phase": 1,
+   "theme": "Au café",
+   "kind": "normal",
+   "items": [
+    "kofe",
+    "khochu",
+    "ili",
+    "s-molokom",
+    "bez-sakhara",
+    "v-kafe",
+    "tort",
+    "mozhno",
+    "kapuchino"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "masha",
+      "ru": "Приве́т! Ты где?",
+      "fr": "Salut ! Tu es où ?",
+      "words": {
+       "Приве́т": "privet",
+       "Ты": "ty",
+       "где": "gde"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Я в кафе́.",
+      "fr": "Je suis au café.",
+      "words": {
+       "Я": "ya",
+       "в": "v-kafe",
+       "кафе́": "kafe"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Что ты хо́чешь? Чай и́ли ко́фе?",
+      "fr": "Qu'est-ce que tu veux ? Thé ou café ?",
+      "words": {
+       "Что": "chto",
+       "ты": "ty",
+       "хо́чешь": "khochu",
+       "Чай": "chai",
+       "и́ли": "ili",
+       "ко́фе": "kofe"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Ко́фе с молоко́м. А ты?",
+      "fr": "Un café au lait. Et toi ?",
+      "words": {
+       "Ко́фе": "kofe",
+       "с": "s-molokom",
+       "молоко́м": "s-molokom",
+       "А": "a",
+       "ты": "ty"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Я хочу́ чай. Без са́хара.",
+      "fr": "Je veux un thé. Sans sucre.",
+      "words": {
+       "Я": "ya",
+       "хочу́": "khochu",
+       "чай": "chai",
+       "Без": "bez-sakhara",
+       "са́хара": "bez-sakhara"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Хорошо́. И торт?",
+      "fr": "D'accord. Et un gâteau ?",
+      "words": {
+       "Хорошо́": "khorosho",
+       "И": "i",
+       "торт": "tort"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Да, спаси́бо!",
+      "fr": "Oui, merci !",
+      "words": {
+       "Да": "da",
+       "спаси́бо": "spasibo"
+      }
+     }
+    ]
+   },
+   "grammar": {
+    "title": "La question par l'intonation",
+    "explanation": "En russe, une question peut s'écrire exactement comme une affirmation. Seule l'intonation change : la voix monte nettement sur le mot interrogé.\n\nТы хо́чешь чай. = Tu veux du thé. Ты хо́чешь чай? = Tu veux du thé ?\n\nÉcoute les exemples : la différence est dans la mélodie, pas dans les mots.",
+    "examples": [
+     {
+      "ru": "Ты хо́чешь чай.",
+      "fr": "Tu veux du thé."
+     },
+     {
+      "ru": "Ты хо́чешь чай?",
+      "fr": "Tu veux du thé ?"
+     },
+     {
+      "ru": "Э́то кафе́.",
+      "fr": "C'est un café."
+     },
+     {
+      "ru": "Э́то кафе́?",
+      "fr": "C'est un café ?"
+     }
+    ],
+    "exercises": [
+     {
+      "t": "listen",
+      "ru": "Ты хо́чешь ко́фе?",
+      "options": [
+       "Question",
+       "Affirmation"
+      ],
+      "answer": 0
+     },
+     {
+      "t": "listen",
+      "ru": "Э́то торт.",
+      "options": [
+       "Question",
+       "Affirmation"
+      ],
+      "answer": 1
+     },
+     {
+      "t": "translate",
+      "fr": "Tu veux un café ?",
+      "answers": [
+       "Ты хо́чешь ко́фе?"
+      ]
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "kofe",
+      "khochu",
+      "ili",
+      "s-molokom",
+      "bez-sakhara",
+      "v-kafe",
+      "tort",
+      "mozhno",
+      "kapuchino"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Приве́т! Ты где?",
+       "options": [
+        "Salut ! Tu es où ?",
+        "banque",
+        "aussi",
+        "bien"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Я в кафе́.",
+       "options": [
+        "Je suis au café.",
+        "au lait, avec du lait",
+        "vous",
+        "bien"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Что ты хо́чешь? Чай и́ли ко́фе?",
+       "options": [
+        "tu",
+        "ici",
+        "Qu'est-ce que tu veux ? Thé ou café ?",
+        "sans sucre"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ко́фе с молоко́м. А ты?",
+       "options": [
+        "Merci !",
+        "Un café au lait. Et toi ?",
+        "Bonjour ! (poli)",
+        "Je suis au café."
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Я хочу́ чай. Без са́хара.",
+       "options": [
+        "maman",
+        "Je suis au café.",
+        "Je veux un thé. Sans sucre.",
+        "gâteau"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "shadow",
+       "ru": "Приве́т! Ты где?",
+       "fr": "Salut ! Tu es où ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Я в кафе́.",
+       "fr": "Je suis au café."
+      },
+      {
+       "t": "shadow",
+       "ru": "Что ты хо́чешь? Чай и́ли ко́фе?",
+       "fr": "Qu'est-ce que tu veux ? Thé ou café ?"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "translate",
+       "fr": "Je veux un thé sans sucre.",
+       "answers": [
+        "Я хочу́ чай без са́хара."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Un café au lait, s'il te plaît.",
+       "answers": [
+        "Ко́фе с молоко́м, пожа́луйста."
+       ]
+      },
+      {
+       "t": "reply",
+       "thread": [
+        {
+         "from": "anton",
+         "ru": "Чай и́ли ко́фе?"
+        }
+       ],
+       "options": [
+        "Ко́фе, пожа́луйста.",
+        "Меня́ зову́т Ма́ша.",
+        "Пока́!"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "order",
+       "ru": "Приве́т! Ты где?",
+       "fr": "Salut ! Tu es où ?"
+      },
+      {
+       "t": "order",
+       "ru": "Я в кафе́.",
+       "fr": "Je suis au café."
+      },
+      {
+       "t": "translate",
+       "fr": "Je veux un café.",
+       "answers": [
+        "Я хочу́ ко́фе."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Qu'est-ce que tu veux ?",
+       "answers": [
+        "Что ты хо́чешь?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Thé ou café ?",
+       "answers": [
+        "Чай и́ли ко́фе?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Je suis au café.",
+       "answers": [
+        "Я в кафе́."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Je peux avoir un café ?",
+       "answers": [
+        "Мо́жно ко́фе?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 16,
+   "phase": 1,
+   "theme": "Qu'est-ce que c'est ?",
+   "kind": "normal",
+   "items": [
+    "stol",
+    "kniga",
+    "telefon",
+    "ruchka",
+    "kompyuter",
+    "sumka",
+    "klyuch",
+    "chto-eto"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "anton",
+      "ru": "Ма́ша, что э́то?",
+      "fr": "Macha, qu'est-ce que c'est ?",
+      "words": {
+       "что": "chto",
+       "э́то": "eto"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Э́то кни́га.",
+      "fr": "C'est un livre.",
+      "words": {
+       "Э́то": "eto",
+       "кни́га": "kniga"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "А э́то?",
+      "fr": "Et ça ?",
+      "words": {
+       "А": "a",
+       "э́то": "eto"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Э́то мой телефо́н.",
+      "fr": "C'est mon téléphone.",
+      "words": {
+       "Э́то": "eto",
+       "мой": "moi",
+       "телефо́н": "telefon"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "А э́то что? Ру́чка?",
+      "fr": "Et ça, c'est quoi ? Un stylo ?",
+      "words": {
+       "А": "a",
+       "э́то": "eto",
+       "что": "chto",
+       "Ру́чка": "ruchka"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Нет, э́то не ру́чка, э́то ключ!",
+      "fr": "Non, ce n'est pas un stylo, c'est une clé !",
+      "words": {
+       "Нет": "net",
+       "э́то": "eto",
+       "не": "ne",
+       "ру́чка": "ruchka",
+       "ключ": "klyuch"
+      }
+     }
+    ]
+   },
+   "grammar": {
+    "title": "Э́то… : c'est",
+    "explanation": "Э́то veut dire « c'est », « ceci » ou « ce sont ». Il ne change jamais.\n\nPour demander : Что э́то? (qu'est-ce que c'est ?) ou Кто э́то? (qui est-ce ?).\n\nIl n'y a pas d'article en russe : Э́то кни́га = c'est un livre, ou c'est le livre, selon le contexte.",
+    "examples": [
+     {
+      "ru": "Что э́то? Э́то стол.",
+      "fr": "Qu'est-ce que c'est ? C'est une table."
+     },
+     {
+      "ru": "Кто э́то? Э́то Анто́н.",
+      "fr": "Qui est-ce ? C'est Anton."
+     },
+     {
+      "ru": "Э́то не кни́га.",
+      "fr": "Ce n'est pas un livre."
+     }
+    ],
+    "exercises": [
+     {
+      "t": "translate",
+      "fr": "C'est un téléphone.",
+      "answers": [
+       "Э́то телефо́н."
+      ]
+     },
+     {
+      "t": "translate",
+      "fr": "Ce n'est pas un livre.",
+      "answers": [
+       "Э́то не кни́га."
+      ]
+     },
+     {
+      "t": "cloze",
+      "ru": "___ э́то? Э́то стол.",
+      "answers": [
+       "Что"
+      ],
+      "fr": "Qu'est-ce que c'est ? C'est une table."
+     },
+     {
+      "t": "cloze",
+      "ru": "___ э́то? Э́то Ма́ша.",
+      "answers": [
+       "Кто"
+      ],
+      "fr": "Qui est-ce ? C'est Macha."
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "stol",
+      "kniga",
+      "telefon",
+      "ruchka",
+      "kompyuter",
+      "sumka",
+      "klyuch",
+      "chto-eto"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ма́ша, что э́то?",
+       "options": [
+        "encore",
+        "Bonne nuit !",
+        "C'est un livre.",
+        "Macha, qu'est-ce que c'est ?"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Э́то кни́га.",
+       "options": [
+        "Au revoir ! (poli)",
+        "Merci !",
+        "nez",
+        "C'est un livre."
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А э́то?",
+       "options": [
+        "Macha, qu'est-ce que c'est ?",
+        "Et ça ?",
+        "clé",
+        "il"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Э́то мой телефо́н.",
+       "options": [
+        "eau",
+        "De rien.",
+        "C'est mon téléphone.",
+        "oreille"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А э́то что? Ру́чка?",
+       "options": [
+        "oreille",
+        "Comment tu t'appelles ?",
+        "Et ça, c'est quoi ? Un stylo ?",
+        "et (en opposition), alors"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "shadow",
+       "ru": "Ма́ша, что э́то?",
+       "fr": "Macha, qu'est-ce que c'est ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Э́то кни́га.",
+       "fr": "C'est un livre."
+      },
+      {
+       "t": "shadow",
+       "ru": "А э́то?",
+       "fr": "Et ça ?"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Ма́ша, что э́то?",
+       "fr": "Macha, qu'est-ce que c'est ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Э́то кни́га.",
+       "fr": "C'est un livre."
+      },
+      {
+       "t": "speak",
+       "ru": "А э́то?",
+       "fr": "Et ça ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Э́то мой телефо́н.",
+       "fr": "C'est mon téléphone."
+      },
+      {
+       "t": "speak",
+       "ru": "А э́то что? Ру́чка?",
+       "fr": "Et ça, c'est quoi ? Un stylo ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 17,
+   "phase": 1,
+   "theme": "Le genre des mots",
+   "kind": "normal",
+   "items": [
+    "ono",
+    "mashina",
+    "pismo",
+    "drug",
+    "podruga",
+    "more",
+    "papa",
+    "koshka",
+    "moya"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "masha",
+      "ru": "Вот фо́то. Э́то мо́ре!",
+      "fr": "Voici une photo. C'est la mer !",
+      "words": {
+       "Вот": "vot",
+       "фо́то": "foto",
+       "Э́то": "eto",
+       "мо́ре": "more"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Хорошо́! А кто э́то?",
+      "fr": "Super ! Et qui est-ce ?",
+      "words": {
+       "Хорошо́": "khorosho",
+       "А": "a",
+       "кто": "kto",
+       "э́то": "eto"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Э́то мой друг. Он программи́ст.",
+      "fr": "C'est mon ami. Il est développeur.",
+      "words": {
+       "Э́то": "eto",
+       "мой": "moi",
+       "друг": "drug",
+       "Он": "on",
+       "программи́ст": "programmist"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "А э́то?",
+      "fr": "Et ça ?",
+      "words": {
+       "А": "a",
+       "э́то": "eto"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Э́то моя́ подру́га. Она́ студе́нтка.",
+      "fr": "C'est mon amie. Elle est étudiante.",
+      "words": {
+       "Э́то": "eto",
+       "моя́": "moi",
+       "подру́га": "podruga",
+       "Она́": "ona",
+       "студе́нтка": "student"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "А э́то ко́шка?",
+      "fr": "Et ça, c'est une chatte ?",
+      "words": {
+       "А": "a",
+       "э́то": "eto",
+       "ко́шка": "koshka"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Нет, э́то кот!",
+      "fr": "Non, c'est un chat !",
+      "words": {
+       "Нет": "net",
+       "э́то": "eto",
+       "кот": "kot"
+      }
+     }
+    ]
+   },
+   "grammar": {
+    "title": "Le genre des mots",
+    "explanation": "Chaque nom russe est masculin, féminin ou neutre. On le devine presque toujours grâce à la dernière lettre.\n\nConsonne → masculin, on dit он : стол, кот, друг. -а ou -я → féminin, on dit она́ : маши́на, подру́га. -о ou -е → neutre, on dit оно́ : окно́, мо́ре, письмо́.\n\nException utile : па́па est masculin, parce que c'est un homme.",
+    "examples": [
+     {
+      "ru": "Э́то стол. Он тут.",
+      "fr": "C'est une table. Elle est ici."
+     },
+     {
+      "ru": "Э́то маши́на. Она́ там.",
+      "fr": "C'est une voiture. Elle est là-bas."
+     },
+     {
+      "ru": "Э́то окно́. Оно́ тут.",
+      "fr": "C'est une fenêtre. Elle est ici."
+     }
+    ],
+    "exercises": [
+     {
+      "t": "cloze",
+      "ru": "Э́то стол. ___ тут.",
+      "answers": [
+       "Он"
+      ],
+      "fr": "C'est une table. Elle est ici."
+     },
+     {
+      "t": "cloze",
+      "ru": "Э́то маши́на. ___ тут.",
+      "answers": [
+       "Она́"
+      ],
+      "fr": "C'est une voiture. Elle est ici."
+     },
+     {
+      "t": "cloze",
+      "ru": "Э́то мо́ре. ___ там.",
+      "answers": [
+       "Оно́"
+      ],
+      "fr": "C'est la mer. Elle est là-bas."
+     },
+     {
+      "t": "cloze",
+      "ru": "Э́то па́па. ___ до́ма.",
+      "answers": [
+       "Он"
+      ],
+      "fr": "C'est papa. Il est à la maison."
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "ono",
+      "mashina",
+      "pismo",
+      "drug",
+      "podruga",
+      "more",
+      "papa",
+      "koshka",
+      "moya"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Вот фо́то. Э́то мо́ре!",
+       "options": [
+        "Voici une photo. C'est la mer !",
+        "sommeil, rêve",
+        "et (en opposition), alors",
+        "ville"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Хорошо́! А кто э́то?",
+       "options": [
+        "Super ! Et qui est-ce ?",
+        "Bonsoir !",
+        "Bonjour ! (poli)",
+        "bien sûr"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Э́то мой друг. Он программи́ст.",
+       "options": [
+        "encore",
+        "métro",
+        "thé",
+        "C'est mon ami. Il est développeur."
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А э́то?",
+       "options": [
+        "excellent, très bien",
+        "Et ça ?",
+        "nez",
+        "maman"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Э́то моя́ подру́га. Она́ студе́нтка.",
+       "options": [
+        "C'est mon amie. Elle est étudiante.",
+        "Et ça ?",
+        "pizza",
+        "taxi"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "shadow",
+       "ru": "Вот фо́то. Э́то мо́ре!",
+       "fr": "Voici une photo. C'est la mer !"
+      },
+      {
+       "t": "shadow",
+       "ru": "Хорошо́! А кто э́то?",
+       "fr": "Super ! Et qui est-ce ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Э́то мой друг. Он программи́ст.",
+       "fr": "C'est mon ami. Il est développeur."
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "translate",
+       "fr": "C'est mon ami.",
+       "answers": [
+        "Э́то мой друг."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "C'est mon amie.",
+       "answers": [
+        "Э́то моя́ подру́га."
+       ]
+      },
+      {
+       "t": "order",
+       "ru": "Вот фо́то. Э́то мо́ре!",
+       "fr": "Voici une photo. C'est la mer !"
+      },
+      {
+       "t": "order",
+       "ru": "Хорошо́! А кто э́то?",
+       "fr": "Super ! Et qui est-ce ?"
+      },
+      {
+       "t": "translate",
+       "fr": "C'est une fenêtre. Elle est ici.",
+       "answers": [
+        "Э́то окно́. Оно́ тут."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 18,
+   "phase": 1,
+   "theme": "Mes affaires",
+   "kind": "normal",
+   "items": [
+    "tvoi",
+    "vash",
+    "ego",
+    "eyo",
+    "ryukzak",
+    "pasport",
+    "chasy",
+    "ochki",
+    "zont"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "masha",
+      "ru": "Анто́н, э́то твой па́спорт?",
+      "fr": "Anton, c'est ton passeport ?",
+      "words": {
+       "э́то": "eto",
+       "твой": "tvoi",
+       "па́спорт": "pasport"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Да, мой. Спаси́бо!",
+      "fr": "Oui, c'est le mien. Merci !",
+      "words": {
+       "Да": "da",
+       "мой": "moi",
+       "Спаси́бо": "spasibo"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "А э́то твой зонт?",
+      "fr": "Et c'est ton parapluie ?",
+      "words": {
+       "А": "a",
+       "э́то": "eto",
+       "твой": "tvoi",
+       "зонт": "zont"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Нет, не мой.",
+      "fr": "Non, ce n'est pas le mien.",
+      "words": {
+       "Нет": "net",
+       "не": "ne",
+       "мой": "moi"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "А часы́? Э́то твои́ часы́?",
+      "fr": "Et la montre ? C'est ta montre ?",
+      "words": {
+       "А": "a",
+       "часы́": "chasy",
+       "Э́то": "eto",
+       "твои́": "tvoi"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Да! Большо́е спаси́бо, Ма́ша!",
+      "fr": "Oui ! Merci beaucoup, Macha !",
+      "words": {
+       "Да": "da",
+       "Большо́е": "bolshoe-spasibo",
+       "спаси́бо": "spasibo"
+      }
+     }
+    ]
+   },
+   "grammar": {
+    "title": "Mon, ton : мой, твой",
+    "explanation": "Мой (mon) et твой (ton) s'accordent avec le genre de l'objet possédé, pas avec la personne qui possède.\n\nMasculin : мой телефо́н. Féminin : моя́ су́мка. Neutre : моё окно́. Pluriel : мои́ часы́. Même chose pour твой, твоя́, твоё, твои́.\n\nЕго́ (à lui) et её (à elle) ne changent jamais : его́ су́мка, её телефо́н.",
+    "examples": [
+     {
+      "ru": "Э́то мой телефо́н.",
+      "fr": "C'est mon téléphone."
+     },
+     {
+      "ru": "Э́то моя́ су́мка.",
+      "fr": "C'est mon sac."
+     },
+     {
+      "ru": "Э́то моё окно́.",
+      "fr": "C'est ma fenêtre."
+     },
+     {
+      "ru": "Э́то мои́ часы́.",
+      "fr": "C'est ma montre."
+     },
+     {
+      "ru": "Э́то её па́спорт.",
+      "fr": "C'est son passeport (à elle)."
+     }
+    ],
+    "exercises": [
+     {
+      "t": "cloze",
+      "ru": "Э́то ___ су́мка.",
+      "answers": [
+       "моя́"
+      ],
+      "fr": "C'est mon sac."
+     },
+     {
+      "t": "cloze",
+      "ru": "Э́то ___ телефо́н?",
+      "answers": [
+       "твой"
+      ],
+      "fr": "C'est ton téléphone ?"
+     },
+     {
+      "t": "cloze",
+      "ru": "Э́то ___ окно́.",
+      "answers": [
+       "моё"
+      ],
+      "fr": "C'est ma fenêtre."
+     },
+     {
+      "t": "cloze",
+      "ru": "Э́то ___ часы́?",
+      "answers": [
+       "твои́"
+      ],
+      "fr": "C'est ta montre ?"
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "tvoi",
+      "vash",
+      "ego",
+      "eyo",
+      "ryukzak",
+      "pasport",
+      "chasy",
+      "ochki",
+      "zont"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Анто́н, э́то твой па́спорт?",
+       "options": [
+        "Anton, c'est ton passeport ?",
+        "voiture",
+        "bien sûr",
+        "Qu'est-ce que c'est ?"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Да, мой. Спаси́бо!",
+       "options": [
+        "Je suis fatigué / fatiguée.",
+        "Oui, c'est le mien. Merci !",
+        "mer",
+        "non"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А э́то твой зонт?",
+       "options": [
+        "Et c'est ton parapluie ?",
+        "mal",
+        "maman",
+        "passeport"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Нет, не мой.",
+       "options": [
+        "gâteau",
+        "elle",
+        "Non, ce n'est pas le mien.",
+        "aujourd'hui"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А часы́? Э́то твои́ часы́?",
+       "options": [
+        "Et la montre ? C'est ta montre ?",
+        "Bonjour ! (poli)",
+        "ordinateur",
+        "tu"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "shadow",
+       "ru": "Анто́н, э́то твой па́спорт?",
+       "fr": "Anton, c'est ton passeport ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Да, мой. Спаси́бо!",
+       "fr": "Oui, c'est le mien. Merci !"
+      },
+      {
+       "t": "shadow",
+       "ru": "А э́то твой зонт?",
+       "fr": "Et c'est ton parapluie ?"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Анто́н, э́то твой па́спорт?",
+       "fr": "Anton, c'est ton passeport ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Да, мой. Спаси́бо!",
+       "fr": "Oui, c'est le mien. Merci !"
+      },
+      {
+       "t": "speak",
+       "ru": "А э́то твой зонт?",
+       "fr": "Et c'est ton parapluie ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Нет, не мой.",
+       "fr": "Non, ce n'est pas le mien."
+      },
+      {
+       "t": "speak",
+       "ru": "А часы́? Э́то твои́ часы́?",
+       "fr": "Et la montre ? C'est ta montre ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 19,
+   "phase": 1,
+   "theme": "La famille",
+   "kind": "normal",
+   "items": [
+    "semya",
+    "brat",
+    "sestra",
+    "babushka",
+    "dedushka",
+    "syn",
+    "doch",
+    "muzh",
+    "zhena",
+    "oni"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "anton",
+      "ru": "Ма́ша, э́то твоя́ семья́?",
+      "fr": "Macha, c'est ta famille ?",
+      "words": {
+       "э́то": "eto",
+       "твоя́": "tvoi",
+       "семья́": "semya"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Да! Э́то ма́ма и па́па.",
+      "fr": "Oui ! C'est maman et papa.",
+      "words": {
+       "Да": "da",
+       "Э́то": "eto",
+       "ма́ма": "mama",
+       "и": "i",
+       "па́па": "papa"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "А кто э́то?",
+      "fr": "Et qui est-ce ?",
+      "words": {
+       "А": "a",
+       "кто": "kto",
+       "э́то": "eto"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Э́то моя́ сестра́, а э́то мой брат.",
+      "fr": "C'est ma sœur, et voici mon frère.",
+      "words": {
+       "Э́то": "eto",
+       "моя́": "moi",
+       "сестра́": "sestra",
+       "а": "a",
+       "э́то": "eto",
+       "мой": "moi",
+       "брат": "brat"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "А ба́бушка и де́душка?",
+      "fr": "Et les grands-parents ?",
+      "words": {
+       "А": "a",
+       "ба́бушка": "babushka",
+       "и": "i",
+       "де́душка": "dedushka"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Они́ тут, в Москве́.",
+      "fr": "Ils sont ici, à Moscou.",
+      "words": {
+       "Они́": "oni",
+       "тут": "tut",
+       "в": "v-kafe",
+       "Москве́": "moskva"
+      }
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "semya",
+      "brat",
+      "sestra",
+      "babushka",
+      "dedushka",
+      "syn",
+      "doch",
+      "muzh",
+      "zhena"
+     ]
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "oni"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "fluency",
+     "audio": false,
+     "dialogueDay": 12
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ма́ша, э́то твоя́ семья́?",
+       "options": [
+        "Je suis fatigué / fatiguée.",
+        "mer",
+        "Merci beaucoup !",
+        "Macha, c'est ta famille ?"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Да! Э́то ма́ма и па́па.",
+       "options": [
+        "nez",
+        "grand-mère",
+        "Oui ! C'est maman et papa.",
+        "papa"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А кто э́то?",
+       "options": [
+        "Et les grands-parents ?",
+        "Comment tu t'appelles ?",
+        "Et qui est-ce ?",
+        "non"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Э́то моя́ сестра́, а э́то мой брат.",
+       "options": [
+        "gâteau",
+        "C'est ma sœur, et voici mon frère.",
+        "grand-père",
+        "vous"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А ба́бушка и де́душка?",
+       "options": [
+        "Salut ! (au revoir)",
+        "Merci beaucoup !",
+        "pizza",
+        "Et les grands-parents ?"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "shadow",
+       "ru": "Ма́ша, э́то твоя́ семья́?",
+       "fr": "Macha, c'est ta famille ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Да! Э́то ма́ма и па́па.",
+       "fr": "Oui ! C'est maman et papa."
+      },
+      {
+       "t": "shadow",
+       "ru": "А кто э́то?",
+       "fr": "Et qui est-ce ?"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "translate",
+       "fr": "C'est mon frère.",
+       "answers": [
+        "Э́то мой брат."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Ma sœur est étudiante.",
+       "answers": [
+        "Моя́ сестра́ студе́нтка."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "C'est ta famille ?",
+       "answers": [
+        "Э́то твоя́ семья́?"
+       ]
+      },
+      {
+       "t": "reply",
+       "thread": [
+        {
+         "from": "anton",
+         "ru": "Кто э́то?"
+        }
+       ],
+       "options": [
+        "Э́то моя́ ба́бушка.",
+        "Э́то кафе́.",
+        "Спаси́бо!"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "order",
+       "ru": "Ма́ша, э́то твоя́ семья́?",
+       "fr": "Macha, c'est ta famille ?"
+      },
+      {
+       "t": "order",
+       "ru": "Да! Э́то ма́ма и па́па.",
+       "fr": "Oui ! C'est maman et papa."
+      },
+      {
+       "t": "translate",
+       "fr": "C'est mon frère.",
+       "answers": [
+        "Э́то мой брат."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Ma sœur est étudiante.",
+       "answers": [
+        "Моя́ сестра́ студе́нтка."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 20,
+   "phase": 1,
+   "theme": "Où est… ?",
+   "kind": "normal",
+   "items": [
+    "zdes",
+    "sprava",
+    "sleva",
+    "ryadom",
+    "doma",
+    "na-rabote",
+    "tualet",
+    "kukhnya",
+    "komnata"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "masha",
+      "ru": "Анто́н, где мой ключ?",
+      "fr": "Anton, où est ma clé ?",
+      "words": {
+       "где": "gde",
+       "мой": "moi",
+       "ключ": "klyuch"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Твой ключ? Он тут, ря́дом.",
+      "fr": "Ta clé ? Elle est ici, tout près.",
+      "words": {
+       "Твой": "tvoi",
+       "ключ": "klyuch",
+       "Он": "on",
+       "тут": "tut",
+       "ря́дом": "ryadom"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Где? Сле́ва?",
+      "fr": "Où ? À gauche ?",
+      "words": {
+       "Где": "gde",
+       "Сле́ва": "sleva"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Нет, спра́ва. Вот он!",
+      "fr": "Non, à droite. La voilà !",
+      "words": {
+       "Нет": "net",
+       "спра́ва": "sprava",
+       "Вот": "vot",
+       "он": "on"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Спаси́бо! А где ку́хня?",
+      "fr": "Merci ! Et où est la cuisine ?",
+      "words": {
+       "Спаси́бо": "spasibo",
+       "А": "a",
+       "где": "gde",
+       "ку́хня": "kukhnya"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Ку́хня там. Туале́т здесь.",
+      "fr": "La cuisine est là-bas. Les toilettes sont ici.",
+      "words": {
+       "Ку́хня": "kukhnya",
+       "там": "tam",
+       "Туале́т": "tualet",
+       "здесь": "zdes"
+      }
+     }
+    ]
+   },
+   "grammar": {
+    "title": "Où ? Где ?",
+    "explanation": "Pour demander où se trouve quelque chose : Где + le nom. Где ку́хня? = Où est la cuisine ?\n\nPour répondre, on remplace souvent le nom par он, она́ ou оно́ selon son genre : Где ключ? Он тут. Где маши́на? Она́ там.\n\nQuelques réponses toutes faites : здесь / тут (ici), там (là-bas), ря́дом (tout près), до́ма (à la maison), на рабо́те (au travail).",
+    "examples": [
+     {
+      "ru": "Где ку́хня? Она́ там.",
+      "fr": "Où est la cuisine ? Elle est là-bas."
+     },
+     {
+      "ru": "Где ключ? Он здесь.",
+      "fr": "Où est la clé ? Elle est ici."
+     },
+     {
+      "ru": "Где ма́ма? Она́ на рабо́те.",
+      "fr": "Où est maman ? Elle est au travail."
+     }
+    ],
+    "exercises": [
+     {
+      "t": "translate",
+      "fr": "Où est la cuisine ?",
+      "answers": [
+       "Где ку́хня?"
+      ]
+     },
+     {
+      "t": "cloze",
+      "ru": "Где ма́ма? ___ до́ма.",
+      "answers": [
+       "Она́"
+      ],
+      "fr": "Où est maman ? Elle est à la maison."
+     },
+     {
+      "t": "cloze",
+      "ru": "Где телефо́н? ___ здесь.",
+      "answers": [
+       "Он"
+      ],
+      "fr": "Où est le téléphone ? Il est ici."
+     },
+     {
+      "t": "reply",
+      "thread": [
+       {
+        "from": "masha",
+        "ru": "Где ты?"
+       }
+      ],
+      "options": [
+       "Я до́ма.",
+       "Спаси́бо!",
+       "Э́то кот."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "zdes",
+      "sprava",
+      "sleva",
+      "ryadom",
+      "doma",
+      "na-rabote",
+      "tualet",
+      "kukhnya",
+      "komnata"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Анто́н, где мой ключ?",
+       "options": [
+        "son, sa (à lui)",
+        "Anton, où est ma clé ?",
+        "ami",
+        "montre, horloge"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Твой ключ? Он тут, ря́дом.",
+       "options": [
+        "montre, horloge",
+        "mer",
+        "Ta clé ? Elle est ici, tout près.",
+        "non"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Где? Сле́ва?",
+       "options": [
+        "sac à dos",
+        "nez",
+        "là-bas",
+        "Où ? À gauche ?"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Нет, спра́ва. Вот он!",
+       "options": [
+        "Non, à droite. La voilà !",
+        "Tout va bien.",
+        "Salut ! (au revoir)",
+        "papa"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Спаси́бо! А где ку́хня?",
+       "options": [
+        "Merci ! Et où est la cuisine ?",
+        "Bonsoir !",
+        "pizza",
+        "gâteau"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "shadow",
+       "ru": "Анто́н, где мой ключ?",
+       "fr": "Anton, où est ma clé ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Твой ключ? Он тут, ря́дом.",
+       "fr": "Ta clé ? Elle est ici, tout près."
+      },
+      {
+       "t": "shadow",
+       "ru": "Где? Сле́ва?",
+       "fr": "Où ? À gauche ?"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Анто́н, где мой ключ?",
+       "fr": "Anton, où est ma clé ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Твой ключ? Он тут, ря́дом.",
+       "fr": "Ta clé ? Elle est ici, tout près."
+      },
+      {
+       "t": "speak",
+       "ru": "Где? Сле́ва?",
+       "fr": "Où ? À gauche ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Нет, спра́ва. Вот он!",
+       "fr": "Non, à droite. La voilà !"
+      },
+      {
+       "t": "speak",
+       "ru": "Спаси́бо! А где ку́хня?",
+       "fr": "Merci ! Et où est la cuisine ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 21,
+   "phase": 1,
+   "theme": "Consolidation",
+   "kind": "consolidation",
+   "items": [],
+   "letters": [],
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "fluency",
+     "audio": false,
+     "dialogueDay": 18
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "translate",
+       "fr": "Je veux un thé sans sucre.",
+       "answers": [
+        "Я хочу́ чай без са́хара."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Un café au lait, s'il te plaît.",
+       "answers": [
+        "Ко́фе с молоко́м, пожа́луйста."
+       ]
+      },
+      {
+       "t": "reply",
+       "thread": [
+        {
+         "from": "anton",
+         "ru": "Чай и́ли ко́фе?"
+        }
+       ],
+       "options": [
+        "Ко́фе, пожа́луйста.",
+        "Меня́ зову́т Ма́ша.",
+        "Пока́!"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "order",
+       "ru": "Приве́т! Ты где?",
+       "fr": "Salut ! Tu es où ?"
+      },
+      {
+       "t": "order",
+       "ru": "Я в кафе́.",
+       "fr": "Je suis au café."
+      },
+      {
+       "t": "translate",
+       "fr": "Je veux un café.",
+       "answers": [
+        "Я хочу́ ко́фе."
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Qu'est-ce que tu veux ?",
+       "answers": [
+        "Что ты хо́чешь?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Thé ou café ?",
+       "answers": [
+        "Чай и́ли ко́фе?"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Приве́т! Ты где?",
+       "options": [
+        "Salut ! Tu es où ?",
+        "grand-mère",
+        "frère",
+        "hérisson"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Я в кафе́.",
+       "options": [
+        "Je suis au café.",
+        "hérisson",
+        "mon",
+        "fenêtre"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Что ты хо́чешь? Чай и́ли ко́фе?",
+       "options": [
+        "fromage",
+        "Qu'est-ce que tu veux ? Thé ou café ?",
+        "cappuccino",
+        "sac à dos"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ко́фе с молоко́м. А ты?",
+       "options": [
+        "aujourd'hui",
+        "Un café au lait. Et toi ?",
+        "Comment tu t'appelles ?",
+        "Salut ! Tu es où ?"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Я хочу́ чай. Без са́хара.",
+       "options": [
+        "voiture",
+        "Salut ! Tu es où ?",
+        "Je veux un thé. Sans sucre.",
+        "quoi, que"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "shadow",
+       "ru": "Приве́т! Ты где?",
+       "fr": "Salut ! Tu es où ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Я в кафе́.",
+       "fr": "Je suis au café."
+      },
+      {
+       "t": "shadow",
+       "ru": "Что ты хо́чешь? Чай и́ли ко́фе?",
+       "fr": "Qu'est-ce que tu veux ? Thé ou café ?"
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Приве́т! Ты где?",
+       "fr": "Salut ! Tu es où ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Я в кафе́.",
+       "fr": "Je suis au café."
+      },
+      {
+       "t": "speak",
+       "ru": "Что ты хо́чешь? Чай и́ли ко́фе?",
+       "fr": "Qu'est-ce que tu veux ? Thé ou café ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Ко́фе с молоко́м. А ты?",
+       "fr": "Un café au lait. Et toi ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Я хочу́ чай. Без са́хара.",
+       "fr": "Je veux un thé. Sans sucre."
+      },
+      {
+       "t": "speak",
+       "ru": "Анто́н, э́то твой па́спорт?",
+       "fr": "Anton, c'est ton passeport ?"
+      }
+     ]
+    },
+    {
+     "type": "fluency",
+     "audio": false,
+     "dialogueDay": 15
+    }
+   ]
+  },
+  {
+   "day": 22,
+   "phase": 1,
+   "theme": "Les chiffres et l'âge",
+   "kind": "normal",
+   "items": [
+    "odin",
+    "dva",
+    "tri",
+    "chetyre",
+    "pyat",
+    "shest",
+    "sem",
+    "vosem",
+    "devyat",
+    "desyat",
+    "skolko-tebe-let",
+    "mne-let"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "anton",
+      "ru": "Ма́ша, ско́лько лет твоему́ бра́ту?",
+      "fr": "Macha, quel âge a ton frère ?",
+      "words": {
+       "ско́лько": "skolko-tebe-let",
+       "лет": "skolko-tebe-let",
+       "твоему́": "tvoi",
+       "бра́ту": "brat"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Ему́ семь лет.",
+      "fr": "Il a sept ans.",
+      "words": {
+       "Ему́": "ono",
+       "семь": "sem",
+       "лет": "skolko-tebe-let"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "А сестре́?",
+      "fr": "Et ta sœur ?",
+      "words": {
+       "А": "a",
+       "сестре́": "sestra"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Ей де́сять.",
+      "fr": "Elle a dix ans.",
+      "words": {
+       "Ей": "ona",
+       "де́сять": "desyat"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "А коту́?",
+      "fr": "Et le chat ?",
+      "words": {
+       "А": "a",
+       "коту́": "kot"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Коту́ три!",
+      "fr": "Le chat a trois ans !",
+      "words": {
+       "Коту́": "kot",
+       "три": "tri"
+      }
+     }
+    ]
+   },
+   "grammar": {
+    "title": "L'âge : мне … лет",
+    "explanation": "En russe, on ne dit pas « j'ai sept ans » mais « à moi, sept ans » : Мне семь лет.\n\nLe « à qui » change selon la personne : мне (à moi), тебе́ (à toi), ему́ (à lui), ей (à elle). On retrouvera cette forme plus tard, avec le datif.\n\nPour l'instant, retiens les phrases toutes faites : Ско́лько тебе́ лет? Мне … лет.",
+    "examples": [
+     {
+      "ru": "Мне пять лет.",
+      "fr": "J'ai cinq ans."
+     },
+     {
+      "ru": "Ему́ семь лет.",
+      "fr": "Il a sept ans."
+     },
+     {
+      "ru": "Ско́лько тебе́ лет?",
+      "fr": "Quel âge as-tu ?"
+     }
+    ],
+    "exercises": [
+     {
+      "t": "translate",
+      "fr": "J'ai sept ans.",
+      "answers": [
+       "Мне семь лет."
+      ]
+     },
+     {
+      "t": "listen",
+      "ru": "во́семь",
+      "options": [
+       "шесть",
+       "во́семь",
+       "де́вять",
+       "семь"
+      ],
+      "answer": 1
+     },
+     {
+      "t": "listen",
+      "ru": "четы́ре",
+      "options": [
+       "четы́ре",
+       "три",
+       "де́сять",
+       "пять"
+      ],
+      "answer": 0
+     },
+     {
+      "t": "cloze",
+      "ru": "Ско́лько тебе́ ___?",
+      "answers": [
+       "лет"
+      ],
+      "fr": "Quel âge as-tu ?"
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "odin",
+      "dva",
+      "tri",
+      "chetyre",
+      "pyat",
+      "shest",
+      "sem",
+      "vosem",
+      "devyat"
+     ]
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "desyat",
+      "skolko-tebe-let",
+      "mne-let"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ма́ша, ско́лько лет твоему́ бра́ту?",
+       "options": [
+        "Macha, quel âge a ton frère ?",
+        "café (la boisson)",
+        "son, sa (à lui)",
+        "mer"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ему́ семь лет.",
+       "options": [
+        "Il a sept ans.",
+        "lettre (courrier)",
+        "qui",
+        "toilettes"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А сестре́?",
+       "options": [
+        "Bonne nuit !",
+        "on peut ; est-ce que je peux… ?",
+        "Et ta sœur ?",
+        "taxi"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ей де́сять.",
+       "options": [
+        "voici, voilà",
+        "Moscou",
+        "bien sûr",
+        "Elle a dix ans."
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А коту́?",
+       "options": [
+        "Et le chat ?",
+        "Ça va.",
+        "oui",
+        "fromage"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "shadow",
+       "ru": "Ма́ша, ско́лько лет твоему́ бра́ту?",
+       "fr": "Macha, quel âge a ton frère ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Ему́ семь лет.",
+       "fr": "Il a sept ans."
+      },
+      {
+       "t": "shadow",
+       "ru": "А сестре́?",
+       "fr": "Et ta sœur ?"
+      }
+     ]
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "translate",
+       "fr": "Quel âge as-tu ?",
+       "answers": [
+        "Ско́лько тебе́ лет?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Il a dix ans.",
+       "answers": [
+        "Ему́ де́сять лет."
+       ]
+      },
+      {
+       "t": "order",
+       "ru": "Ма́ша, ско́лько лет твоему́ бра́ту?",
+       "fr": "Macha, quel âge a ton frère ?"
+      },
+      {
+       "t": "order",
+       "ru": "Ему́ семь лет.",
+       "fr": "Il a sept ans."
+      },
+      {
+       "t": "translate",
+       "fr": "J'ai sept ans.",
+       "answers": [
+        "Мне семь лет."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 23,
+   "phase": 1,
+   "theme": "Plusieurs choses",
+   "kind": "normal",
+   "items": [
+    "yabloko",
+    "banan",
+    "pomidor",
+    "ogurets",
+    "khleb",
+    "magazin",
+    "dengi",
+    "vsyo"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "masha",
+      "ru": "Анто́н, ты в магази́не?",
+      "fr": "Anton, tu es au magasin ?",
+      "words": {
+       "ты": "ty",
+       "в": "v-kafe",
+       "магази́не": "magazin"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Да. Что ты хо́чешь?",
+      "fr": "Oui. Qu'est-ce que tu veux ?",
+      "words": {
+       "Да": "da",
+       "Что": "chto",
+       "ты": "ty",
+       "хо́чешь": "khochu"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Хлеб, я́блоки и бана́ны.",
+      "fr": "Du pain, des pommes et des bananes.",
+      "words": {
+       "Хлеб": "khleb",
+       "я́блоки": "yabloko",
+       "и": "i",
+       "бана́ны": "banan"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Бана́ны тут. А я́блоки… нет.",
+      "fr": "Les bananes sont là. Mais les pommes… non.",
+      "words": {
+       "Бана́ны": "banan",
+       "тут": "tut",
+       "А": "a",
+       "я́блоки": "yabloko",
+       "нет": "net"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Хорошо́. И помидо́ры, пожа́луйста!",
+      "fr": "D'accord. Et des tomates, s'il te plaît !",
+      "words": {
+       "Хорошо́": "khorosho",
+       "И": "i",
+       "помидо́ры": "pomidor",
+       "пожа́луйста": "pozhaluista"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Помидо́ры и огурцы́. Всё?",
+      "fr": "Des tomates et des concombres. C'est tout ?",
+      "words": {
+       "Помидо́ры": "pomidor",
+       "и": "i",
+       "огурцы́": "ogurets",
+       "Всё": "vsyo-khorosho"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Всё! Спаси́бо!",
+      "fr": "C'est tout ! Merci !",
+      "words": {
+       "Всё": "vsyo-khorosho",
+       "Спаси́бо": "spasibo"
+      }
+     }
+    ]
+   },
+   "grammar": {
+    "title": "Plusieurs choses : le pluriel",
+    "explanation": "Pour former le pluriel des noms masculins et féminins, on ajoute -ы : бана́н → бана́ны, помидо́р → помидо́ры, маши́на → маши́ны.\n\nAprès к, г, х, ж, ш, ч, щ, on écrit -и au lieu de -ы : кни́га → кни́ги, су́мка → су́мки.\n\nLes noms neutres en -о prennent -а : окно́ → о́кна, письмо́ → пи́сьма. Quelques mots sont irréguliers, comme я́блоко → я́блоки.",
+    "examples": [
+     {
+      "ru": "Э́то бана́ны.",
+      "fr": "Ce sont des bananes."
+     },
+     {
+      "ru": "Э́то кни́ги.",
+      "fr": "Ce sont des livres."
+     },
+     {
+      "ru": "Э́то о́кна.",
+      "fr": "Ce sont des fenêtres."
+     }
+    ],
+    "exercises": [
+     {
+      "t": "translate",
+      "fr": "Ce sont des livres.",
+      "answers": [
+       "Э́то кни́ги."
+      ]
+     },
+     {
+      "t": "translate",
+      "fr": "Ce sont des tomates.",
+      "answers": [
+       "Э́то помидо́ры."
+      ]
+     },
+     {
+      "t": "cloze",
+      "ru": "Одна́ маши́на, две ___.",
+      "answers": [
+       "маши́ны"
+      ],
+      "fr": "Une voiture, deux voitures."
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "yabloko",
+      "banan",
+      "pomidor",
+      "ogurets",
+      "khleb",
+      "magazin",
+      "dengi",
+      "vsyo"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "grammar",
+     "audio": false
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Анто́н, ты в магази́не?",
+       "options": [
+        "tu",
+        "Anton, tu es au magasin ?",
+        "Pardon !",
+        "chat"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Да. Что ты хо́чешь?",
+       "options": [
+        "lunettes",
+        "Oui. Qu'est-ce que tu veux ?",
+        "football",
+        "sept (7)"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Хлеб, я́блоки и бана́ны.",
+       "options": [
+        "programmeur, développeur",
+        "parapluie",
+        "Du pain, des pommes et des bananes.",
+        "Bonsoir !"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Бана́ны тут. А я́блоки… нет.",
+       "options": [
+        "banane",
+        "Merci beaucoup !",
+        "votre",
+        "Les bananes sont là. Mais les pommes… non."
+       ],
+       "answer": 3
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Хорошо́. И помидо́ры, пожа́луйста!",
+       "options": [
+        "oreille",
+        "montre, horloge",
+        "C'est tout ! Merci !",
+        "D'accord. Et des tomates, s'il te plaît !"
+       ],
+       "answer": 3
+      },
+      {
+       "t": "shadow",
+       "ru": "Анто́н, ты в магази́не?",
+       "fr": "Anton, tu es au magasin ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Да. Что ты хо́чешь?",
+       "fr": "Oui. Qu'est-ce que tu veux ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Хлеб, я́блоки и бана́ны.",
+       "fr": "Du pain, des pommes et des bananes."
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "speak",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "speak",
+       "ru": "Анто́н, ты в магази́не?",
+       "fr": "Anton, tu es au magasin ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Да. Что ты хо́чешь?",
+       "fr": "Oui. Qu'est-ce que tu veux ?"
+      },
+      {
+       "t": "speak",
+       "ru": "Хлеб, я́блоки и бана́ны.",
+       "fr": "Du pain, des pommes et des bananes."
+      },
+      {
+       "t": "speak",
+       "ru": "Бана́ны тут. А я́блоки… нет.",
+       "fr": "Les bananes sont là. Mais les pommes… non."
+      },
+      {
+       "t": "speak",
+       "ru": "Хорошо́. И помидо́ры, пожа́луйста!",
+       "fr": "D'accord. Et des tomates, s'il te plaît !"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": 24,
+   "phase": 1,
+   "theme": "Au marché",
+   "kind": "normal",
+   "items": [
+    "skolko-stoit",
+    "rubl",
+    "dorogo",
+    "deshevo",
+    "kilogramm",
+    "kartoshka",
+    "ryba",
+    "myaso",
+    "rynok"
+   ],
+   "letters": [],
+   "dialogue": {
+    "messages": [
+     {
+      "from": "anton",
+      "ru": "Ма́ша, я на ры́нке.",
+      "fr": "Macha, je suis au marché.",
+      "words": {
+       "я": "ya",
+       "на": "na-rabote",
+       "ры́нке": "rynok"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Отли́чно! Ско́лько сто́ит ры́ба?",
+      "fr": "Super ! Combien coûte le poisson ?",
+      "words": {
+       "Отли́чно": "otlichno",
+       "Ско́лько": "skolko-tebe-let",
+       "сто́ит": "skolko-stoit",
+       "ры́ба": "ryba"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Ры́ба? Э́то до́рого.",
+      "fr": "Le poisson ? C'est cher.",
+      "words": {
+       "Ры́ба": "ryba",
+       "Э́то": "eto",
+       "до́рого": "dorogo"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "А карто́шка?",
+      "fr": "Et les pommes de terre ?",
+      "words": {
+       "А": "a",
+       "карто́шка": "kartoshka"
+      }
+     },
+     {
+      "from": "anton",
+      "ru": "Карто́шка — э́то дёшево.",
+      "fr": "Les pommes de terre, c'est pas cher.",
+      "words": {
+       "Карто́шка": "kartoshka",
+       "э́то": "eto",
+       "дёшево": "deshevo"
+      }
+     },
+     {
+      "from": "masha",
+      "ru": "Хорошо́, карто́шка и мя́со. Спаси́бо!",
+      "fr": "D'accord, des pommes de terre et de la viande. Merci !",
+      "words": {
+       "Хорошо́": "khorosho",
+       "карто́шка": "kartoshka",
+       "и": "i",
+       "мя́со": "myaso",
+       "Спаси́бо": "spasibo"
+      }
+     }
+    ]
+   },
+   "units": [
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "new",
+     "audio": false,
+     "items": [
+      "skolko-stoit",
+      "rubl",
+      "dorogo",
+      "deshevo",
+      "kilogramm",
+      "kartoshka",
+      "ryba",
+      "myaso",
+      "rynok"
+     ]
+    },
+    {
+     "type": "lesson",
+     "audio": false
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "fluency",
+     "audio": false,
+     "dialogueDay": 17
+    },
+    {
+     "type": "listen",
+     "audio": true,
+     "exercises": [
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ма́ша, я на ры́нке.",
+       "options": [
+        "rien ; pas mal",
+        "voici, voilà",
+        "Macha, je suis au marché.",
+        "gâteau"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Отли́чно! Ско́лько сто́ит ры́ба?",
+       "options": [
+        "voiture",
+        "à côté, tout près",
+        "Super ! Combien coûte le poisson ?",
+        "à la maison"
+       ],
+       "answer": 2
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Ры́ба? Э́то до́рого.",
+       "options": [
+        "Le poisson ? C'est cher.",
+        "thé",
+        "ami",
+        "Macha, je suis au marché."
+       ],
+       "answer": 0
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "А карто́шка?",
+       "options": [
+        "trois (3)",
+        "Et les pommes de terre ?",
+        "où",
+        "grand-mère"
+       ],
+       "answer": 1
+      },
+      {
+       "t": "listen",
+       "mode": "meaning",
+       "ru": "Карто́шка — э́то дёшево.",
+       "options": [
+        "Les pommes de terre, c'est pas cher.",
+        "aujourd'hui",
+        "taxi",
+        "quoi, que"
+       ],
+       "answer": 0
+      },
+      {
+       "t": "shadow",
+       "ru": "Ма́ша, я на ры́нке.",
+       "fr": "Macha, je suis au marché."
+      },
+      {
+       "t": "shadow",
+       "ru": "Отли́чно! Ско́лько сто́ит ры́ба?",
+       "fr": "Super ! Combien coûte le poisson ?"
+      },
+      {
+       "t": "shadow",
+       "ru": "Ры́ба? Э́то до́рого.",
+       "fr": "Le poisson ? C'est cher."
+      }
+     ]
+    },
+    {
+     "type": "review",
+     "audio": false
+    },
+    {
+     "type": "write",
+     "audio": false,
+     "exercises": [
+      {
+       "t": "translate",
+       "fr": "Combien coûte le pain ?",
+       "answers": [
+        "Ско́лько сто́ит хлеб?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "C'est cher !",
+       "answers": [
+        "Э́то до́рого!"
+       ]
+      },
+      {
+       "t": "reply",
+       "thread": [
+        {
+         "from": "masha",
+         "ru": "Ско́лько сто́ит ко́фе?"
+        }
+       ],
+       "options": [
+        "Э́то дёшево.",
+        "Меня́ зову́т Анто́н.",
+        "Я до́ма."
+       ],
+       "answer": 0
+      },
+      {
+       "t": "order",
+       "ru": "Ма́ша, я на ры́нке.",
+       "fr": "Macha, je suis au marché."
+      },
+      {
+       "t": "order",
+       "ru": "Отли́чно! Ско́лько сто́ит ры́ба?",
+       "fr": "Super ! Combien coûte le poisson ?"
+      },
+      {
+       "t": "translate",
+       "fr": "Combien coûte le pain ?",
+       "answers": [
+        "Ско́лько сто́ит хлеб?"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "C'est cher !",
+       "answers": [
+        "Э́то до́рого!"
+       ]
+      },
+      {
+       "t": "translate",
+       "fr": "Je suis au marché.",
+       "answers": [
+        "Я на ры́нке."
+       ]
+      }
+     ]
+    }
+   ]
   }
  ],
  "audio": {
@@ -4491,8 +9555,271 @@
   "Спаси́бо!": "76a83524b074e9e7.opus",
   "Пожа́луйста.": "3935d505e03388cd.opus",
   "Пока́!": "b2e22c6379c33b3c.opus",
+  "Меня́ зову́т…": "756ace1e2f2fce33.opus",
+  "Меня́ зову́т Ма́ша.": "bb8793a5d4d82423.opus",
+  "Как тебя́ зову́т?": "910443f6e47d24ff.opus",
+  "а": "823faff61d5b2876.opus",
+  "Я студе́нтка. А ты?": "b8ac4b0bd0dd679e.opus",
+  "то́же": "31b5b77058833d45.opus",
+  "Я то́же студе́нтка.": "3b589f9c9b722efc.opus",
+  "О́чень прия́тно!": "f1ca09b45f545231.opus",
+  "Я из Фра́нции.": "b970832207fda84c.opus",
+  "студе́нт / студе́нтка": "129fccfef7e44277.opus",
+  "программи́ст": "83175bde8e2d3cd5.opus",
+  "Я программи́ст.": "0e89117278a4cb77.opus",
+  "не": "38fefe16ef0ed6a5.opus",
+  "Я не студе́нт.": "1562b8e8856b689e.opus",
+  "отли́чно": "5b7b4ae2986e5f88.opus",
+  "пло́хо": "69414d01f1489ed1.opus",
+  "так себе́": "51edfc01ba10b249.opus",
+  "А у тебя́?": "e2255b7c6b0469fd.opus",
+  "Что но́вого?": "06521c7677f63371.opus",
+  "ничего́": "acbb9b2f0ba518e4.opus",
+  "сего́дня": "fe47fb037e20f447.opus",
+  "Сего́дня я до́ма.": "11f2f1856183eb08.opus",
+  "Я уста́л / Я уста́ла.": "3871c51e667236d5.opus",
+  "немно́го": "6f0d0bfe6d096bbc.opus",
+  "Всё хорошо́.": "3384c2de4bc791f8.opus",
+  "Извини́те!": "57fe29aee8e9f043.opus",
+  "Прости́те!": "6b958181d820a698.opus",
+  "коне́чно": "968494d51dae1a92.opus",
+  "Большо́е спаси́бо!": "3ddb58ae44f61854.opus",
+  "Не за что.": "e520a5b1c3c79207.opus",
+  "До свида́ния!": "2e911524e134c99f.opus",
+  "До́брое у́тро!": "5081b08c4075671e.opus",
+  "До́брый день!": "35f2b4a5fac7bade.opus",
+  "До́брый ве́чер!": "91c1786521c87556.opus",
+  "Споко́йной но́чи!": "ddbce952ccf4ec5c.opus",
+  "ко́фе": "5c469155cda22439.opus",
+  "Я хочу́ ко́фе.": "8ecf2c66666e8d77.opus",
+  "хочу́ / хо́чешь": "83ec3706c075bb06.opus",
+  "Что ты хо́чешь?": "5ec33bb89208f363.opus",
+  "и́ли": "c4463586cc3e0280.opus",
+  "Чай и́ли ко́фе?": "bb755de5ecd7ec2d.opus",
+  "с молоко́м": "d7c768c85eb52ec3.opus",
+  "без са́хара": "a29fb928552fc35c.opus",
+  "в кафе́": "c4c090d23a12f9c3.opus",
+  "Я в кафе́.": "8221e4000a5fed60.opus",
+  "торт": "85f29797547a68a0.opus",
+  "мо́жно": "73aeecf385b7c2f3.opus",
+  "Мо́жно ко́фе?": "49dbdb3fb079a209.opus",
+  "капучи́но": "b11c9ac10470e9cc.opus",
+  "стол": "fa9421bd562d7f09.opus",
+  "кни́га": "3c91b9b250bc46d0.opus",
+  "Э́то кни́га.": "15c0c3d4a4636702.opus",
+  "телефо́н": "ba6d48271b924b4a.opus",
+  "ру́чка": "6c21f15382f60916.opus",
+  "компью́тер": "367da782c7c80708.opus",
+  "су́мка": "f0d41193ccd76630.opus",
+  "ключ": "cf20d089dbd25bed.opus",
+  "Э́то мой ключ.": "1fc1a13c2a04ec68.opus",
+  "Что э́то?": "08b5f56bd127aa09.opus",
+  "оно́": "594df2bb652f2cbf.opus",
+  "Э́то окно́. Оно́ тут.": "4c603cd2fc21322f.opus",
+  "маши́на": "cf5db3c2d143aaa4.opus",
+  "письмо́": "3b6b609c8ad826a9.opus",
+  "друг": "8b7f7cffedeb8614.opus",
+  "подру́га": "eca5da4045df14b6.opus",
+  "мо́ре": "f6a0066964699048.opus",
+  "па́па": "f691453ed075bbad.opus",
+  "ко́шка": "a2d296d645b36ab0.opus",
+  "моя́ / моё": "4a745b80e523f3a4.opus",
+  "твой / твоя́ / твоё": "b3410a64fdb20259.opus",
+  "Э́то твой телефо́н?": "f3b69f86530b9733.opus",
+  "ваш / ва́ша": "d2674b641fb59649.opus",
+  "его́": "1745113d07f57e4a.opus",
+  "её": "190e4eb1294fd96a.opus",
+  "рюкза́к": "4d07af97f19923fa.opus",
+  "па́спорт": "ee6e95d276d0c561.opus",
+  "часы́": "a0c081920cc1c1b8.opus",
+  "очки́": "a2062965cbb8ced0.opus",
+  "семья́": "b6ca094a1e5a9f20.opus",
+  "брат": "bda17892517f9f1b.opus",
+  "Э́то мой брат.": "616d0f11bda1c35b.opus",
+  "сестра́": "1bcd11d6450b7528.opus",
+  "Моя́ сестра́ студе́нтка.": "362288d559162834.opus",
+  "ба́бушка": "fd20e1aeb09771c5.opus",
+  "де́душка": "967ecbbde6a865ae.opus",
+  "сын": "47ac08a4513f0824.opus",
+  "дочь": "dee639048e08731f.opus",
+  "муж": "38a3d5197f7bd516.opus",
+  "жена́": "19e91225e22e2e99.opus",
+  "они́": "3751eea40db57d8e.opus",
+  "здесь": "4958cf41444245c1.opus",
+  "спра́ва": "e3256e3365c08e86.opus",
+  "сле́ва": "e2aec0b6db8b18df.opus",
+  "ря́дом": "ff6d926bc80a72bd.opus",
+  "Кафе́ ря́дом.": "1e21b10e37058141.opus",
+  "до́ма": "414292f1eab7ecb3.opus",
+  "Я до́ма.": "f417c7e950c28be9.opus",
+  "на рабо́те": "a74f38ca51182e65.opus",
+  "Па́па на рабо́те.": "9e229de4556a3818.opus",
+  "туале́т": "cc826d33b842ec7b.opus",
+  "ку́хня": "3e57cdb604b4b0b8.opus",
+  "ко́мната": "ffdeadb550723cbb.opus",
+  "оди́н": "a0389f65b1f8198d.opus",
+  "два": "33735f4dc7fcbdd5.opus",
+  "три": "53fe504dabcb77d0.opus",
+  "четы́ре": "4ff21ffec0b1b907.opus",
+  "пять": "e919854ee0d4d63b.opus",
+  "шесть": "da8fac5805523e96.opus",
+  "семь": "41b6e2605e29efff.opus",
+  "во́семь": "8d43c0fd06aab592.opus",
+  "де́вять": "df0a69a9289358a7.opus",
+  "де́сять": "ce3ff0e84bf3dac3.opus",
+  "Ско́лько тебе́ лет?": "1173b398db0a7ba9.opus",
+  "Мне … лет.": "0e44497ebc45240b.opus",
+  "Мне семь лет.": "ba898cb4afea1531.opus",
+  "я́блоко": "d48b8eae4150ac86.opus",
+  "бана́н": "58ba7e9d3b716187.opus",
+  "помидо́р": "c11aa043a77df764.opus",
+  "огуре́ц": "ac62c9ea78251c9c.opus",
+  "хлеб": "8d1eb078e4eeeade.opus",
+  "Хлеб, пожа́луйста.": "6ce64c8e979d9b9f.opus",
+  "магази́н": "838920d936af271e.opus",
+  "Ты в магази́не?": "8abcb0016ff24c00.opus",
+  "де́ньги": "4dd980da1c988a9a.opus",
+  "всё": "cce01aa8dacc1fad.opus",
+  "Ско́лько сто́ит…?": "90358836fdafaaa3.opus",
+  "Ско́лько сто́ит хлеб?": "380e8c2f8deba92a.opus",
+  "рубль": "85a9219ab18fdd6f.opus",
+  "до́рого": "72abbe8c2b62c10b.opus",
+  "Э́то до́рого!": "6ff5011d19c99025.opus",
+  "дёшево": "1fb093e3bdcc1176.opus",
+  "килогра́мм": "17c17dbde972f2ba.opus",
+  "карто́шка": "85a5adbe4f2beefd.opus",
+  "ры́ба": "06a3e17a17587a5f.opus",
+  "мя́со": "a483a98f27c4326d.opus",
+  "ры́нок": "cb7491f2f9ba5f8f.opus",
+  "Я на ры́нке.": "6cf6c80e501b9a7c.opus",
   "Приве́т! Как дела́?": "e0f936705d5ab7aa.opus",
-  "Хорошо́, спаси́бо!": "b1ee3659b3941087.opus"
+  "Хорошо́, спаси́бо!": "b1ee3659b3941087.opus",
+  "Приве́т! Меня́ зову́т Ма́ша. А тебя́?": "65afa1184009b573.opus",
+  "Приве́т! Меня́ зову́т Анто́н.": "ab9a2e458c507f56.opus",
+  "О́чень прия́тно, Анто́н!": "05e2c8bbefebab1c.opus",
+  "О́чень прия́тно! Ты студе́нтка?": "596e73569f08ac21.opus",
+  "Да, я студе́нтка. А ты?": "f99127b41a64924c.opus",
+  "Я не студе́нт, я программи́ст.": "3390bb577554ad3f.opus",
+  "Я студе́нтка.": "3c67543efda76c03.opus",
+  "Ты программи́ст?": "f982fdf01555a0dc.opus",
+  "Э́то Ма́ша.": "2f09f3591353b01d.opus",
+  "Я не программи́ст.": "f0a6a684fbde3e7b.opus",
+  "Ты студе́нтка?": "d63cefea82795964.opus",
+  "Приве́т, Ма́ша! Как дела́?": "e5f8e566c0d48d28.opus",
+  "Приве́т! Норма́льно. А у тебя́?": "3a93a80bb4607168.opus",
+  "Отли́чно! Что но́вого?": "04f3183a8dc42ef7.opus",
+  "Ничего́. Я немно́го уста́ла сего́дня.": "eed3f1f528e7ccd8.opus",
+  "Пло́хо! Всё хорошо́?": "54e350da742d7829.opus",
+  "Да, всё хорошо́. Спаси́бо!": "d7edadada427b7ce.opus",
+  "Отли́чно! А у тебя́?": "d2045e8d9753fddb.opus",
+  "Ничего́.": "5cc5576e8a032b9f.opus",
+  "Я немно́го уста́ла.": "67d847218be77b9f.opus",
+  "До́брый ве́чер, Анто́н!": "31f301397515038f.opus",
+  "До́брый ве́чер! Вот фо́то. Э́то мой кот.": "c16862d5e42ab7b6.opus",
+  "Большо́е спаси́бо! Как его́ зову́т?": "70c23e295c04d188.opus",
+  "Его́ зову́т Борщ!": "9d7e665d6d377c2e.opus",
+  "Борщ? О́чень хорошо́!": "e2be0ba0409c8014.opus",
+  "Спаси́бо! Споко́йной но́чи, Ма́ша!": "6b3d3543a1227827.opus",
+  "Пока́! Споко́йной но́чи!": "c6546fa0b524daf5.opus",
+  "Приве́т! Ты где?": "16277a6466dcb08a.opus",
+  "Что ты хо́чешь? Чай и́ли ко́фе?": "ff8d8c86afc27ff3.opus",
+  "Ко́фе с молоко́м. А ты?": "0ea57cb8fbdb3b3f.opus",
+  "Я хочу́ чай. Без са́хара.": "eb40f08f06d3e74e.opus",
+  "Хорошо́. И торт?": "658fc595669f015a.opus",
+  "Да, спаси́бо!": "bd23c0f1891116a0.opus",
+  "Ты хо́чешь чай.": "9da9c614990b7a96.opus",
+  "Ты хо́чешь чай?": "7894dba85dc66fc4.opus",
+  "Э́то кафе́.": "f883ad3ad392aadb.opus",
+  "Э́то кафе́?": "d4c9f29f71c1558b.opus",
+  "Ты хо́чешь ко́фе?": "6d240a079ccd9257.opus",
+  "Э́то торт.": "9d66f5d94b142963.opus",
+  "Я хочу́ чай без са́хара.": "866b6cd24d662627.opus",
+  "Ко́фе с молоко́м, пожа́луйста.": "ee72c00d26b95f9e.opus",
+  "Ко́фе, пожа́луйста.": "b16a8ce259621fd9.opus",
+  "Ма́ша, что э́то?": "326e1787e12e7783.opus",
+  "А э́то?": "2badc1325a73ec75.opus",
+  "Э́то мой телефо́н.": "a7ef83d16fbb3945.opus",
+  "А э́то что? Ру́чка?": "af7e9b276e498e33.opus",
+  "Нет, э́то не ру́чка, э́то ключ!": "23ffe5948c2a1cbc.opus",
+  "Что э́то? Э́то стол.": "db09eded281de418.opus",
+  "Кто э́то? Э́то Анто́н.": "509dd338a2b53085.opus",
+  "Э́то не кни́га.": "970691f23b2ef6a7.opus",
+  "Э́то телефо́н.": "ccedde1fa67eb257.opus",
+  "Кто э́то? Э́то Ма́ша.": "e681c3bb899b4948.opus",
+  "Вот фо́то. Э́то мо́ре!": "a0b282e374fb7db9.opus",
+  "Хорошо́! А кто э́то?": "bf48cb5b069536b8.opus",
+  "Э́то мой друг. Он программи́ст.": "6c7c0deedbb97c7b.opus",
+  "Э́то моя́ подру́га. Она́ студе́нтка.": "ee41386230411be3.opus",
+  "А э́то ко́шка?": "c9c315457b067ae6.opus",
+  "Нет, э́то кот!": "238c3316df2ac72a.opus",
+  "Э́то стол. Он тут.": "158c5ffbc998fd6f.opus",
+  "Э́то маши́на. Она́ там.": "fe7dbd685594e056.opus",
+  "Э́то маши́на. Она́ тут.": "34bdb39e3091bc06.opus",
+  "Э́то мо́ре. Оно́ там.": "e599dca456ad4c6c.opus",
+  "Э́то па́па. Он до́ма.": "ba1505675d1abf24.opus",
+  "Э́то мой друг.": "4ebfe1af16b1fb26.opus",
+  "Э́то моя́ подру́га.": "04479443b6434245.opus",
+  "Анто́н, э́то твой па́спорт?": "3138f9fcab1b6a88.opus",
+  "Да, мой. Спаси́бо!": "10ef819e4f230614.opus",
+  "А э́то твой зонт?": "08c8b0e87c803edf.opus",
+  "Нет, не мой.": "24191416b71713f0.opus",
+  "А часы́? Э́то твои́ часы́?": "f6e57c38ddb5f1e7.opus",
+  "Да! Большо́е спаси́бо, Ма́ша!": "cf7fdfaeb2da7e94.opus",
+  "Э́то моя́ су́мка.": "a43c8297e65a691c.opus",
+  "Э́то моё окно́.": "cdd7e8f6fde45849.opus",
+  "Э́то мои́ часы́.": "b1b0a2ddb44dcf6e.opus",
+  "Э́то её па́спорт.": "01d4659e61262590.opus",
+  "Э́то твои́ часы́?": "0b6e637a6b1be761.opus",
+  "Ма́ша, э́то твоя́ семья́?": "e21430666f4c91b4.opus",
+  "Да! Э́то ма́ма и па́па.": "62ccbf6317f2af7d.opus",
+  "А кто э́то?": "fa0f766ac0b0ba3f.opus",
+  "Э́то моя́ сестра́, а э́то мой брат.": "576337d62633a273.opus",
+  "А ба́бушка и де́душка?": "84bcd6b313d80aeb.opus",
+  "Они́ тут, в Москве́.": "03ce6aa3ae057202.opus",
+  "Э́то твоя́ семья́?": "f1af835cba902902.opus",
+  "Кто э́то?": "8d5c991b3acf9d09.opus",
+  "Э́то моя́ ба́бушка.": "16ee248b8bd20a47.opus",
+  "Анто́н, где мой ключ?": "a043ebc8cf7a8275.opus",
+  "Твой ключ? Он тут, ря́дом.": "dac2b202d59139f7.opus",
+  "Где? Сле́ва?": "af55766e1a5cbc06.opus",
+  "Нет, спра́ва. Вот он!": "e1e9c778a7a5c912.opus",
+  "Спаси́бо! А где ку́хня?": "3154773b22ee0f74.opus",
+  "Ку́хня там. Туале́т здесь.": "b51ce0d8ebb27711.opus",
+  "Где ку́хня? Она́ там.": "915b777860bc0243.opus",
+  "Где ключ? Он здесь.": "bb3b7d4a06bbdaa9.opus",
+  "Где ма́ма? Она́ на рабо́те.": "3de1de90613ccb1b.opus",
+  "Где ку́хня?": "7ab8d09996f73627.opus",
+  "Где ма́ма? Она́ до́ма.": "fc392281f8ec87af.opus",
+  "Где телефо́н? Он здесь.": "23047a2044eab8ac.opus",
+  "Где ты?": "9597ad66f6a97361.opus",
+  "Ма́ша, ско́лько лет твоему́ бра́ту?": "94aa9b46ff9708e0.opus",
+  "Ему́ семь лет.": "2fdf1513f9fc0f36.opus",
+  "А сестре́?": "af26cfa8b86508f2.opus",
+  "Ей де́сять.": "945e7e34ac704646.opus",
+  "А коту́?": "a5bae65953ec5f13.opus",
+  "Коту́ три!": "981c9ec3172bfe87.opus",
+  "Мне пять лет.": "60c91b4c646ab814.opus",
+  "Ему́ де́сять лет.": "a4ed3ac0457fc4f7.opus",
+  "Анто́н, ты в магази́не?": "c66ce7a2faa9fc8f.opus",
+  "Да. Что ты хо́чешь?": "66793c3a948f947a.opus",
+  "Хлеб, я́блоки и бана́ны.": "afbf234950b51fa7.opus",
+  "Бана́ны тут. А я́блоки… нет.": "3b75c163744d1e41.opus",
+  "Хорошо́. И помидо́ры, пожа́луйста!": "c087e840615dba09.opus",
+  "Помидо́ры и огурцы́. Всё?": "1891b036dc0f79b7.opus",
+  "Всё! Спаси́бо!": "7d2575e4c4aff754.opus",
+  "Э́то бана́ны.": "1cf9fb3317b31e90.opus",
+  "Э́то кни́ги.": "87357a44907fde63.opus",
+  "Э́то о́кна.": "a5e07cde09426473.opus",
+  "Э́то помидо́ры.": "869930224c4dd08d.opus",
+  "Одна́ маши́на, две маши́ны.": "f7bd721d7c05c5eb.opus",
+  "Ма́ша, я на ры́нке.": "01a9e5d708c501c5.opus",
+  "Отли́чно! Ско́лько сто́ит ры́ба?": "a8acc55f938d7057.opus",
+  "Ры́ба? Э́то до́рого.": "bc7abb0cefded386.opus",
+  "А карто́шка?": "1703530a798574a8.opus",
+  "Карто́шка — э́то дёшево.": "80e72978a4c8b8ef.opus",
+  "Хорошо́, карто́шка и мя́со. Спаси́бо!": "aa2c73714f866fc0.opus",
+  "Ско́лько сто́ит ко́фе?": "22c6959608775955.opus",
+  "Э́то дёшево.": "7d3752fa3d2a83dc.opus"
  },
  "audioByPhase": {
   "0": [
@@ -4562,6 +9889,273 @@
    "ec9e768bb1e49e6d.opus",
    "eec310c9d0549309.opus",
    "fbe6eebf7a9a1951.opus"
+  ],
+  "1": [
+   "01a9e5d708c501c5.opus",
+   "01d4659e61262590.opus",
+   "03ce6aa3ae057202.opus",
+   "04479443b6434245.opus",
+   "04f3183a8dc42ef7.opus",
+   "05e2c8bbefebab1c.opus",
+   "06521c7677f63371.opus",
+   "06a3e17a17587a5f.opus",
+   "08b5f56bd127aa09.opus",
+   "08c8b0e87c803edf.opus",
+   "0b6e637a6b1be761.opus",
+   "0e44497ebc45240b.opus",
+   "0e89117278a4cb77.opus",
+   "0ea57cb8fbdb3b3f.opus",
+   "10ef819e4f230614.opus",
+   "1173b398db0a7ba9.opus",
+   "11f2f1856183eb08.opus",
+   "129fccfef7e44277.opus",
+   "1320553770b9e149.opus",
+   "1562b8e8856b689e.opus",
+   "158c5ffbc998fd6f.opus",
+   "15c0c3d4a4636702.opus",
+   "16277a6466dcb08a.opus",
+   "16ee248b8bd20a47.opus",
+   "1703530a798574a8.opus",
+   "1745113d07f57e4a.opus",
+   "17c17dbde972f2ba.opus",
+   "1891b036dc0f79b7.opus",
+   "190e4eb1294fd96a.opus",
+   "19e91225e22e2e99.opus",
+   "1bcd11d6450b7528.opus",
+   "1cf9fb3317b31e90.opus",
+   "1e21b10e37058141.opus",
+   "1fb093e3bdcc1176.opus",
+   "1fc1a13c2a04ec68.opus",
+   "22c6959608775955.opus",
+   "23047a2044eab8ac.opus",
+   "238c3316df2ac72a.opus",
+   "23ffe5948c2a1cbc.opus",
+   "24191416b71713f0.opus",
+   "2badc1325a73ec75.opus",
+   "2e911524e134c99f.opus",
+   "2f09f3591353b01d.opus",
+   "2fdf1513f9fc0f36.opus",
+   "3138f9fcab1b6a88.opus",
+   "3154773b22ee0f74.opus",
+   "31b5b77058833d45.opus",
+   "31f301397515038f.opus",
+   "326e1787e12e7783.opus",
+   "33735f4dc7fcbdd5.opus",
+   "3384c2de4bc791f8.opus",
+   "3390bb577554ad3f.opus",
+   "34bdb39e3091bc06.opus",
+   "35f2b4a5fac7bade.opus",
+   "362288d559162834.opus",
+   "367da782c7c80708.opus",
+   "3751eea40db57d8e.opus",
+   "380e8c2f8deba92a.opus",
+   "3871c51e667236d5.opus",
+   "38a3d5197f7bd516.opus",
+   "38fefe16ef0ed6a5.opus",
+   "3a93a80bb4607168.opus",
+   "3b589f9c9b722efc.opus",
+   "3b6b609c8ad826a9.opus",
+   "3b75c163744d1e41.opus",
+   "3c67543efda76c03.opus",
+   "3c91b9b250bc46d0.opus",
+   "3ddb58ae44f61854.opus",
+   "3de1de90613ccb1b.opus",
+   "3e57cdb604b4b0b8.opus",
+   "414292f1eab7ecb3.opus",
+   "41b6e2605e29efff.opus",
+   "47ac08a4513f0824.opus",
+   "4958cf41444245c1.opus",
+   "49dbdb3fb079a209.opus",
+   "4a745b80e523f3a4.opus",
+   "4c603cd2fc21322f.opus",
+   "4d07af97f19923fa.opus",
+   "4dd980da1c988a9a.opus",
+   "4ebfe1af16b1fb26.opus",
+   "4ff21ffec0b1b907.opus",
+   "5081b08c4075671e.opus",
+   "509dd338a2b53085.opus",
+   "51edfc01ba10b249.opus",
+   "53fe504dabcb77d0.opus",
+   "54e350da742d7829.opus",
+   "576337d62633a273.opus",
+   "57fe29aee8e9f043.opus",
+   "58ba7e9d3b716187.opus",
+   "594df2bb652f2cbf.opus",
+   "596e73569f08ac21.opus",
+   "5b7b4ae2986e5f88.opus",
+   "5c469155cda22439.opus",
+   "5cc5576e8a032b9f.opus",
+   "5ec33bb89208f363.opus",
+   "60c91b4c646ab814.opus",
+   "616d0f11bda1c35b.opus",
+   "62ccbf6317f2af7d.opus",
+   "658fc595669f015a.opus",
+   "65afa1184009b573.opus",
+   "66793c3a948f947a.opus",
+   "67d847218be77b9f.opus",
+   "69414d01f1489ed1.opus",
+   "6b3d3543a1227827.opus",
+   "6b958181d820a698.opus",
+   "6c21f15382f60916.opus",
+   "6c7c0deedbb97c7b.opus",
+   "6ce64c8e979d9b9f.opus",
+   "6cf6c80e501b9a7c.opus",
+   "6d240a079ccd9257.opus",
+   "6f0d0bfe6d096bbc.opus",
+   "6ff5011d19c99025.opus",
+   "70c23e295c04d188.opus",
+   "72abbe8c2b62c10b.opus",
+   "73aeecf385b7c2f3.opus",
+   "756ace1e2f2fce33.opus",
+   "7894dba85dc66fc4.opus",
+   "7ab8d09996f73627.opus",
+   "7d2575e4c4aff754.opus",
+   "7d3752fa3d2a83dc.opus",
+   "80e72978a4c8b8ef.opus",
+   "8221e4000a5fed60.opus",
+   "823faff61d5b2876.opus",
+   "83175bde8e2d3cd5.opus",
+   "838920d936af271e.opus",
+   "83ec3706c075bb06.opus",
+   "84bcd6b313d80aeb.opus",
+   "85a5adbe4f2beefd.opus",
+   "85a9219ab18fdd6f.opus",
+   "85f29797547a68a0.opus",
+   "866b6cd24d662627.opus",
+   "869930224c4dd08d.opus",
+   "87357a44907fde63.opus",
+   "8abcb0016ff24c00.opus",
+   "8b7f7cffedeb8614.opus",
+   "8d1eb078e4eeeade.opus",
+   "8d43c0fd06aab592.opus",
+   "8d5c991b3acf9d09.opus",
+   "8ecf2c66666e8d77.opus",
+   "90358836fdafaaa3.opus",
+   "910443f6e47d24ff.opus",
+   "915b777860bc0243.opus",
+   "91c1786521c87556.opus",
+   "945e7e34ac704646.opus",
+   "94aa9b46ff9708e0.opus",
+   "9597ad66f6a97361.opus",
+   "967ecbbde6a865ae.opus",
+   "968494d51dae1a92.opus",
+   "970691f23b2ef6a7.opus",
+   "981c9ec3172bfe87.opus",
+   "9d66f5d94b142963.opus",
+   "9d7e665d6d377c2e.opus",
+   "9da9c614990b7a96.opus",
+   "9e229de4556a3818.opus",
+   "a0389f65b1f8198d.opus",
+   "a043ebc8cf7a8275.opus",
+   "a0b282e374fb7db9.opus",
+   "a0c081920cc1c1b8.opus",
+   "a2062965cbb8ced0.opus",
+   "a29fb928552fc35c.opus",
+   "a2d296d645b36ab0.opus",
+   "a43c8297e65a691c.opus",
+   "a483a98f27c4326d.opus",
+   "a4ed3ac0457fc4f7.opus",
+   "a5bae65953ec5f13.opus",
+   "a5e07cde09426473.opus",
+   "a74f38ca51182e65.opus",
+   "a7ef83d16fbb3945.opus",
+   "a8acc55f938d7057.opus",
+   "aa2c73714f866fc0.opus",
+   "ab9a2e458c507f56.opus",
+   "ac62c9ea78251c9c.opus",
+   "acbb9b2f0ba518e4.opus",
+   "af26cfa8b86508f2.opus",
+   "af55766e1a5cbc06.opus",
+   "af7e9b276e498e33.opus",
+   "afbf234950b51fa7.opus",
+   "b11c9ac10470e9cc.opus",
+   "b16a8ce259621fd9.opus",
+   "b1b0a2ddb44dcf6e.opus",
+   "b3410a64fdb20259.opus",
+   "b51ce0d8ebb27711.opus",
+   "b6ca094a1e5a9f20.opus",
+   "b8ac4b0bd0dd679e.opus",
+   "b970832207fda84c.opus",
+   "ba1505675d1abf24.opus",
+   "ba6d48271b924b4a.opus",
+   "ba898cb4afea1531.opus",
+   "bb3b7d4a06bbdaa9.opus",
+   "bb755de5ecd7ec2d.opus",
+   "bb8793a5d4d82423.opus",
+   "bc7abb0cefded386.opus",
+   "bd23c0f1891116a0.opus",
+   "bda17892517f9f1b.opus",
+   "bf48cb5b069536b8.opus",
+   "c087e840615dba09.opus",
+   "c11aa043a77df764.opus",
+   "c16862d5e42ab7b6.opus",
+   "c4463586cc3e0280.opus",
+   "c4c090d23a12f9c3.opus",
+   "c6546fa0b524daf5.opus",
+   "c66ce7a2faa9fc8f.opus",
+   "c9c315457b067ae6.opus",
+   "cb7491f2f9ba5f8f.opus",
+   "cc826d33b842ec7b.opus",
+   "cce01aa8dacc1fad.opus",
+   "ccedde1fa67eb257.opus",
+   "cdd7e8f6fde45849.opus",
+   "ce3ff0e84bf3dac3.opus",
+   "cf20d089dbd25bed.opus",
+   "cf5db3c2d143aaa4.opus",
+   "cf7fdfaeb2da7e94.opus",
+   "d2045e8d9753fddb.opus",
+   "d2674b641fb59649.opus",
+   "d48b8eae4150ac86.opus",
+   "d4c9f29f71c1558b.opus",
+   "d63cefea82795964.opus",
+   "d7c768c85eb52ec3.opus",
+   "d7edadada427b7ce.opus",
+   "da8fac5805523e96.opus",
+   "dac2b202d59139f7.opus",
+   "db09eded281de418.opus",
+   "ddbce952ccf4ec5c.opus",
+   "dee639048e08731f.opus",
+   "df0a69a9289358a7.opus",
+   "e0f936705d5ab7aa.opus",
+   "e1e9c778a7a5c912.opus",
+   "e21430666f4c91b4.opus",
+   "e2255b7c6b0469fd.opus",
+   "e2aec0b6db8b18df.opus",
+   "e2be0ba0409c8014.opus",
+   "e3256e3365c08e86.opus",
+   "e520a5b1c3c79207.opus",
+   "e599dca456ad4c6c.opus",
+   "e5f8e566c0d48d28.opus",
+   "e681c3bb899b4948.opus",
+   "e919854ee0d4d63b.opus",
+   "eb40f08f06d3e74e.opus",
+   "eca5da4045df14b6.opus",
+   "ee41386230411be3.opus",
+   "ee6e95d276d0c561.opus",
+   "ee72c00d26b95f9e.opus",
+   "eed3f1f528e7ccd8.opus",
+   "f0a6a684fbde3e7b.opus",
+   "f0d41193ccd76630.opus",
+   "f1af835cba902902.opus",
+   "f1ca09b45f545231.opus",
+   "f3b69f86530b9733.opus",
+   "f417c7e950c28be9.opus",
+   "f691453ed075bbad.opus",
+   "f6a0066964699048.opus",
+   "f6e57c38ddb5f1e7.opus",
+   "f7bd721d7c05c5eb.opus",
+   "f883ad3ad392aadb.opus",
+   "f982fdf01555a0dc.opus",
+   "f99127b41a64924c.opus",
+   "fa0f766ac0b0ba3f.opus",
+   "fa9421bd562d7f09.opus",
+   "fc392281f8ec87af.opus",
+   "fd20e1aeb09771c5.opus",
+   "fe47fb037e20f447.opus",
+   "fe7dbd685594e056.opus",
+   "ff6d926bc80a72bd.opus",
+   "ff8d8c86afc27ff3.opus",
+   "ffdeadb550723cbb.opus"
   ]
  },
  "credits": [

@@ -1,0 +1,59 @@
+day: 12
+items:
+  - id: otlichno
+    ru: "отлично"
+    fr: "excellent, très bien"
+  - id: plokho
+    ru: "плохо"
+    fr: "mal"
+  - id: tak-sebe
+    ru: "так себе"
+    fr: "comme ci, comme ça"
+  - id: a-u-tebya
+    ru: "А у тебя?"
+    fr: "Et toi ? (et chez toi ?)"
+    answers: ["А у тебя"]
+  - id: chto-novogo
+    ru: "Что нового?"
+    fr: "Quoi de neuf ?"
+    answers: ["Что нового"]
+  - id: nichego
+    ru: "ничего"
+    fr: "rien ; pas mal"
+    note: "se prononce [nitchivó]"
+  - id: segodnya
+    ru: "сегодня"
+    fr: "aujourd'hui"
+    note: "se prononce [sivódnia]"
+    example: { ru: "Сегодня я дома.", fr: "Aujourd'hui je suis à la maison." }
+  - id: ustal
+    ru: "Я устал / Я устала."
+    fr: "Je suis fatigué / fatiguée."
+    answers: ["Я устал", "Я устала"]
+  - id: nemnogo
+    ru: "немного"
+    fr: "un peu"
+  - id: vsyo-khorosho
+    ru: "Всё хорошо."
+    fr: "Tout va bien."
+    answers: ["Всё хорошо"]
+dialogue:
+  messages:
+    - { from: anton, ru: "Привет, Маша! Как дела?", fr: "Salut Macha ! Comment ça va ?" }
+    - { from: masha, ru: "Привет! Нормально. А у тебя?", fr: "Salut ! Ça va. Et toi ?" }
+    - { from: anton, ru: "Отлично! Что нового?", fr: "Très bien ! Quoi de neuf ?" }
+    - { from: masha, ru: "Ничего. Я немного устала сегодня.", fr: "Rien. Je suis un peu fatiguée aujourd'hui." }
+    - { from: anton, ru: "Плохо! Всё хорошо?", fr: "Pas cool ! Tout va bien ?" }
+    - { from: masha, ru: "Да, всё хорошо. Спасибо!", fr: "Oui, tout va bien. Merci !" }
+write:
+  - type: reply
+    thread: [{ from: anton, ru: "Привет! Как дела?" }]
+    options: ["Отлично! А у тебя?", "Меня зовут Антон.", "Я программист."]
+    answer: 0
+  - type: reply
+    thread: [{ from: masha, ru: "Что нового?" }]
+    options: ["Ничего.", "Очень приятно!", "Пожалуйста."]
+    answer: 0
+  - { type: translate, fr: "Et toi ?", answers: ["А у тебя?", "А ты?"] }
+  - { type: translate, fr: "Tout va bien.", answers: ["Всё хорошо."] }
+  - { type: translate, fr: "Je suis un peu fatiguée.", answers: ["Я немного устала."] }

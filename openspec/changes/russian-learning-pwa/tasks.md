@@ -72,10 +72,10 @@
 ## 8. Jalon 1 — Contenu « je peux commencer »
 
 - [x] 8.1 Concevoir la structure complète du programme (`program.yaml`) : 140 jours, thèmes, répartition des unités, progression grammaticale « bloc d'abord, règle ensuite », jours de consolidation, liste de fréquence de référence
-- [ ] 8.2 Rédiger la phase 0 (jours 1–10 : lettres, mots utiles, accent tonique, clavier, mots de survie, bilan) et la faire passer la validation
-- [ ] 8.3 Rédiger les personnages récurrents et les jours 11–24 de la phase 1, validés par le pipeline
-- [ ] 8.4 Générer l'audio du jalon 1, écouter un échantillon et corriger les accents (exceptions Lingua Libre si nécessaire)
-- [ ] 8.5 Exporter les jours 1–20 pour une relecture native optionnelle
+- [x] 8.2 Rédiger la phase 0 (jours 1–10 : lettres, mots utiles, accent tonique, clavier, mots de survie, bilan) et la faire passer la validation
+- [x] 8.3 Rédiger les personnages récurrents et les jours 11–24 de la phase 1, validés par le pipeline
+- [x] 8.4 Générer l'audio du jalon 1, écouter un échantillon et corriger les accents (exceptions Lingua Libre si nécessaire)
+- [x] 8.5 Exporter les jours 1–20 pour une relecture native optionnelle
 
 ## 9. Jalon 1 — Vérification et publication
 

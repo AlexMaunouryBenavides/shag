@@ -1,0 +1,44 @@
+day: 16
+items:
+  - { id: stol, ru: "стол", fr: "table" }
+  - id: kniga
+    ru: "книга"
+    fr: "livre"
+    example: { ru: "Это книга.", fr: "C'est un livre." }
+  - { id: telefon, ru: "телефон", fr: "téléphone" }
+  - { id: ruchka, ru: "ручка", fr: "stylo" }
+  - { id: kompyuter, ru: "компьютер", fr: "ordinateur" }
+  - { id: sumka, ru: "сумка", fr: "sac" }
+  - id: klyuch
+    ru: "ключ"
+    fr: "clé"
+    example: { ru: "Это мой ключ.", fr: "C'est ma clé." }
+  - id: chto-eto
+    ru: "Что это?"
+    fr: "Qu'est-ce que c'est ?"
+    answers: ["Что это"]
+dialogue:
+  messages:
+    - { from: anton, ru: "Маша, что это?", fr: "Macha, qu'est-ce que c'est ?" }
+    - { from: masha, ru: "Это книга.", fr: "C'est un livre." }
+    - { from: anton, ru: "А это?", fr: "Et ça ?" }
+    - { from: masha, ru: "Это мой телефон.", fr: "C'est mon téléphone." }
+    - { from: anton, ru: "А это что? Ручка?", fr: "Et ça, c'est quoi ? Un stylo ?" }
+    - { from: masha, ru: "Нет, это не ручка, это ключ!", fr: "Non, ce n'est pas un stylo, c'est une clé !" }
+grammar:
+  title: "Это… : c'est"
+  explanation: |
+    Это veut dire « c'est », « ceci » ou « ce sont ». Il ne change jamais.
+
+    Pour demander : Что это? (qu'est-ce que c'est ?) ou Кто это? (qui est-ce ?).
+
+    Il n'y a pas d'article en russe : Это книга = c'est un livre, ou c'est le livre, selon le contexte.
+  examples:
+    - { ru: "Что это? Это стол.", fr: "Qu'est-ce que c'est ? C'est une table." }
+    - { ru: "Кто это? Это Антон.", fr: "Qui est-ce ? C'est Anton." }
+    - { ru: "Это не книга.", fr: "Ce n'est pas un livre." }
+  exercises:
+    - { type: translate, fr: "C'est un téléphone.", answers: ["Это телефон."] }
+    - { type: translate, fr: "Ce n'est pas un livre.", answers: ["Это не книга."] }
+    - { type: cloze, ru: "___ это? Это стол.", answers: ["Что"], fr: "Qu'est-ce que c'est ? C'est une table." }
+    - { type: cloze, ru: "___ это? Это Маша.", answers: ["Кто"], fr: "Qui est-ce ? C'est Macha." }

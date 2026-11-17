@@ -1,0 +1,52 @@
+day: 13
+items:
+  - id: izvinite
+    ru: "Извините!"
+    fr: "Excusez-moi !"
+    note: "à un ami : Извини́ !"
+    answers: ["Извините", "Извини"]
+  - id: prostite
+    ru: "Простите!"
+    fr: "Pardon !"
+    answers: ["Простите", "Прости"]
+  - id: konechno
+    ru: "конечно"
+    fr: "bien sûr"
+    note: "se prononce [kaniéchna]"
+  - id: bolshoe-spasibo
+    ru: "Большое спасибо!"
+    fr: "Merci beaucoup !"
+    answers: ["Большое спасибо"]
+  - id: ne-za-chto
+    ru: "Не за что."
+    fr: "De rien."
+    answers: ["Не за что"]
+  - id: do-svidaniya
+    ru: "До свидания!"
+    fr: "Au revoir ! (poli)"
+    answers: ["До свидания"]
+  - id: dobroe-utro
+    ru: "Доброе утро!"
+    fr: "Bonjour ! (le matin)"
+    answers: ["Доброе утро"]
+  - id: dobryi-den
+    ru: "Добрый день!"
+    fr: "Bonjour ! (la journée)"
+    answers: ["Добрый день"]
+  - id: dobryi-vecher
+    ru: "Добрый вечер!"
+    fr: "Bonsoir !"
+    answers: ["Добрый вечер"]
+  - id: spokoinoi-nochi
+    ru: "Спокойной ночи!"
+    fr: "Bonne nuit !"
+    answers: ["Спокойной ночи"]
+dialogue:
+  messages:
+    - { from: masha, ru: "Добрый вечер, Антон!", fr: "Bonsoir, Anton !" }
+    - { from: anton, ru: "Добрый вечер! Вот фото. Это мой кот.", fr: "Bonsoir ! Voici une photo. C'est mon chat." }
+    - { from: masha, ru: "Большое спасибо! Как его зовут?", fr: "Merci beaucoup ! Comment il s'appelle ?" }
+    - { from: anton, ru: "Его зовут Борщ!", fr: "Il s'appelle Bortsch !" }
+    - { from: masha, ru: "Борщ? Очень хорошо!", fr: "Bortsch ? Très bien !" }
+    - { from: anton, ru: "Спасибо! Спокойной ночи, Маша!", fr: "Merci ! Bonne nuit, Macha !" }
+    - { from: masha, ru: "Пока! Спокойной ночи!", fr: "Salut ! Bonne nuit !" }

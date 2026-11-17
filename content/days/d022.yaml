@@ -1,0 +1,49 @@
+day: 22
+items:
+  - { id: odin, ru: "один", fr: "un (1)" }
+  - { id: dva, ru: "два", fr: "deux (2)" }
+  - { id: tri, ru: "три", fr: "trois (3)" }
+  - { id: chetyre, ru: "четыре", fr: "quatre (4)" }
+  - { id: pyat, ru: "пять", fr: "cinq (5)" }
+  - { id: shest, ru: "шесть", fr: "six (6)" }
+  - { id: sem, ru: "семь", fr: "sept (7)" }
+  - { id: vosem, ru: "восемь", fr: "huit (8)" }
+  - { id: devyat, ru: "девять", fr: "neuf (9)" }
+  - { id: desyat, ru: "десять", fr: "dix (10)" }
+  - id: skolko-tebe-let
+    ru: "Сколько тебе лет?"
+    fr: "Quel âge as-tu ?"
+    answers: ["Сколько тебе лет"]
+  - id: mne-let
+    ru: "Мне … лет."
+    fr: "J'ai … ans."
+    answers: ["Мне пять лет"]
+    example: { ru: "Мне семь лет.", fr: "J'ai sept ans." }
+dialogue:
+  messages:
+    - { from: anton, ru: "Маша, сколько лет твоему брату?", fr: "Macha, quel âge a ton frère ?" }
+    - { from: masha, ru: "Ему семь лет.", fr: "Il a sept ans." }
+    - { from: anton, ru: "А сестре?", fr: "Et ta sœur ?" }
+    - { from: masha, ru: "Ей десять.", fr: "Elle a dix ans." }
+    - { from: anton, ru: "А коту?", fr: "Et le chat ?" }
+    - { from: masha, ru: "Коту три!", fr: "Le chat a trois ans !" }
+grammar:
+  title: "L'âge : мне … лет"
+  explanation: |
+    En russe, on ne dit pas « j'ai sept ans » mais « à moi, sept ans » : Мне семь лет.
+
+    Le « à qui » change selon la personne : мне (à moi), тебе (à toi), ему (à lui), ей (à elle). On retrouvera cette forme plus tard, avec le datif.
+
+    Pour l'instant, retiens les phrases toutes faites : Сколько тебе лет? Мне … лет.
+  examples:
+    - { ru: "Мне пять лет.", fr: "J'ai cinq ans." }
+    - { ru: "Ему семь лет.", fr: "Il a sept ans." }
+    - { ru: "Сколько тебе лет?", fr: "Quel âge as-tu ?" }
+  exercises:
+    - { type: translate, fr: "J'ai sept ans.", answers: ["Мне семь лет."] }
+    - { type: listen, ru: "восемь", options: ["шесть", "восемь", "девять", "семь"], answer: 1 }
+    - { type: listen, ru: "четыре", options: ["четыре", "три", "десять", "пять"], answer: 0 }
+    - { type: cloze, ru: "Сколько тебе ___?", answers: ["лет"], fr: "Quel âge as-tu ?" }
+write:
+  - { type: translate, fr: "Quel âge as-tu ?", answers: ["Сколько тебе лет?"] }
+  - { type: translate, fr: "Il a dix ans.", answers: ["Ему десять лет."] }

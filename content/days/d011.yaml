@@ -1,0 +1,66 @@
+day: 11
+items:
+  - id: menya-zovut
+    ru: "Меня зовут…"
+    fr: "Je m'appelle…"
+    answers: ["Меня зовут"]
+    example: { ru: "Меня зовут Маша.", fr: "Je m'appelle Macha." }
+  - id: kak-tebya-zovut
+    ru: "Как тебя зовут?"
+    fr: "Comment tu t'appelles ?"
+    answers: ["Как тебя зовут"]
+  - id: a
+    ru: "а"
+    fr: "et (en opposition), alors"
+    note: "« А ты ? » = Et toi ?"
+    example: { ru: "Я студентка. А ты?", fr: "Je suis étudiante. Et toi ?" }
+  - id: tozhe
+    ru: "тоже"
+    fr: "aussi"
+    example: { ru: "Я тоже студентка.", fr: "Je suis étudiante aussi." }
+  - id: ochen-priyatno
+    ru: "Очень приятно!"
+    fr: "Enchanté(e) !"
+    answers: ["Очень приятно"]
+  - id: ya-iz-frantsii
+    ru: "Я из Франции."
+    fr: "Je viens de France."
+    answers: ["Я из Франции"]
+  - id: student
+    ru: "студент / студентка"
+    fr: "étudiant / étudiante"
+    answers: ["студент", "студентка"]
+  - id: programmist
+    ru: "программист"
+    fr: "programmeur, développeur"
+    example: { ru: "Я программист.", fr: "Je suis développeur." }
+  - id: ne
+    ru: "не"
+    fr: "ne… pas"
+    example: { ru: "Я не студент.", fr: "Je ne suis pas étudiant." }
+dialogue:
+  messages:
+    - { from: masha, ru: "Привет! Меня зовут Маша. А тебя?", fr: "Salut ! Je m'appelle Macha. Et toi ?" }
+    - { from: anton, ru: "Привет! Меня зовут Антон.", fr: "Salut ! Je m'appelle Anton." }
+    - { from: masha, ru: "Очень приятно, Антон!", fr: "Enchantée, Anton !" }
+    - { from: anton, ru: "Очень приятно! Ты студентка?", fr: "Enchanté ! Tu es étudiante ?" }
+    - { from: masha, ru: "Да, я студентка. А ты?", fr: "Oui, je suis étudiante. Et toi ?" }
+    - { from: anton, ru: "Я не студент, я программист.", fr: "Je ne suis pas étudiant, je suis développeur." }
+grammar:
+  title: "Pas de verbe « être » au présent"
+  explanation: |
+    En russe, au présent, on ne dit pas « être ». On met simplement les mots côte à côte.
+
+    Я студентка : « moi, étudiante » = je suis étudiante. Это Антон : « ceci, Anton » = c'est Anton.
+
+    Pour la négation, on place не juste avant le mot nié : Я не студент = je ne suis pas étudiant.
+  examples:
+    - { ru: "Я студентка.", fr: "Je suis étudiante." }
+    - { ru: "Ты программист?", fr: "Tu es développeur ?" }
+    - { ru: "Это Маша.", fr: "C'est Macha." }
+    - { ru: "Я не программист.", fr: "Je ne suis pas développeur." }
+  exercises:
+    - { type: translate, fr: "Je suis développeur.", answers: ["Я программист."] }
+    - { type: translate, fr: "Tu es étudiante ?", answers: ["Ты студентка?"] }
+    - { type: translate, fr: "Je ne suis pas étudiant.", answers: ["Я не студент."] }
+    - { type: cloze, ru: "Меня ___ Маша.", answers: ["зовут"], fr: "Je m'appelle Macha." }

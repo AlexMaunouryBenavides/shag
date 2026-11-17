@@ -4,7 +4,7 @@
   import { play } from '../lib/audio'
   import Icon from './Icon.svelte'
 
-  let { ru, label = 'Écouter', size = 'normal' }: { ru: string; label?: string; size?: 'normal' | 'big' } = $props()
+  let { ru, label = 'Écouter', size = 'normal' }: { ru: string; label?: string; size?: 'small' | 'normal' | 'big' } = $props()
   const available = $derived(Boolean(app.pack?.audio[ru]))
   let timer: ReturnType<typeof setTimeout> | null = null
   let longPressed = false
@@ -32,7 +32,7 @@
     oncontextmenu={(e) => e.preventDefault()}
     onkeydown={(e) => e.key === 'Enter' && app.pack && play(app.pack, ru)}
   >
-    <Icon name="sound" size={size === 'big' ? 32 : 22} />
+    <Icon name="sound" size={size === 'big' ? 32 : size === 'small' ? 18 : 22} />
   </button>
 {/if}
 
@@ -55,5 +55,11 @@
   .big {
     width: 72px;
     height: 72px;
+  }
+  /* zone tactile conservée (44 px) grâce à la marge, cercle visuel plus discret */
+  .small {
+    width: 36px;
+    height: 36px;
+    margin: 4px;
   }
 </style>

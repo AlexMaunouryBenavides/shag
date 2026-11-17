@@ -1,0 +1,46 @@
+day: 17
+items:
+  - id: ono
+    ru: "оно"
+    fr: "il / elle (neutre)"
+    example: { ru: "Это окно. Оно тут.", fr: "C'est une fenêtre. Elle est ici." }
+  - { id: mashina, ru: "машина", fr: "voiture" }
+  - { id: pismo, ru: "письмо", fr: "lettre (courrier)" }
+  - { id: drug, ru: "друг", fr: "ami" }
+  - { id: podruga, ru: "подруга", fr: "amie" }
+  - { id: more, ru: "море", fr: "mer" }
+  - id: papa
+    ru: "папа"
+    fr: "papa"
+    note: "masculin, même s'il finit par -а"
+  - { id: koshka, ru: "кошка", fr: "chatte, chat (en général)" }
+  - { id: moya, ru: "моя / моё", fr: "ma / mon (neutre)", answers: ["моя"] }
+dialogue:
+  messages:
+    - { from: masha, ru: "Вот фото. Это море!", fr: "Voici une photo. C'est la mer !" }
+    - { from: anton, ru: "Хорошо! А кто это?", fr: "Super ! Et qui est-ce ?" }
+    - { from: masha, ru: "Это мой друг. Он программист.", fr: "C'est mon ami. Il est développeur." }
+    - { from: anton, ru: "А это?", fr: "Et ça ?" }
+    - { from: masha, ru: "Это моя подруга. Она студентка.", fr: "C'est mon amie. Elle est étudiante." }
+    - { from: anton, ru: "А это кошка?", fr: "Et ça, c'est une chatte ?" }
+    - { from: masha, ru: "Нет, это кот!", fr: "Non, c'est un chat !" }
+grammar:
+  title: "Le genre des mots"
+  explanation: |
+    Chaque nom russe est masculin, féminin ou neutre. On le devine presque toujours grâce à la dernière lettre.
+
+    Consonne → masculin, on dit он : стол, кот, друг. -а ou -я → féminin, on dit она : машина, подруга. -о ou -е → neutre, on dit оно : окно, море, письмо.
+
+    Exception utile : папа est masculin, parce que c'est un homme.
+  examples:
+    - { ru: "Это стол. Он тут.", fr: "C'est une table. Elle est ici." }
+    - { ru: "Это машина. Она там.", fr: "C'est une voiture. Elle est là-bas." }
+    - { ru: "Это окно. Оно тут.", fr: "C'est une fenêtre. Elle est ici." }
+  exercises:
+    - { type: cloze, ru: "Это стол. ___ тут.", answers: ["Он"], fr: "C'est une table. Elle est ici." }
+    - { type: cloze, ru: "Это машина. ___ тут.", answers: ["Она"], fr: "C'est une voiture. Elle est ici." }
+    - { type: cloze, ru: "Это море. ___ там.", answers: ["Оно"], fr: "C'est la mer. Elle est là-bas." }
+    - { type: cloze, ru: "Это папа. ___ дома.", answers: ["Он"], fr: "C'est papa. Il est à la maison." }
+write:
+  - { type: translate, fr: "C'est mon ami.", answers: ["Это мой друг."] }
+  - { type: translate, fr: "C'est mon amie.", answers: ["Это моя подруга."] }

@@ -1,0 +1,69 @@
+day: 15
+items:
+  - id: kofe
+    ru: "кофе"
+    fr: "café (la boisson)"
+    note: "masculin, invariable"
+    example: { ru: "Я хочу кофе.", fr: "Je veux un café." }
+  - id: khochu
+    ru: "хочу / хочешь"
+    fr: "je veux / tu veux"
+    answers: ["хочу"]
+    example: { ru: "Что ты хочешь?", fr: "Qu'est-ce que tu veux ?" }
+  - id: ili
+    ru: "или"
+    fr: "ou"
+    example: { ru: "Чай или кофе?", fr: "Thé ou café ?" }
+  - id: s-molokom
+    ru: "с молоком"
+    fr: "au lait, avec du lait"
+  - id: bez-sakhara
+    ru: "без сахара"
+    fr: "sans sucre"
+  - id: v-kafe
+    ru: "в кафе"
+    fr: "au café (dans le café)"
+    example: { ru: "Я в кафе.", fr: "Je suis au café." }
+  - id: tort
+    ru: "торт"
+    fr: "gâteau"
+  - id: mozhno
+    ru: "можно"
+    fr: "on peut ; est-ce que je peux… ?"
+    example: { ru: "Можно кофе?", fr: "Je peux avoir un café ?" }
+  - id: kapuchino
+    ru: "капучино"
+    fr: "cappuccino"
+dialogue:
+  messages:
+    - { from: masha, ru: "Привет! Ты где?", fr: "Salut ! Tu es où ?" }
+    - { from: anton, ru: "Я в кафе.", fr: "Je suis au café." }
+    - { from: masha, ru: "Что ты хочешь? Чай или кофе?", fr: "Qu'est-ce que tu veux ? Thé ou café ?" }
+    - { from: anton, ru: "Кофе с молоком. А ты?", fr: "Un café au lait. Et toi ?" }
+    - { from: masha, ru: "Я хочу чай. Без сахара.", fr: "Je veux un thé. Sans sucre." }
+    - { from: anton, ru: "Хорошо. И торт?", fr: "D'accord. Et un gâteau ?" }
+    - { from: masha, ru: "Да, спасибо!", fr: "Oui, merci !" }
+grammar:
+  title: "La question par l'intonation"
+  explanation: |
+    En russe, une question peut s'écrire exactement comme une affirmation. Seule l'intonation change : la voix monte nettement sur le mot interrogé.
+
+    Ты хочешь чай. = Tu veux du thé. Ты хочешь чай? = Tu veux du thé ?
+
+    Écoute les exemples : la différence est dans la mélodie, pas dans les mots.
+  examples:
+    - { ru: "Ты хочешь чай.", fr: "Tu veux du thé." }
+    - { ru: "Ты хочешь чай?", fr: "Tu veux du thé ?" }
+    - { ru: "Это кафе.", fr: "C'est un café." }
+    - { ru: "Это кафе?", fr: "C'est un café ?" }
+  exercises:
+    - { type: listen, ru: "Ты хочешь кофе?", options: ["Question", "Affirmation"], answer: 0 }
+    - { type: listen, ru: "Это торт.", options: ["Question", "Affirmation"], answer: 1 }
+    - { type: translate, fr: "Tu veux un café ?", answers: ["Ты хочешь кофе?"] }
+write:
+  - { type: translate, fr: "Je veux un thé sans sucre.", answers: ["Я хочу чай без сахара."] }
+  - { type: translate, fr: "Un café au lait, s'il te plaît.", answers: ["Кофе с молоком, пожалуйста."] }
+  - type: reply
+    thread: [{ from: anton, ru: "Чай или кофе?" }]
+    options: ["Кофе, пожалуйста.", "Меня зовут Маша.", "Пока!"]
+    answer: 0

@@ -173,7 +173,6 @@ def build_pack(program: Program) -> tuple[dict, list[tuple[str, Problem]]]:
     problems: list[tuple[str, Problem]] = []
     d = load_dictionary()
     pack = accent_tree(pack, d, problems)
-    pack["characters"] = {cid: {"name": c["name"]} for cid, c in program.characters.items()}
 
     for it in pack["items"].values():
         if it["kind"] != "letter" and it.get("example") and not it.get("answers"):
@@ -191,14 +190,15 @@ def build_pack(program: Program) -> tuple[dict, list[tuple[str, Problem]]]:
 def link_words(pack: dict, program: Program) -> None:
     """Associe chaque mot affiché d'un dialogue à l'élément qui l'a introduit (fiche mot au tap).
 
-    `words` : forme affichée (accentuée) → identifiant d'élément. Le plus récent élément dont
-    un lemme correspond l'emporte (ex. « хочу́ » → hochu).
+    `words` : forme affichée (accentuée) → identifiant d'élément. L'élément qui a introduit le
+    lemme en premier l'emporte (ex. « кафе́ » → kafe du jour 5, pas « в кафе » du jour 15),
+    ce qui permet aussi de ne souligner comme nouveaux que les mots vraiment nouveaux.
     """
     lemma_owner: dict[str, str] = {}
     for n in sorted(program.days):
         for it in program.days[n].items:
             for lem in item_lemmas(it):
-                lemma_owner[lem] = it.id
+                lemma_owner.setdefault(lem, it.id)
         day = next(d for d in pack["days"] if d["day"] == n)
         for m in (day.get("dialogue") or {}).get("messages", []):
             words = {}

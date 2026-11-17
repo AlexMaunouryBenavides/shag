@@ -1,0 +1,41 @@
+day: 23
+items:
+  - { id: yabloko, ru: "яблоко", fr: "pomme", note: "pluriel : я́блоки" }
+  - { id: banan, ru: "банан", fr: "banane" }
+  - { id: pomidor, ru: "помидор", fr: "tomate" }
+  - { id: ogurets, ru: "огурец", fr: "concombre", note: "pluriel : огурцы́" }
+  - id: khleb
+    ru: "хлеб"
+    fr: "pain"
+    example: { ru: "Хлеб, пожалуйста.", fr: "Du pain, s'il te plaît." }
+  - id: magazin
+    ru: "магазин"
+    fr: "magasin"
+    example: { ru: "Ты в магазине?", fr: "Tu es au magasin ?" }
+  - { id: dengi, ru: "деньги", fr: "argent", note: "toujours au pluriel" }
+  - { id: vsyo, ru: "всё", fr: "tout ; c'est tout" }
+dialogue:
+  messages:
+    - { from: masha, ru: "Антон, ты в магазине?", fr: "Anton, tu es au magasin ?" }
+    - { from: anton, ru: "Да. Что ты хочешь?", fr: "Oui. Qu'est-ce que tu veux ?" }
+    - { from: masha, ru: "Хлеб, яблоки и бананы.", fr: "Du pain, des pommes et des bananes." }
+    - { from: anton, ru: "Бананы тут. А яблоки… нет.", fr: "Les bananes sont là. Mais les pommes… non." }
+    - { from: masha, ru: "Хорошо. И помидоры, пожалуйста!", fr: "D'accord. Et des tomates, s'il te plaît !" }
+    - { from: anton, ru: "Помидоры и огурцы. Всё?", fr: "Des tomates et des concombres. C'est tout ?" }
+    - { from: masha, ru: "Всё! Спасибо!", fr: "C'est tout ! Merci !" }
+grammar:
+  title: "Plusieurs choses : le pluriel"
+  explanation: |
+    Pour former le pluriel des noms masculins et féminins, on ajoute -ы : банан → бананы, помидор → помидоры, машина → машины.
+
+    Après к, г, х, ж, ш, ч, щ, on écrit -и au lieu de -ы : книга → книги, сумка → сумки.
+
+    Les noms neutres en -о prennent -а : окно → окна, письмо → письма. Quelques mots sont irréguliers, comme яблоко → яблоки.
+  examples:
+    - { ru: "Это бананы.", fr: "Ce sont des bananes." }
+    - { ru: "Это книги.", fr: "Ce sont des livres." }
+    - { ru: "Это окна.", fr: "Ce sont des fenêtres." }
+  exercises:
+    - { type: translate, fr: "Ce sont des livres.", answers: ["Это книги."] }
+    - { type: translate, fr: "Ce sont des tomates.", answers: ["Это помидоры."] }
+    - { type: cloze, ru: "Одна машина, две ___.", answers: ["машины"], fr: "Une voiture, deux voitures." }
