@@ -24,6 +24,8 @@
   {#key `${app.route.day}-${app.route.index}`}
     <UnitScreen day={app.route.day} index={app.route.index} />
   {/key}
+{:else if app.route.name === 'extra'}
+  <UnitScreen day={app.today.kind === 'waiting' ? app.today.lastDay : app.today.day.day} extra />
 {:else}
   <Today />
 {/if}

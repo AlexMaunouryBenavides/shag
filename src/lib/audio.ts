@@ -51,3 +51,17 @@ export async function prefetchPhases(pack: Pack, phase: number): Promise<number>
   }
   return fetched
 }
+
+/** Joue un texte et attend la fin de la lecture (lecture enchaînée d'un dialogue). */
+export function playToEnd(pack: Pack, ru: string): Promise<void> {
+  const file = pack.audio[ru]
+  if (!file) return Promise.resolve()
+  current?.pause()
+  const el = new Audio(audioUrl(file))
+  current = el
+  return new Promise((resolve) => {
+    el.onended = () => resolve()
+    el.onerror = () => resolve()
+    el.play().catch(() => resolve())
+  })
+}

@@ -24,6 +24,8 @@ export interface Message {
   from: string
   ru: string
   fr: string
+  /** mot affiché (accentué) → élément qui l'a introduit (fiche mot au tap) */
+  words?: Record<string, string>
 }
 
 export type Exercise =

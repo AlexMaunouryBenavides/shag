@@ -33,7 +33,7 @@ from shag.units import build_units  # noqa: E402
 
 TRANSLIT_LAST_DAY = 30
 CYRILLIC = re.compile(r"[А-Яа-яЁё]")
-NO_ACCENT_KEYS = {"id", "items", "letters", "translit", "from", "type", "t", "mode", "audio"}
+NO_ACCENT_KEYS = {"id", "items", "letters", "translit", "from", "type", "t", "mode", "audio", "words"}
 CREDITS = [
     {"name": "OpenRussian", "url": "https://en.openrussian.org", "license": "CC BY-SA 4.0",
      "use": "dictionnaire et accents toniques"},
@@ -184,7 +184,29 @@ def build_pack(program: Program) -> tuple[dict, list[tuple[str, Problem]]]:
             it["translit"] = transliterate(it["ru"])
         if it["kind"] == "letter" and it.get("example") and "translit" not in it:
             it["example"]["translit"] = transliterate(it["example"]["ru"])
+    link_words(pack, program)
     return pack, problems
+
+
+def link_words(pack: dict, program: Program) -> None:
+    """Associe chaque mot affiché d'un dialogue à l'élément qui l'a introduit (fiche mot au tap).
+
+    `words` : forme affichée (accentuée) → identifiant d'élément. Le plus récent élément dont
+    un lemme correspond l'emporte (ex. « хочу́ » → hochu).
+    """
+    lemma_owner: dict[str, str] = {}
+    for n in sorted(program.days):
+        for it in program.days[n].items:
+            for lem in item_lemmas(it):
+                lemma_owner[lem] = it.id
+        day = next(d for d in pack["days"] if d["day"] == n)
+        for m in (day.get("dialogue") or {}).get("messages", []):
+            words = {}
+            for w in T.words(m["ru"]):
+                owner = next((lemma_owner[lem] for lem in lemmas(w) if lem in lemma_owner), None)
+                if owner:
+                    words[w] = owner
+            m["words"] = words
 
 
 def load_exceptions() -> set[str]:

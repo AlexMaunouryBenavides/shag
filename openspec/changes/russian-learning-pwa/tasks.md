@@ -50,24 +50,24 @@
 
 ## 6. Exercices et audio
 
-- [ ] 6.1 Implémenter le lecteur audio (rejouer, appui long = 0,75×, respect du mode silencieux)
-- [ ] 6.2 Implémenter le cadre d'exercice commun : écran d'unité (✕ + barre), retour immédiat, forme accentuée, « Suivant » en un tap, « Je ne sais pas », sauvegarde après chaque réponse, mise en page au-dessus du clavier virtuel (`visualViewport`), Entrée pour valider
-- [ ] 6.3 Implémenter les exercices Saisie et Trous
-- [ ] 6.4 Implémenter l'exercice Remise en ordre
-- [ ] 6.5 Implémenter l'exercice Réponse dans un fil
-- [ ] 6.6 Implémenter l'exercice Écoute
-- [ ] 6.7 Implémenter l'exercice Oral (Web Speech `ru-RU`, mots reconnus/non reconnus, repli auto-évalué)
-- [ ] 6.8 Implémenter l'exercice Shadowing
-- [ ] 6.9 Implémenter le bouton ⚑ « Signaler une erreur » (fiche mot et écran de correction), stocké localement et inclus dans l'export
+- [x] 6.1 Implémenter le lecteur audio (rejouer, appui long = 0,75×, respect du mode silencieux)
+- [x] 6.2 Implémenter le cadre d'exercice commun : écran d'unité (✕ + barre), retour immédiat, forme accentuée, « Suivant » en un tap, « Je ne sais pas », sauvegarde après chaque réponse, mise en page au-dessus du clavier virtuel (`visualViewport`), Entrée pour valider
+- [x] 6.3 Implémenter les exercices Saisie et Trous
+- [x] 6.4 Implémenter l'exercice Remise en ordre
+- [x] 6.5 Implémenter l'exercice Réponse dans un fil
+- [x] 6.6 Implémenter l'exercice Écoute
+- [x] 6.7 Implémenter l'exercice Oral (Web Speech `ru-RU`, mots reconnus/non reconnus, repli auto-évalué)
+- [x] 6.8 Implémenter l'exercice Shadowing
+- [x] 6.9 Implémenter le bouton ⚑ « Signaler une erreur » (fiche mot et écran de correction), stocké localement et inclus dans l'export
 
 ## 7. Unités
 
-- [ ] 7.1 Implémenter l'unité Révision SRS
-- [ ] 7.2 Implémenter l'unité Nouveaux éléments (≤ 8–9 éléments, présentation puis rappel immédiat, ajout au SRS)
-- [ ] 7.3 Implémenter l'unité Leçon : fil de messages au tap, mots nouveaux repérés, fiche au tap sur un mot (transcription jusqu'au jour 30), écoute et traduction d'une bulle
-- [ ] 7.4 Implémenter l'unité Grammaire (explication courte + exercices, rappel des blocs figés liés)
-- [ ] 7.5 Implémenter l'unité Fluidité (relecture/réécoute d'un dialogue déjà vu)
-- [ ] 7.6 Implémenter les unités d'alphabet (nouvelle lettre avec avertissement faux ami, lecture de mots, écoute → lettre, saisie ЙЦУКЕН, bilan non bloquant du jour 10)
+- [x] 7.1 Implémenter l'unité Révision SRS
+- [x] 7.2 Implémenter l'unité Nouveaux éléments (≤ 8–9 éléments, présentation puis rappel immédiat, ajout au SRS)
+- [x] 7.3 Implémenter l'unité Leçon : fil de messages au tap, mots nouveaux repérés, fiche au tap sur un mot (transcription jusqu'au jour 30), écoute et traduction d'une bulle
+- [x] 7.4 Implémenter l'unité Grammaire (explication courte + exercices, rappel des blocs figés liés)
+- [x] 7.5 Implémenter l'unité Fluidité (relecture/réécoute d'un dialogue déjà vu)
+- [x] 7.6 Implémenter les unités d'alphabet (nouvelle lettre avec avertissement faux ami, lecture de mots, écoute → lettre, saisie ЙЦУКЕН, bilan non bloquant du jour 10)
 
 ## 8. Jalon 1 — Contenu « je peux commencer »
 

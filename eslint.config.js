@@ -10,6 +10,9 @@ export default ts.config(
   ...svelte.configs.recommended,
   {
     languageOptions: { globals: { ...globals.browser, ...globals.node } },
+    rules: {
+      '@typescript-eslint/no-unused-vars': ['error', { varsIgnorePattern: '^_', argsIgnorePattern: '^_' }],
+    },
   },
   {
     files: ['**/*.svelte', '**/*.svelte.ts'],
