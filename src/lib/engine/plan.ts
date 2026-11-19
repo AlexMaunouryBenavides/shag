@@ -82,6 +82,12 @@ export async function currentDay(
   return { day: last.day + 1, finishedToday: false }
 }
 
+/** Au moins une carte due dont l'élément existe dans le paquet (ce que l'unité Révision affichera). */
+async function hasDue(db: Db, pack: Pack, now: Date): Promise<boolean> {
+  const rows = await db.all<{ card_id: string }>('SELECT card_id FROM cards WHERE due <= ?', [now.toISOString()])
+  return rows.some((r) => pack.items[r.card_id])
+}
+
 async function unitStates(db: Db, day: Day): Promise<UnitState[]> {
   const rows = await db.all<{ unit_index: number; status: UnitStatus }>(
     'SELECT unit_index, status FROM unit_progress WHERE day = ?',
@@ -106,8 +112,16 @@ export async function loadToday(db: Db, pack: Pack, mode: Mode, now = new Date()
       secondary: overdue > 0 ? 'extra-review' : nextPublished ? 'next-day' : 'none',
     }
   }
-  const units = await unitStates(db, day)
-  const { next, audioLeft } = pickNext(units, mode)
+  let units = await unitStates(db, day)
+  let { next, audioLeft } = pickNext(units, mode)
+  // Une révision sans carte due est passée d'office (sans compter dans l'activité) :
+  // « Continuer » ne doit jamais ouvrir un écran vide.
+  while (next !== null && units[next].unit.type === 'review' && units[next].status === 'todo' && !(await hasDue(db, pack, now))) {
+    const { dayCompleted } = await completeUnit(db, pack, day.day, next, now, { activity: false })
+    if (dayCompleted) return loadToday(db, pack, mode, now)
+    units = await unitStates(db, day)
+    ;({ next, audioLeft } = pickNext(units, mode))
+  }
   return { kind: 'day', day, units, next, audioLeft, done: units.filter((u) => u.status === 'done').length }
 }
 
@@ -150,6 +164,7 @@ export async function completeUnit(
   day: number,
   index: number,
   now = new Date(),
+  opts: { activity?: boolean } = {},
 ): Promise<{ dayCompleted: boolean }> {
   const ts = now.toISOString()
   await startUnit(db, day, index, now)
@@ -163,11 +178,15 @@ export async function completeUnit(
       sql: `UPDATE unit_progress SET status = 'done', cursor = NULL, updated_at = ? WHERE day = ? AND unit_index = ?`,
       params: [ts, day, index],
     },
-    {
-      sql: `INSERT INTO activity (date, units_done) VALUES (?, 1)
+    ...(opts.activity === false
+      ? []
+      : [
+          {
+            sql: `INSERT INTO activity (date, units_done) VALUES (?, 1)
             ON CONFLICT (date) DO UPDATE SET units_done = units_done + 1`,
-      params: [localDate(now)],
-    },
+            params: [localDate(now)],
+          },
+        ]),
   ])
   const d = dayOf(pack, day)
   const doneCount = await db.get<{ n: number }>(

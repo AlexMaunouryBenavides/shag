@@ -37,7 +37,7 @@ const PACK: Pack = {
   plan: [1, 2, 3, 4].map((d) => ({ day: d, theme: `Thème ${d}`, kind: 'normal' as const })),
   characters: {},
   lastDay: 3,
-  items: {},
+  items: { x: { id: 'x', day: 1, kind: 'word', ru: 'x', fr: 'x' } },
   days: [mkDay(1), mkDay(2), mkDay(3)],
   audio: {},
   audioByPhase: {},
@@ -81,9 +81,30 @@ describe('pickNext', () => {
 
 describe('progression', () => {
   it('commence au jour 1', async () => {
+    await introduce(db, [{ id: 'x', day: 1, kind: 'word', ru: 'x', fr: 'x' }], 1, D1)
     const t = await loadToday(db, PACK, 'audio', D1)
     expect(t.kind).toBe('day')
     if (t.kind === 'day') expect([t.day.day, t.next, t.done]).toEqual([1, 0, 0])
+  })
+
+  it('saute une révision sans carte due : « Continuer » ne mène jamais à un écran vide', async () => {
+    const t = await loadToday(db, PACK, 'audio', D1)
+    if (t.kind !== 'day') throw new Error(t.kind)
+    expect([t.next, t.done, t.units[0].status]).toEqual([1, 1, 'done'])
+    expect(await activity(db, 1, D1)).toEqual([{ date: '2026-11-17', units: 0 }])
+  })
+
+  it('ne saute pas une révision déjà commencée', async () => {
+    await startUnit(db, 1, 0, D1)
+    const t = await loadToday(db, PACK, 'audio', D1)
+    expect(t.kind === 'day' && t.next).toBe(0)
+  })
+
+  it('termine le jour quand il ne reste qu’une révision sans carte due', async () => {
+    for (let i = 0; i < DAY_UNITS.length - 2; i++) await completeUnit(db, PACK, 1, i, D1)
+    await completeUnit(db, PACK, 1, DAY_UNITS.length - 1, D1)
+    const t = await loadToday(db, PACK, 'audio', D1)
+    expect(t.kind).toBe('finished')
   })
 
   it('reprend après interruption à l’unité suivante, curseur conservé', async () => {

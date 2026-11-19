@@ -92,6 +92,20 @@
         <p class="big">Journée terminée.<br />À demain.</p>
         {#if today.nextTheme}<p class="tomorrow">Demain : {today.nextTheme}</p>{/if}
       </section>
+      <p class="again">Refaire une unité</p>
+      <ol class="units">
+        {#each today.day.units as unit, index (index)}
+          <li class="done">
+            <span class="mark" aria-hidden="true"><Icon name="check" size={20} /></span>
+            <button class="replay" onclick={() => app.go({ name: 'replay', day: today.day.day, index })}>
+              <span class="label">
+                {UNIT_LABELS[unit.type]}
+                {#if unit.audio}<span class="audio-tag" aria-label="(audio)"><Icon name="sound" size={16} /></span>{/if}
+              </span>
+            </button>
+          </li>
+        {/each}
+      </ol>
       <div class="dock links">
         {#if today.secondary === 'extra-review'}
           <button class="quiet" onclick={() => app.go({ name: 'extra' })}>Révisions supplémentaires</button>
@@ -263,6 +277,24 @@
     margin: 16px 0 0;
     font-size: var(--s-17);
     color: var(--graphite);
+  }
+  .again {
+    margin: 0 0 6px;
+    font-size: var(--s-14);
+    color: var(--graphite);
+  }
+  .replay {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    min-height: var(--line);
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    color: inherit;
+    text-align: left;
+    cursor: pointer;
   }
   .links {
     display: flex;

@@ -14,11 +14,17 @@
   import NewUnit from '../units/NewUnit.svelte'
   import ReviewUnit from '../units/ReviewUnit.svelte'
 
-  /** day/index = unité du plan ; extra = révisions supplémentaires (hors plan) */
-  let { day, index = null, extra = false }: { day: number; index?: number | null; extra?: boolean } = $props()
+  /** day/index = unité du plan ; extra = révisions supplémentaires (hors plan) ;
+   *  replay = unité d'une journée terminée refaite, sans effet sur la progression */
+  let {
+    day,
+    index = null,
+    extra = false,
+    replay = false,
+  }: { day: number; index?: number | null; extra?: boolean; replay?: boolean } = $props()
 
   let extraStep = $state(0)
-  const planned = $derived(index !== null)
+  const planned = $derived(index !== null && !replay)
   const unit = $derived<Unit | undefined>(
     extra ? (app.today?.kind === 'waiting' ? waitingUnits(app.pack!)[extraStep] : { type: 'review', audio: false }) : dayOf(app.pack!, day)?.units[index!],
   )
@@ -85,7 +91,7 @@
       {#if unit.type === 'review'}
         <ReviewUnit {...common} cursor={cursor as never} {onempty} />
       {:else if unit.type === 'new' || unit.type === 'letters'}
-        <NewUnit {...common} ids={(unit.type === 'letters' ? unit.letters : unit.items) ?? []} cursor={cursor as never} />
+        <NewUnit {...common} ids={(unit.type === 'letters' ? unit.letters : unit.items) ?? []} cursor={cursor as never} {replay} />
       {:else if unit.type === 'lesson'}
         <LessonUnit {...common} dialogueDay={day} cursor={cursor as never} />
       {:else if unit.type === 'fluency'}

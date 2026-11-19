@@ -1,5 +1,6 @@
 // État global de l'application : paquet de contenu, base locale, mode audio, écran courant.
 import { prefetchPhases } from './audio'
+import { applyPendingUpdate } from './pwa'
 import type { Pack } from './content/types'
 import { createDbClient, type DbClient } from './db/client'
 import { getMeta, needsBackupReminder, setMeta } from './db/meta'
@@ -11,6 +12,8 @@ export type Route =
   | { name: 'plan' }
   | { name: 'settings' }
   | { name: 'unit'; day: number; index: number }
+  /** refaire une unité d'une journée terminée, sans effet sur la progression */
+  | { name: 'replay'; day: number; index: number }
   | { name: 'extra' }
 
 class App {
@@ -63,7 +66,10 @@ class App {
   private syncRoute(): void {
     this.route = fromHash(location.hash)
     window.scrollTo(0, 0)
-    if (this.route.name === 'today') void this.refresh()
+    if (this.route.name === 'today') {
+      applyPendingUpdate()
+      void this.refresh()
+    }
   }
 }
 
@@ -79,12 +85,16 @@ function toHash(r: Route): string {
       return '#/revisions'
     case 'unit':
       return `#/jour/${r.day}/${r.index}`
+    case 'replay':
+      return `#/revoir/${r.day}/${r.index}`
   }
 }
 
 function fromHash(hash: string): Route {
   const m = hash.match(/^#\/jour\/(\d+)\/(\d+)$/)
   if (m) return { name: 'unit', day: Number(m[1]), index: Number(m[2]) }
+  const r = hash.match(/^#\/revoir\/(\d+)\/(\d+)$/)
+  if (r) return { name: 'replay', day: Number(r[1]), index: Number(r[2]) }
   if (hash === '#/plan') return { name: 'plan' }
   if (hash === '#/reglages') return { name: 'settings' }
   if (hash === '#/revisions') return { name: 'extra' }

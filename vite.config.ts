@@ -12,8 +12,9 @@ export default defineConfig({
   plugins: [
     svelte(),
     VitePWA({
-      registerType: 'autoUpdate',
-      injectRegister: 'auto',
+      // Mise à jour pilotée par l'app (src/lib/pwa.ts) : jamais au milieu d'une unité.
+      registerType: 'prompt',
+      injectRegister: false,
       includeAssets: ['icons/favicon.png', 'icons/apple-touch-icon.png'],
       manifest: {
         name: 'Шаг — le russe pas à pas',

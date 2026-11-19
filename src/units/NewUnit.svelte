@@ -22,9 +22,12 @@
     onprogress,
     oncursor,
     onfinish,
+    replay = false,
   }: {
     day: number
     ids: string[]
+    /** unité refaite : les éléments déjà dans le SRS ne sont pas réenregistrés */
+    replay?: boolean
     cursor: Cursor | null
     onprogress: (done: number, total: number) => void
     oncursor: (c: unknown) => void
@@ -52,8 +55,13 @@
   }
 
   async function recalled(correct: boolean) {
-    await introduce(app.db!, [item], day)
-    await recordReview(app.db!, item.id, gradeFor(correct), 'recognition', null)
+    // En révision d'une journée terminée, seul un élément absent du SRS y entre
+    // (cas d'une journée validée sans contenu par une ancienne version de l'app).
+    const known = replay && (await app.db!.get('SELECT 1 FROM cards WHERE card_id = ?', [item.id]))
+    if (!known) {
+      await introduce(app.db!, [item], day)
+      await recordReview(app.db!, item.id, gradeFor(correct), 'recognition', null)
+    }
     if (c.pos + 1 >= items.length) return onfinish()
     c = { pos: c.pos + 1, step: 'present' }
     oncursor(c)

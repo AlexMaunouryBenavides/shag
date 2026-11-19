@@ -36,3 +36,6 @@ tools/.cache/
 
 # Exports de relecture
 exports/
+
+# Sauvegardes personnelles (dépôt public)
+docs/saves/
