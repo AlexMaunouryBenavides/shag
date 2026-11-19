@@ -79,10 +79,10 @@
 
 ## 9. Jalon 1 — Vérification et publication
 
-- [ ] 9.1 Vérifier sur le téléphone Android : installation, mode avion, reprise après interruption, mode silencieux, thème sombre, clavier virtuel
-- [ ] 9.2 Vérifier sur le téléphone : audio, reconnaissance vocale, export/import d'une sauvegarde, migration avec sauvegarde automatique
+- [x] 9.1 Vérifier sur le téléphone Android : installation, mode avion, reprise après interruption, mode silencieux, thème sombre, clavier virtuel
+- [x] 9.2 Vérifier sur le téléphone : audio, reconnaissance vocale, export/import d'une sauvegarde, migration avec sauvegarde automatique
 - [ ] 9.3 Faire un parcours complet des jours 1–3 en conditions réelles, corriger les frictions UX (durées des unités, ergonomie)
-- [ ] 9.4 Publier le jalon 1 — l'utilisateur commence le programme
+- [x] 9.4 Publier le jalon 1 — l'utilisateur commence le programme
 
 ## 10. Jalon 2 — Fin de la phase 1 (jours 25–55)
 
